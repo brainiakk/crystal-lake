@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'PagesController@home');
+Route::get('/mail', 'Reservation@mail');
 Route::get('/about', 'PagesController@about');
 Route::get('/weddings', 'PagesController@weddings');
 Route::get('/activities', 'PagesController@activities');
