@@ -63,46 +63,46 @@
       </footer>
       <!--================ End of Footer ================-->
     </div>
-    <script src="vendors/modernizr.js"></script>
-    <script src="vendors/jquery-3.3.1.min.js"></script>
-    <script src="vendors/nicescroll/jquery.nicescroll.min.js"></script>
-    <script src="vendors/jquery.easing.1.3.min.js"></script>
-    <script src="vendors/instafeed.min.js"></script>
-    <script src="vendors/instafeed.wrapper.min.js"></script>
-    <script src="vendors/monkeysan.accordion.js"></script>
-    <script src="vendors/jquery.parallax-1.1.3.min.js"></script>
-    <script src="vendors/monkeysan.tabs.min.js"></script>
-    <script src="vendors/monkeysan.sameheight.min.js"></script>
-    <script src="vendors/monkeysan-tooltip/monkeysan-jquery-tooltip.js"></script>
-    <script src="vendors/isotope.pkgd.min.js"></script>
-    <script src="vendors/monkeysan.jquery.nav.1.0.min.js"></script>
-    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyDe0Jbcnve8wjMa7p4ZzFpKSxCU8pNUjaw&amp;amp;libraries=geometry&amp;amp;v=3.20"></script>
-    <script src="vendors/maplace-0.1.3.min.js"></script>
-    <script src="vendors/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
-    <script src="vendors/fancybox/jquery.fancybox.min.js"></script>
-    <script src="vendors/mediaelement/mediaelement-and-player.min.js"></script>
-    <script src="vendors/monkeysan.validator.min.js"></script>
-    <script src="vendors/handlebars-v4.0.5.min.js"></script>
-    <script src="vendors/mad.customselect.js"></script>
-    <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js">   </script>
-    <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
-    <script src="vendors/momentjs/moment.min.js"></script>
-    <script src="vendors/retina.min.js"></script>
-    <script src="js/modules/milenia.sidebar-hidden.min.js"></script>
-    <script src="js/modules/milenia.newsletter-form.min.js"></script>
-    <script src="js/modules/milenia.alert-box.min.js"></script>
-    <script src="js/modules/milenia.isotope.js"></script>
-    <script src="js/modules/milenia.tabbed-grid.min.js"></script>
-    <script src="js/modules/milenia.sticky-header-section.min.js"></script>
-    <script src="js/milenia.app.js"></script>
+    <script src="{{ asset('vendors/modernizr.js') }}"></script>
+    <script src="{{ asset('vendors/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('vendors/nicescroll/jquery.nicescroll.min.js') }}"></script>
+    <script src="{{ asset('vendors/jquery.easing.1.3.min.js') }}"></script>
+    <script src="{{ asset('vendors/instafeed.min.js') }}"></script>
+    <script src="{{ asset('vendors/instafeed.wrapper.min.js') }}"></script>
+    <script src="{{ asset('vendors/monkeysan.accordion.js') }}"></script>
+    <script src="{{ asset('vendors/jquery.parallax-1.1.3.min.js') }}"></script>
+    <script src="{{ asset('vendors/monkeysan.tabs.min.js') }}"></script>
+    <script src="{{ asset('vendors/monkeysan.sameheight.min.js') }}"></script>
+    <script src="{{ asset('vendors/monkeysan-tooltip/monkeysan-jquery-tooltip.js') }}"></script>
+    <script src="{{ asset('vendors/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('vendors/monkeysan.jquery.nav.1.0.min.js') }}"></script>
+    <script src="{{ asset('vendors/owl-carousel/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('http://maps.google.com/maps/api/js?key=AIzaSyDe0Jbcnve8wjMa7p4ZzFpKSxCU8pNUjaw&amp;amp;libraries=geometry&amp;amp;v=3.20') }}"></script>
+    <script src="{{ asset('vendors/maplace-0.1.3.min.js') }}"></script>
+    <script src="{{ asset('vendors/arcticmodal/jquery.arcticmodal-0.3.min.js') }}"></script>
+    <script src="{{ asset('vendors/fancybox/jquery.fancybox.min.js') }}"></script>
+    <script src="{{ asset('vendors/mediaelement/mediaelement-and-player.min.js') }}"></script>
+    <script src="{{ asset('vendors/monkeysan.validator.min.js') }}"></script>
+    <script src="{{ asset('vendors/handlebars-v4.0.5.min.js') }}"></script>
+    <script src="{{ asset('vendors/mad.customselect.js') }}"></script>
+    <script src="{{ asset('vendors/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script src="{{ asset('vendors/revolution/js/jquery.themepunch.revolution.min.js') }}">   </script>
+    <script src="{{ asset('vendors/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('vendors/momentjs/moment.min.js') }}"></script>
+    <script src="{{ asset('vendors/retina.min.js') }}"></script>
+    <script src="{{ asset('js/modules/milenia.sidebar-hidden.min.js') }}"></script>
+    <script src="{{ asset('js/modules/milenia.newsletter-form.min.js') }}"></script>
+    <script src="{{ asset('js/modules/milenia.alert-box.min.js') }}"></script>
+    <script src="{{ asset('js/modules/milenia.isotope.js') }}"></script>
+    <script src="{{ asset('js/modules/milenia.tabbed-grid.min.js') }}"></script>
+    <script src="{{ asset('js/modules/milenia.sticky-header-section.min.js') }}"></script>
+    <script src="{{ asset('js/milenia.app.js') }}"></script>
 
-    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="{{ asset('vendors/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('vendors/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('vendors/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('vendors/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
 
   </body>
 </html>
