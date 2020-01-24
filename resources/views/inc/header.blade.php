@@ -18,18 +18,18 @@
     <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/linearicons.css') }}">
     <link rel="stylesheet" href="{{ asset('css/milenia-icon-font.css') }}">
-    <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendors/monkeysan-tooltip/monkeysan-jquery-tooltip.css">
-    <link rel="stylesheet" href="vendors/fancybox/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="vendors/arcticmodal/jquery.arcticmodal-0.3.css">
-    <link rel="stylesheet" href="vendors/mediaelement/mediaelementplayer.min.css">
-    <link rel="stylesheet" href="vendors/revolution/css/settings.css">
-    <link rel="stylesheet" href="vendors/revolution/css/layers.min.css">
-    <link rel="stylesheet" href="vendors/revolution/css/navigation.min.css">
-    <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('vendors/owl-carousel/assets/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/monkeysan-tooltip/monkeysan-jquery-tooltip.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/fancybox/jquery.fancybox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/arcticmodal/jquery.arcticmodal-0.3.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/mediaelement/mediaelementplayer.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/revolution/css/settings.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/revolution/css/layers.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/revolution/css/navigation.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/jquery-ui/jquery-ui.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <!--================ Theme CSS ================-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <!--================ Vendor JS ================-->
     </head>
 
