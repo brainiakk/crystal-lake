@@ -63,8 +63,17 @@
       </footer>
       <!--================ End of Footer ================-->
     </div>
+    @include ('inc.modals')
     <script src="{{ asset('vendors/modernizr.js') }}"></script>
     <script src="{{ asset('vendors/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap-datetimepicker.min.js') }}"></script>
+    
+    <script type="text/javascript">
+      $(document).ready(function () {
+          $('#datetimepicker1').datetimepicker();
+      });
+  </script>
     <script src="{{ asset('vendors/nicescroll/jquery.nicescroll.min.js') }}"></script>
     <script src="{{ asset('vendors/jquery.easing.1.3.min.js') }}"></script>
     <script src="{{ asset('vendors/instafeed.min.js') }}"></script>

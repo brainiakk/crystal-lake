@@ -87,9 +87,13 @@ Headers:    'Abril Fatface' sans-serif;
         }
 
         a {
-            text-decoration: none;
+            text-decoration: none !important;
             outline: none !important;
             vertical-align: baseline;
+        }
+
+        a:hover {
+            text-decoration: none !important;
         }
 
         b, strong {

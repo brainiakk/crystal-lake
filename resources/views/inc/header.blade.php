@@ -27,9 +27,10 @@
     <link rel="stylesheet" href="{{ asset('vendors/revolution/css/layers.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/revolution/css/navigation.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/jquery-ui/jquery-ui.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
     <!--================ Theme CSS ================-->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-datetimepicker.min.css') }}">
     <!--================ Vendor JS ================-->
     </head>
 
@@ -265,6 +266,8 @@
                             </ul>
                             <!--================ End of Sub Menu ================-->
                           </li>
+
+                          <li class="menu-item"><a href="#"  data-toggle="modal" data-target="#myModal" class="milenia-ln--independent">Make a Reservation</a></li>
                       </nav>
                       <!--================ End of Navigation ================-->
                     </div>

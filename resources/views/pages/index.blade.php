@@ -58,72 +58,8 @@
             <main class="col">
               <div class="milenia-entity-content">
                 <!--================ Content Section ================-->
-                <div class="milenia-section milenia-section--no-py milenia-section--stretched-content-no-px">
-                  <form class="milenia-booking-form milenia-booking-form--style-2">
-                    <div class="form-group">
-                      <div class="form-col form-col--title">
-                        <div class="form-control">Book Your Stay</div>
-                      </div>
-                      <div class="form-col form-col--arrival-date">
-                        <div class="form-control">
-                          <label for="booking-form-arrival-date-2">Arrival Date</label><span class="milenia-field-datepicker milenia-field-datepicker--style-2">Monday 15th April, 2019</span>
-                          <input type="text" id="booking-form-arrival-date-2" name="booking-form-arrival-date-2" class="milenia-datepicker milenia-field-datepicker-invoker">
-                        </div>
-                      </div>
-                      <div class="form-col form-col--departure-date">
-                        <div class="form-control">
-                          <label for="booking-form-departure-date-2">Departure Date</label><span class="milenia-field-datepicker milenia-field-datepicker--style-2">Saturday 27th April, 2019</span>
-                          <input type="text" id="booking-form-departure-date-2" name="booking-form-arrival-date-2" class="milenia-datepicker milenia-field-datepicker-invoker">
-                        </div>
-                      </div>
-                      <div class="form-col form-col--rooms">
-                        <div class="form-control">
-                          <label>Rooms</label>
-                          <div class="milenia-custom-select">
-                            <select data-default-text="1">
-                              <option>1</option>
-                              <option>2</option>
-                              <option>3</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-col form-col--adults">
-                        <div class="form-control">
-                          <label>Adults</label>
-                          <div class="milenia-custom-select">
-                            <select data-default-text="1">
-                              <option>1</option>
-                              <option>2</option>
-                              <option>3</option>
-                              <option>4</option>
-                              <option>5</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-col form-col--children">
-                        <div class="form-control">
-                          <label>Children</label>
-                          <div class="milenia-custom-select">
-                            <select data-default-text="1">
-                              <option>1</option>
-                              <option>2</option>
-                              <option>3</option>
-                              <option>4</option>
-                              <option>5</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-col form-col--action">
-                        <div class="form-control">
-                          <button type="submit" class="milenia-btn milenia-btn--huge milenia-btn--scheme-primary">Check Availability</button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
+
+                
                 <!--================ End of Content Section ================-->
                 <!--================ Content Section ================-->
                 <section class="milenia-section milenia-section--py-huge milenia-color--black milenia-section--stretched milenia-colorizer--scheme-lightest">
