@@ -18,7 +18,7 @@ Route::get('/about', 'PagesController@about');
 Route::get('/weddings', 'PagesController@weddings');
 Route::get('/activities', 'PagesController@activities');
 Route::get('/funspots', 'PagesController@funspots');
-Route::get('/standard', 'RoomsController@standard');
+Route::get('/rooms/standard', 'RoomsController@standard');
 Route::get('/rooms/executive', 'RoomsController@executive');
 Route::get('/rooms/studio', 'RoomsController@studio');
 Route::get('/rooms/deluxe', 'RoomsController@deluxe');
