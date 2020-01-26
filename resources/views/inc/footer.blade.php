@@ -73,7 +73,7 @@
     <script src="{{ asset('js/bootstrap-datepicker.min.js') }}"></script> --}}
     
     <script type="text/javascript">
-          $('.modal-body input').datepicker({
+          $('.date').datepicker({
   format: 'yyyy-mm-dd'
 }).on('hide', function(event) {
   event.preventDefault();
