@@ -27,10 +27,12 @@
     <link rel="stylesheet" href="{{ asset('vendors/revolution/css/layers.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/revolution/css/navigation.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/jquery-ui/jquery-ui.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css">
+    {{-- <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}"> --}}
     <!--================ Theme CSS ================-->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap-datetimepicker.min.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.min.css') }}"> --}}
     <!--================ Vendor JS ================-->
     </head>
 
@@ -268,6 +270,7 @@
                           </li>
 
                           <li class="menu-item"><a href="#"  data-toggle="modal" data-target="#myModal" class="milenia-ln--independent">Make a Reservation</a></li>
+                          {{-- <li class="menu-item"><a href="#"  data-toggle="modal" data-target="#myModal" class="milenia-ln--independent">Make a Reservation</a></li> --}}
                       </nav>
                       <!--================ End of Navigation ================-->
                     </div>
