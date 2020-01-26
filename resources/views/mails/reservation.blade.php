@@ -7,3 +7,4 @@
     We'll arrive on : {{ $start_date }}
     and leave on : {{ $end_date }}
 </div>
+
