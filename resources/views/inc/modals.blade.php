@@ -26,18 +26,18 @@
           <input type="text" class="form-control" name="room_num">
         </div>
         <div class="modal-body">
-          <label for="guest_num">Number of Guests</label>
-          <input type="text" class="form-control" name="guest_num">
-        </div>
-        <div class="modal-body">
         	<label for="start_date">Arrival Date</label>
             <input type="text" name="start_date" class="form-control date" data-provide='datepicker' id="date">
-            <div class="col-md-12 date_show" style="height: auto;"></div>
+            <div class="col-md-12 date_show" style="height: 90%;"></div>
       </div>
       <div class="modal-body">
         	<label for="end_date">Departure Date</label>
             <input type="text" name="end_date" class="form-control date" id="date">
       </div>
+        <div class="modal-body">
+          <label for="guest_num">Number of Guests</label>
+          <input type="text" class="form-control" name="guest_num">
+        </div>
       <div class="modal-body">
         <button type="submit" class="btn btn-primary" style="float:right">Submit</button>
       </div>
