@@ -142,7 +142,7 @@
       <!--================ End of Search Modal ================-->
       <!--================ Header ================-->
         <header id="milenia-header" class="milenia-header milenia-header--light">
-        
+
         <div class="container">
           <!--================ Section ================-->
           <div class="milenia-header-section-md">
@@ -193,11 +193,11 @@
                 <div class="milenia-aligner-inner">
                   <div class="milenia-header-items">
                     <div>
-                      
+
                       <!--================ Navigation ================-->
                       <nav class="milenia-navigation-container">
                         <ul class="milenia-navigation milenia-navigation--vertical-sm milenia-navigation--bottom-underlined">
-                          
+
                           <li class="menu-item menu-item-has-children {{ Request::path() === '/' ? 'current-menu-item' : '' }}"><a href="/" class="milenia-ln--independent">Home</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
@@ -208,7 +208,7 @@
                             </ul>
                             <!--================ End of Sub Menu ================-->
                           </li>
-                          
+
                           <li class="menu-item menu-item-has-children"><a href="#" class="milenia-ln--independent">Accommodation</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
@@ -229,7 +229,7 @@
                             </ul>
                             <!--================ End of Sub Menu ================-->
                           </li>
-                          
+
                           <li class="menu-item menu-item-has-children"><a href="pages_about.html" class="milenia-ln--independent">Events</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
@@ -244,7 +244,7 @@
                             </ul>
                             <!--================ End of Sub Menu ================-->
                           </li>
-                          
+
                           <li class="menu-item menu-item-has-children"><a href="events_list.html" class="milenia-ln--independent">Facilities</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
@@ -270,8 +270,8 @@
                             <!--================ End of Sub Menu ================-->
                           </li>
 
-                          <li class="menu-item"><a href="#"  data-toggle="modal" data-target="#myModal" class="milenia-ln--independent">Make a Reservation</a></li>
                           {{-- <li class="menu-item"><a href="#"  data-toggle="modal" data-target="#myModal" class="milenia-ln--independent">Make a Reservation</a></li> --}}
+                          <li class="menu-item"><a href="#"  data-toggle="modal" data-target="#myModal" class="milenia-ln--independent">Make a Reservation</a></li>
                       </nav>
                       <!--================ End of Navigation ================-->
                     </div>

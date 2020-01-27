@@ -6,7 +6,7 @@
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <h5 class="modal-title" id="exampleModalLabel">Room Reservation</h5>
       </div>
-  
+
       <form action="" method="POST">
       	<div class="modal-body">
           <label for="name">Full Name</label>
@@ -31,7 +31,8 @@
         </div>
         <div class="modal-body">
         	<label for="start_date">Arrival Date</label>
-            <input type="text" name="start_date" class="form-control date" id="date">
+            <input type="text" name="start_date" class="form-control date" data-provide='datepicker' id="date">
+            <div class="col-md-12 date_show" style="height: auto;"></div>
       </div>
       <div class="modal-body">
         	<label for="end_date">Departure Date</label>
