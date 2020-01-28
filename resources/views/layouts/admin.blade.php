@@ -13,6 +13,7 @@
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <link href="{{ asset('/backend/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/bootstrap-datepicker.css') }}" rel="stylesheet">
 
 </head>
 

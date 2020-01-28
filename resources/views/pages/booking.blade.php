@@ -12,7 +12,21 @@
         <div class="card">
             <div class="card-title mt-3"><h4 class="text-center">Room Reservation</h4></div>
             <div class="card-body">
-            <form action="" method="POST" class="m-2 px-5">
+
+
+             <form action="{{ route('send.booking') }}" method="POST" class="m-2 px-5">
+                @if (Session::has('success') )
+                <div class="alert alert-info alert-block">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <strong>{{ Session::get('success') }}</strong>
+                </div>
+                @elseif (Session::has('error') )
+                <div class="alert alert-danger alert-block">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <strong>{{ Session::get('error') }}</strong>
+                </div>
+                @endif
+                @csrf
                 <div class="form-group">
                     <label for="name">Full Name</label>
                     <input type="text" class="form-control" name="name">

@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ReservationMail;
+use Input;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
 
 class ReservationController extends Controller
 {
@@ -25,9 +28,15 @@ class ReservationController extends Controller
     $start_date = $request->input('start_date');
     $end_date = $request->input('end_date');
 
-    Mail::to('cybrainfoxy@gmail.com')->send(new ReservationMail($name, $tel, $email, $room_num, $guest_num, $start_date, $end_date));
+    Mail::to('generalmanager@crystallakeresortoguta.com')->send(new ReservationMail($name, $tel, $email, $room_num, $guest_num, $start_date, $end_date));
 
-    return 'Email was sent';
+    if (count(Mail::failures()) > 0){
+        Session::flash('error', "Email was not sent!!");
+        return Redirect::back();
+    } else {
+        Session::flash('success', "Email was sent successfully!!");
+        return Redirect::back();
+    }
     }
 
     public function index()
