@@ -28,7 +28,13 @@ Route::get('/rooms/diplomatic', 'RoomsController@diplomatic');
 Route::get('/rooms/2bedroom', 'RoomsController@two_bedroom');
 
 
+/* Admin backend routes - CRUD for posts, categories, and approving/deleting submitted comments */
+Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
+    Route::get('', function(){
+        return view('admin.index');
+    });
+});
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');

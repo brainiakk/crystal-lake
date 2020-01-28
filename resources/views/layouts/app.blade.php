@@ -10,14 +10,22 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
+<<<<<<< HEAD
     <script src="{{ asset('js/app.js') }}" defer></script>
+=======
+    <script src="{{ asset('js/bootstrap.min.js') }}" defer></script>
+>>>>>>> bcc29f3da314398b3e744d73b8ae75caa6a6720c
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+<<<<<<< HEAD
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+=======
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+>>>>>>> bcc29f3da314398b3e744d73b8ae75caa6a6720c
 </head>
 <body>
     <div id="app">
@@ -66,6 +74,21 @@
                                     </form>
                                 </div>
                             </li>
+<<<<<<< HEAD
+=======
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link " href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+>>>>>>> bcc29f3da314398b3e744d73b8ae75caa6a6720c
                         @endguest
                     </ul>
                 </div>
