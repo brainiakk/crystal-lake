@@ -10,22 +10,16 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-<<<<<<< HEAD
-    <script src="{{ asset('js/app.js') }}" defer></script>
-=======
-    <script src="{{ asset('js/bootstrap.min.js') }}" defer></script>
->>>>>>> bcc29f3da314398b3e744d73b8ae75caa6a6720c
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    {{-- <script src="{{ asset('js/bootstrap.min.js') }}" defer></script> --}}
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-<<<<<<< HEAD
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-=======
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
->>>>>>> bcc29f3da314398b3e744d73b8ae75caa6a6720c
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    {{-- <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet"> --}}
 </head>
 <body>
     <div id="app">
@@ -74,8 +68,6 @@
                                     </form>
                                 </div>
                             </li>
-<<<<<<< HEAD
-=======
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link " href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
@@ -88,7 +80,6 @@
                                     </form>
                                 </div>
                             </li>
->>>>>>> bcc29f3da314398b3e744d73b8ae75caa6a6720c
                         @endguest
                     </ul>
                 </div>
