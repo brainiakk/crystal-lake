@@ -63,25 +63,8 @@
       </footer>
       <!--================ End of Footer ================-->
     </div>
-    @include ('inc.modals')
     <script src="{{ asset('vendors/modernizr.js') }}"></script>
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap-datepicker.min.js') }}"></script>
-    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> --}}
-    {{-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script> --}}
-    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script> --}}
-    {{-- <script src="{{ asset('vendors/jquery-3.3.1.min.js') }}"></script> --}}
-
-    <script type="text/javascript">
-      $('.date').datepicker({
-        format: 'yyyy-mm-dd',
-        container:'.date_show',
-      }).on('hide', function(event) {
-        event.preventDefault();
-        event.stopPropagation();
-      });
-    </script>
+    <script src="{{ asset('vendors/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ asset('vendors/nicescroll/jquery.nicescroll.min.js') }}"></script>
     <script src="{{ asset('vendors/jquery.easing.1.3.min.js') }}"></script>
     <script src="{{ asset('vendors/instafeed.min.js') }}"></script>
@@ -114,6 +97,25 @@
     <script src="{{ asset('js/modules/milenia.tabbed-grid.min.js') }}"></script>
     <script src="{{ asset('js/modules/milenia.sticky-header-section.min.js') }}"></script>
     <script src="{{ asset('js/milenia.app.js') }}"></script>
+    <script src="{{ asset('js/bootstrap-datepicker.min.js') }}"></script>
+
+    <script>
+      $('.start_date').datepicker({
+          format: 'yyyy-mm-dd',
+        }).on('hide', function(event) {
+          event.preventDefault();
+          event.stopPropagation();
+        });
+    </script>
+
+<script>
+  $('.end_date').datepicker({
+      format: 'yyyy-mm-dd',
+    }).on('hide', function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+    });
+</script>
 
     <script type="text/javascript" src="{{ asset('vendors/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('vendors/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>

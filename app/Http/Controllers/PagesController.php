@@ -19,15 +19,21 @@ class PagesController extends Controller
     }
 
     public function activities() {
-        return view('pages.funspots');
+        return view('pages.activities');
     }
 
     public function funspots() {
         return view('pages.funspots');
     }
 
+    public function booking()
+    {
+        return view('pages.booking');
+    }
+    
     public function standard()
     {
         return view('pages.standard');
     }
+
 }

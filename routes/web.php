@@ -13,7 +13,8 @@
 
 Route::get('/', 'PagesController@home');
 // Route::get('/mail', 'Reservation@mail');
-Route::get('/reservation', 'ReservationController@reservation');
+Route::get('/rmail', 'ReservationController@reservation');
+Route::get('/reservation', 'PagesController@booking');
 Route::get('/about', 'PagesController@about');
 Route::get('/weddings', 'PagesController@weddings');
 Route::get('/activities', 'PagesController@activities');
@@ -27,3 +28,7 @@ Route::get('/rooms/diplomatic', 'RoomsController@diplomatic');
 Route::get('/rooms/2bedroom', 'RoomsController@two_bedroom');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
