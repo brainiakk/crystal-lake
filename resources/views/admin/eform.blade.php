@@ -1,4 +1,4 @@
-                                @csrf
+
                                 <h5 class="mb-3">General Info</h5>
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
@@ -11,10 +11,15 @@
                                     </div>
                                 </div>
 
-                                <div class="form-group">
-                                    <label for="inputCity">Location</label>
-                                    <input id="inputState" type="text" name="venue" value="{{ old("venue",$event->venue) }}"  class="form-control">
-                                    </select>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                    <label for="inputVenue">Venue</label>
+                                    <input id="inputVenue" type="text" name="venue" value="{{ old("venue",$event->venue) }}"  class="form-control">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                    <label for="inputPrice">Price</label>
+                                    <input id="inputPrice" type="text" name="price" value="{{ old("price",$event->price) }}"  class="form-control">
+                                    </div>
                                 </div>
 
                                 <h5 class="my-4">Description</h5>

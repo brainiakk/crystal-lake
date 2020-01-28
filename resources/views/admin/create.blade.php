@@ -24,7 +24,8 @@
                             </div>
                             @endif
                             <form action="{{ route('store.event') }}" method="post" enctype="multipart/form-data">
-                            @include('admin.eform')
+                            @csrf
+                            @include('admin.eform', ['event' => new \App\Events()])
                             </form>
                         </div>
                     </div>

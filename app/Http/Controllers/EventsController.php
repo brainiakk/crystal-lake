@@ -28,6 +28,12 @@ class EventsController extends Controller
         return view('pages.events', ['events' => $events]);
     }
 
+    public function adminIndex()
+    {
+        $events = Events::paginate(1);
+        return view('admin.index', ['events' => $events]);
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -58,6 +64,7 @@ class EventsController extends Controller
         $event->end_time = $request->end_time;
         $event->status = $request->status;
         $event->venue = $request->venue;
+        $event->price = $request->price;
 
         if ($request->hasfile('image')) {
             $image = $request->file('image');
