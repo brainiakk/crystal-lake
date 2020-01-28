@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ReservationMail;
+use Input;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Session;
 
 class ReservationController extends Controller
 {
@@ -27,13 +30,11 @@ class ReservationController extends Controller
 
     Mail::to('generalmanager@crystallakeresortoguta.com')->send(new ReservationMail($name, $tel, $email, $room_num, $guest_num, $start_date, $end_date));
 
-    return 'Email was sent';
-
     if (count(Mail::failures()) > 0){
-        Session::flash('error', "Event Creation Failed!!");
+        Session::flash('error', "Email was not sent!!");
         return Redirect::back();
     } else {
-        Session::flash('success', "Event Created Successfully!!");
+        Session::flash('success', "Email was sent successfully!!");
         return Redirect::back();
     }
     }

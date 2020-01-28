@@ -13,7 +13,7 @@
 
 Route::get('/', 'PagesController@home');
 // Route::get('/mail', 'Reservation@mail');
-Route::get('/rmail', 'ReservationController@reservation');
+Route::post('/rmail', 'ReservationController@reservation')->name('send.booking');
 Route::get('/reservation', 'PagesController@booking');
 Route::get('/about', 'PagesController@about');
 Route::get('/weddings', 'PagesController@weddings');
