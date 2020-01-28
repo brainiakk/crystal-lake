@@ -49,11 +49,6 @@
             <div class="milenia-grid-item-content">
               <div class="milenia-sidebar-hidden-items">
                 <div>
-                  <ul class="milenia-sidebar-hidden-actions milenia-list--hr milenia-list--unstyled">
-                    <li><a href="#" data-arctic-modal="#search-modal" class="milenia-ln--independent">Search</a></li>
-                  </ul>
-                </div>
-                <div>
                   <ul class="milenia-social-icons milenia-social-icon--scheme-secondary milenia-list--unstyled">
                     <li><a href="https://web.facebook.com/crystallakeresortntours"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="https://instagram.com/crystallakeresortandtoursoguta"><i class="fab fa-instagram"></i></a></li>
@@ -105,40 +100,12 @@
           </div>
         </section>
         <!--================ End of Widget ================-->
-        <!--================ Widget ================-->
-        <section class="milenia-grid-item milenia-widget milenia-widget--newsletter">
-          <div class="milenia-grid-item-inner">
-            <div class="milenia-grid-item-content">
-              <h5 class="milenia-widget-title">Newsletter Sign Up</h5>
-              <p>Sign up for news and special offers.</p>
-              <form class="milenia-newsletter-form">
-                <input type="email" name="email" placeholder="Enter Your Email Address">
-                <button type="submit" class="milenia-btn milenia-btn--scheme-dark milenia-btn--icon"> <i class="icon icon-envelope"> </i>Subscribe</button>
-              </form>
-            </div>
-          </div>
-        </section>
-        <!--================ End of Widget ================-->
 
       </div>
       <!--================ End of Hidden Sidebar Content ================-->
     </aside>
     <!--================ End of Hidden Sidebar ================-->
     <div id="milenia-page-wrapper" class="milenia-page-wrapper">
-      <!--================ Search Modal ================-->
-      <div class="milenia-d-none">
-        <div id="search-modal" class="milenia-modal milenia-modal--search">
-          <button type="button" class="milenia-icon-btn arcticmodal-close"><i class="icon icon-cross"></i></button>
-          <h3>Find Everything</h3>
-          <!--================ Search Form ================-->
-          <form role="search" method="get" class="milenia-singlefield-form milenia-form--fields-white milenia-searchform">
-            <input type="text" name="s" placeholder="Search">
-            <button type="submit"><i class="icon icon-magnifier"></i></button>
-          </form>
-          <!--================ End of Search Form ================-->
-        </div>
-      </div>
-      <!--================ End of Search Modal ================-->
       <!--================ Header ================-->
         <header id="milenia-header" class="milenia-header milenia-header--light">
 
@@ -163,7 +130,7 @@
               <div class="milenia-aligner-outer">
                 <div class="milenia-aligner-inner">
                   <div class="milenia-header-items">
-                    <div><a href="/" class="milenia-ln--independent"><img src="images/header_logo_crystallake.png" alt=""></a></div>
+                    <div><a href="/" class="milenia-ln--independent"><img src="{{ asset('images/header_logo_crystallake.png') }}" alt=""></a></div>
                   </div>
                 </div>
               </div>
@@ -175,7 +142,7 @@
                 <div class="milenia-aligner-inner">
                   <div class="milenia-header-items">
                     <div>
-                      <button type="button" data-arctic-modal="#search-modal" class="milenia-icon-btn"><i class="icon icon-magnifier"></i></button>
+                      <button type="button" data-arctic-modal="#search-modal" class="milenia-icon-btn"></i></button>
                     </div>
                   </div>
                 </div>
@@ -229,10 +196,10 @@
                             <!--================ End of Sub Menu ================-->
                           </li>
 
-                          <li class="menu-item menu-item-has-children"><a href="pages_about.html" class="milenia-ln--independent">Events</a>
+                          <li class="menu-item menu-item-has-children"><a href="/events" class="milenia-ln--independent">Events</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
-                              <li class="menu-item"><a href="#" class="milenia-ln--independent">Events List</a>
+                              <li class="menu-item"><a href="/events" class="milenia-ln--independent">Events List</a>
                               </li>
                               <li class="menu-item"><a href="#" class="milenia-ln--independent">Meetings</a>
                               </li>

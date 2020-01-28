@@ -14,6 +14,10 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
+    public function events() {
+        return view('pages.events');
+    }
+
     public function weddings() {
         return view('pages.weddings');
     }
@@ -29,11 +33,6 @@ class PagesController extends Controller
     public function booking()
     {
         return view('pages.booking');
-    }
-    
-    public function standard()
-    {
-        return view('pages.standard');
     }
 
 }
