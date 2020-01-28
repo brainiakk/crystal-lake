@@ -1,5 +1,21 @@
  <script src="{{ asset('/backend/vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('/backend/vendor/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('/js/bootstrap-datepicker.min.js') }}"></script>
+
+    <script type="text/javascript">
+      $('.start_date').datepicker({
+        format: 'yyyy-mm-dd',
+      }).on('hide', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+      });
+      $('.end_date').datepicker({
+        format: 'yyyy-mm-dd',
+      }).on('hide', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+      });
+    </script>
     <script src="{{ asset('/backend/vendor/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
     <!-- Here is navigation script -->
     <script src="{{ asset('/backend/vendor/quixnav/quixnav.min.js') }}"></script>
