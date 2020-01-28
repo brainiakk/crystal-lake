@@ -15,6 +15,16 @@ class Admin
      */
     public function handle($request, Closure $next)
     {
-        return $next($request);
+        if (\Auth::user()) {
+            # code...
+            if (\Auth::user()->level >= 1) {
+                return $next($request);
+            }
+
+            return redirect('/');
+        } else {
+            # code...
+            return redirect('/login');
+        }
     }
 }
