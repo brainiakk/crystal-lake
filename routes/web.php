@@ -13,7 +13,8 @@
 
 Route::get('/', 'PagesController@home');
 // Route::get('/mail', 'Reservation@mail');
-Route::get('/reservation', 'ReservationController@reservation');
+Route::get('/rmail', 'ReservationController@reservation');
+Route::get('/reservation', 'PagesController@booking');
 Route::get('/about', 'PagesController@about');
 Route::get('/weddings', 'PagesController@weddings');
 Route::get('/activities', 'PagesController@activities');
@@ -34,6 +35,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     });
 });
 
-Auth::routes(['register' => false]);
+// Auth::routes(['register' => false]);
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

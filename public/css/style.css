@@ -87,13 +87,9 @@ Headers:    'Abril Fatface' sans-serif;
         }
 
         a {
-            text-decoration: none !important;
+            text-decoration: none;
             outline: none !important;
             vertical-align: baseline;
-        }
-
-        a:hover {
-            text-decoration: none !important;
         }
 
         b, strong {
@@ -18953,10 +18949,3 @@ Headers:    'Abril Fatface' sans-serif;
              background-image: url("../images/loader@2x.gif");
          }
      }
-@media only screen and (max-width: 767px) {
-    .datepicker {
-        bottom: 45px !important;
-        top: auto !important;
-        /*background-color: orangered !important;*/
-    }
-}

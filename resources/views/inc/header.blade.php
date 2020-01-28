@@ -10,7 +10,7 @@
     <!--================ Mobile specific metas ================-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--================ Favicon ================-->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}>
     <!--================ Google web fonts ================-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700|Open+Sans:200,300,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i">
     <!--================ Vendor CSS ================-->
@@ -27,13 +27,12 @@
     <link rel="stylesheet" href="{{ asset('vendors/revolution/css/layers.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/revolution/css/navigation.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/jquery-ui/jquery-ui.min.css') }}">
+    @yield('bs-cdn')
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.min.css') }}">
-    {{-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous"> --}}
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}"> --}}
     <!--================ Theme CSS ================-->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <!--================ Vendor JS ================-->
     </head>
 
@@ -270,8 +269,7 @@
                             <!--================ End of Sub Menu ================-->
                           </li>
 
-                          {{-- <li class="menu-item"><a href="#"  data-toggle="modal" data-target="#myModal" class="milenia-ln--independent">Make a Reservation</a></li> --}}
-                          <li class="menu-item"><a href="#"  data-toggle="modal" data-target="#myModal" class="milenia-ln--independent">Make a Reservation</a></li>
+                          <li class="menu-item"><a href="/reservation"  class="milenia-ln--independent">Make a Reservation</a></li>
                       </nav>
                       <!--================ End of Navigation ================-->
                     </div>
