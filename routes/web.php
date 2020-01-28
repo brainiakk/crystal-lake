@@ -33,6 +33,9 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::get('', function(){
         return view('admin.index');
     });
+    Route::get('/edit/{eventId}', 'EventsController@edit');
+    Route::post('store_event', 'EventsController@store')->name('store.event');
+    Route::post('update_event', 'EventsController@update')->name('update.event');
 });
 
 // Auth::routes(['register' => false]);

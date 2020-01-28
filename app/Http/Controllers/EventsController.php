@@ -24,7 +24,8 @@ class EventsController extends Controller
      */
     public function index()
     {
-        //
+        $events = Events::whereStatus('1')->paginate(5);
+        return view('pages.events', ['events' => $events]);
     }
 
     /**
@@ -45,11 +46,6 @@ class EventsController extends Controller
      */
     public function store(Request $request)
     {
-         $this->validate($request, [
-            'title'         => 'required|min:3',
-            'image'         => 'required|image',
-            'desc'          => 'required|min:3'
-        ]);
 
         $event = new Events;
 
@@ -65,7 +61,7 @@ class EventsController extends Controller
 
         if ($request->hasfile('image')) {
             $image = $request->file('image');
-            $filename = time() . '.' . $image->getClientOriginalExtension();
+            $filename = Carbon::now()->format('Y-m-d-H:i:s'). '.' . $image->getClientOriginalExtension();
             $location = public_path('event_images/') . $filename;
 
             Image::make($image)->save($location);
@@ -89,9 +85,10 @@ class EventsController extends Controller
      * @param  \App\Events  $events
      * @return \Illuminate\Http\Response
      */
-    public function show(Events $events)
+    public function show($eventId)
     {
-        //
+        $event = Events::findOrFail($eventId);
+        return view('pages.event')->withEvent($event);
     }
 
     /**
@@ -100,9 +97,33 @@ class EventsController extends Controller
      * @param  \App\Events  $events
      * @return \Illuminate\Http\Response
      */
-    public function edit(Events $events)
+    public function edit($eventId)
     {
-        //
+        $event = Events::findOrFail($eventId);
+        return view('admin.edit')->withEvent($event);
+
+    }
+
+    public function mail(Request $request)
+    {
+
+    $name = $request->input('name');
+    $tel = $request->input('tel');
+    $email = $request->input('email');
+    $room_num = $request->input('room_num');
+    $guest_num = $request->input('guest_num');
+    $start_date = $request->input('start_date');
+    $end_date = $request->input('end_date');
+
+    Mail::to('generalmanager@crystallakeresortoguta.com')->send(new ReservationMail($name, $tel, $email, $room_num, $guest_num, $start_date, $end_date));
+
+    if (count(Mail::failures()) > 0){
+        Session::flash('error', "Email was not sent!!");
+        return Redirect::back();
+    } else {
+        Session::flash('success', "Email was sent successfully!!");
+        return Redirect::back();
+    }
     }
 
     /**
