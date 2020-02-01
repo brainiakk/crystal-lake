@@ -5,7 +5,7 @@
         ***********************************-->
         <div class="footer">
             <div class="copyright">
-                <p>Copyright © Designed &amp; Developed by <a href="../../../themeforest.net/user/quixkit.html" target="_blank">Quixkit</a> 2019</p>
+                <p>Copyright © Crystal Lake {{ date('Y') }} &amp; Developed by <a href="https://gescangroup.com" target="_blank">Gescan Group</a> 2019</p>
             </div>
         </div>
         <!--**********************************

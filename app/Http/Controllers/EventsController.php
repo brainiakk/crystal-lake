@@ -30,7 +30,7 @@ class EventsController extends Controller
 
     public function adminIndex()
     {
-        $events = Events::paginate(1);
+        $events = Events::paginate(10);
         return view('admin.index', ['events' => $events]);
     }
 
