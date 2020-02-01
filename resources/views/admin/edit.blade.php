@@ -24,6 +24,7 @@
                             </div>
                             @endif
                             <form action="{{ route('update.event') }}" method="post" enctype="multipart/form-data">
+                            @csrf
                             @include('admin.eform')
                             </form>
                         </div>

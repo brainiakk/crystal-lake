@@ -13,7 +13,7 @@
 
 Route::get('/', 'PagesController@home');
 // Route::get('/mail', 'Reservation@mail');
-Route::get('/rmail', 'ReservationController@reservation');
+Route::post('/rmail', 'ReservationController@reservation')->name('send.booking');
 Route::get('/reservation', 'PagesController@booking');
 Route::get('/about', 'PagesController@about');
 Route::get('/events', 'EventsController@index');
@@ -32,9 +32,13 @@ Route::get('/rooms/2bedroom', 'RoomsController@two_bedroom');
 
 /* Admin backend routes - CRUD for posts, categories, and approving/deleting submitted comments */
 Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
-    Route::get('', function(){
-        return view('admin.index');
+    Route::get('', 'EventsController@adminIndex');
+    Route::get('/create_events', function(){
+        return view('admin.create');
     });
+    Route::get('/edit/{eventId}', 'EventsController@edit');
+    Route::post('store_event', 'EventsController@store')->name('store.event');
+    Route::post('update_event', 'EventsController@update')->name('update.event');
 });
 
 // Auth::routes(['register' => false]);
