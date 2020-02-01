@@ -39,7 +39,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::post('update_event', 'EventsController@update')->name('update.event');
 });
 
-// Auth::routes(['register' => false]);
-Auth::routes();
+Auth::routes(['register' => false]);
+// Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
