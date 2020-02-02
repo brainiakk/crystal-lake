@@ -10,7 +10,7 @@
     <!--================ Mobile specific metas ================-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--================ Favicon ================-->
-    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}>
+    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
     <!--================ Google web fonts ================-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700|Open+Sans:200,300,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i">
     <!--================ Vendor CSS ================-->
@@ -142,7 +142,7 @@
                 <div class="milenia-aligner-inner">
                   <div class="milenia-header-items">
                     <div>
-                      <button type="button" data-arctic-modal="#search-modal" class="milenia-icon-btn"></i></button>
+                      <a  href="{{ url('/reservation') }}" class="milenia-btn milenia-btn--big milenia-btn--scheme-secondary" style="text-decoration: none;">Make a Reservation</a>
                     </div>
                   </div>
                 </div>
@@ -224,7 +224,7 @@
                             <!--================ End of Sub Menu ================-->
                           </li>
 
-                          <li class="menu-item"><a href="#" class="milenia-ln--independent {{ Request::path() === '/activities' ? 'current-menu-item' : '' }}">Activities</a></li>
+                          <li class="menu-item"><a href="{{ url('/activities')}}" class="milenia-ln--independent {{ Request::path() === '/activities' ? 'current-menu-item' : '' }}">Activities</a></li>
 
                           <li class="menu-item menu-item-has-children"><a href="#" class="milenia-ln--independent">Special Offers</a>
                             <!--================ Sub Menu ================-->
