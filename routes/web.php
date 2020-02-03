@@ -16,6 +16,8 @@ Route::get('/', 'PagesController@home');
 Route::post('/rmail', 'ReservationController@reservation')->name('send.booking');
 Route::get('/reservation', 'PagesController@booking');
 Route::get('/about', 'PagesController@about');
+Route::get('/events', 'EventsController@index');
+Route::get('/events/{eventId}', 'EventsController@show');
 Route::get('/weddings', 'PagesController@weddings');
 Route::get('/activities', 'PagesController@activities');
 Route::get('/funspots', 'PagesController@funspots');

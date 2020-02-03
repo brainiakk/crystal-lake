@@ -7,6 +7,7 @@
 @endsection
 
 @section('content')
+<hr>
 <div class="row my-4">
     <div class="col-md-6 offset-md-3 col-sm-12">
         <div class="card">

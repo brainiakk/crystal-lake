@@ -10,16 +10,16 @@
                   <div class="milenia-grid-item-inner">
                     <div class="milenia-grid-item-content">
                       <div class="milenia-info-widget">
-                        <div class="milenia-info-widget-logo"><a href="/" class="milenia-ln--independent"><img src="images/header_logo_crystallake.png" alt=""></a></div>
+                        <div class="milenia-info-widget-logo"><a href="/" class="milenia-ln--independent"><img src="{{ asset('images/header_logo_crystallake.png') }}" alt=""></a></div>
                         <div class="milenia-grid milenia-grid--cols-3">
                           <div class="milenia-grid-item">
-                            <address><span class="milenia-text-color--contrast">Address:<br> </span>No. 1 Tourismo Boulevard<br>  by Ministry of Works, <br>Oguta, Imo State</address><a href="#" class="milenia-uppercased-link">Get Direction</a>
+                            <address><span class="milenia-text-color--contrast">Address: </span><br>No. 1 Tourismo Boulevard<br>  by Ministry of Works, <br>Oguta, Imo State</address><a href="#" class="milenia-uppercased-link">Get Direction</a>
                           </div>
                           <div class="milenia-grid-item">
-                            <address><span class="milenia-text-color--contrast">Phone:<br> </span>09064261305<br>08064737062 <br>08030877889</address>
+                            <address><span class="milenia-text-color--contrast">Phone: </span><br>09068116377<br>08063566576<br>08030877889</address>
                           </div>
                           <div class="milenia-grid-item milenia-widget--email">
-                            <address><span class="milenia-text-color--contrast">Email:<br> </span><a href="mailto:#">mail@companyname.com</a></address><br><a href="#" class="milenia-btn milenia-btn--unbordered">Submit Request</a>
+                            <address><span class="milenia-text-color--contrast">Email:<br> </span><a href="mailto:#">mail@companyname.com</a></address>
                           </div>
                         </div>
                       </div>
@@ -45,9 +45,7 @@
                         <ul>
                           <li><a href="/about">About</a></li>
                           <li><a href="#">Special Offers</a></li>
-                          <li><a href="#">News</a></li>
-                          <li><a href="#">Events</a></li>
-                          <li><a href="#">Contact Us</a></li>
+                          <li><a href="/events">Events</a></li>
                         </ul>
                       </nav>
                     </div>

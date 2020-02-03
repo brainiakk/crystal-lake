@@ -1,4 +1,3 @@
-
                                 <h5 class="mb-3">General Info</h5>
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
