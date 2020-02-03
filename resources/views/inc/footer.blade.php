@@ -97,6 +97,7 @@
     <script src="{{ asset('js/modules/milenia.tabbed-grid.min.js') }}"></script>
     <script src="{{ asset('js/modules/milenia.sticky-header-section.min.js') }}"></script>
     <script src="{{ asset('js/milenia.app.js') }}"></script>
+    <script src="{{ asset('js/rtypes.js') }}"></script>
     <script src="{{ asset('js/bootstrap-datepicker.min.js') }}"></script>
 
     <script>

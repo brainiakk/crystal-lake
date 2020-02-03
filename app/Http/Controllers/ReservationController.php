@@ -27,8 +27,57 @@ class ReservationController extends Controller
     $guest_num = $request->input('guest_num');
     $start_date = $request->input('start_date');
     $end_date = $request->input('end_date');
+    // $standard = $request->input('standard_num');
+    // $executive = $request->input('executive_num');
+    // $deluxe = $request->input('deluxe_num');
+    // $studio = $request->input('studio_num');
+    // $royal = $request->input('royal_num');
+    // $diplomatic = $request->input('diplomatic_num');
+    // $bedroom = $request->input('bedroom_num');
 
-    Mail::to('generalmanager@crystallakeresortoguta.com')->send(new ReservationMail($name, $tel, $email, $room_num, $guest_num, $start_date, $end_date));
+    if(!is_null($request->input('standard_num')) && $request->input('standard_num') != ""){
+        $standard = $request->input('standard_num');
+    }else{
+        $standard = 0;
+    }
+
+    if(!is_null($request->input('executive_num')) && $request->input('executive_num') != ""){
+        $executive = $request->input('executive_num');
+    }else{
+        $executive = 0;
+    }
+
+    if(!is_null($request->input('studio_num')) && $request->input('studio_num') != ""){
+        $studio = $request->input('studio_num');
+    }else{
+        $studio = 0;
+    }
+
+    if(!is_null($request->input('deluxe_num')) && $request->input('deluxe_num') != ""){
+        $deluxe = $request->input('deluxe_num');
+    }else{
+        $deluxe = 0;
+    }
+
+    if(!is_null($request->input('royal_num')) && $request->input('royal_num') != ""){
+        $royal = $request->input('royal_num');
+    }else{
+        $royal = 0;
+    }
+
+    if(!is_null($request->input('diplomatic_num')) && $request->input('diplomatic_num') != ""){
+        $diplomatic = $request->input('diplomatic_num');
+    }else{
+        $diplomatic = 0;
+    }
+
+    if(!is_null($request->input('bedroom_num')) && $request->input('bedroom_num') != ""){
+        $bedroom = $request->input('bedroom_num');
+    }else{
+        $bedroom = 0;
+    }
+
+    Mail::to('generalmanager@crystallakeresortoguta.com')->send(new ReservationMail($name, $tel, $email, $room_num, $guest_num, $start_date, $end_date, $standard, $deluxe, $studio, $royal, $diplomatic, $executive, $bedroom));
 
     if (count(Mail::failures()) > 0){
         Session::flash('error', "Email was not sent!!");
