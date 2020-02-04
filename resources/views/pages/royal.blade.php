@@ -29,13 +29,17 @@
                 <!--================ Tabs ================-->
                 <div class="milenia-tabs milenia-tabs--style-2 milenia-tabs--tour-sections-lg">
                     <!--================ Tabs Navigation ================-->
-                    <div role="tablist" aria-label="Tour Sections v1" class="milenia-tabs-nav"><span class="milenia-active"><a id="tab-description-link" href="#tab-description" role="tab" aria-selected="false" aria-controls="tab-description" class="milenia-ln--independent milenia-tab-link">Description</a></span><span><a id="tab-amenities-link" href="#tab-amenities" role="tab" aria-selected="true" aria-controls="tab-amenities" class="milenia-ln--independent milenia-tab-link">Amenities</a></span><span><a id="tab-rates-link" href="#tab-rates" role="tab" aria-selected="false" aria-controls="tab-rates" class="milenia-ln--independent milenia-tab-link">Rates</a></span><span><a id="tab-reviews-link" href="#tab-reviews" role="tab" aria-selected="false" aria-controls="tab-reviews" class="milenia-ln--independent milenia-tab-link">Reviews</a></span></div>
+                    <div role="tablist" aria-label="Tour Sections v1" class="milenia-tabs-nav">
+                        <span class="milenia-active"><a id="tab-description-link" href="#tab-description" role="tab" aria-selected="false" aria-controls="tab-description" class="milenia-ln--independent milenia-tab-link">Description</a></span>
+                        <span><a id="tab-amenities-link" href="#tab-amenities" role="tab" aria-selected="true" aria-controls="tab-amenities" class="milenia-ln--independent milenia-tab-link">Amenities</a></span>
+                        {{-- <span><a id="tab-rates-link" href="#tab-rates" role="tab" aria-selected="false" aria-controls="tab-rates" class="milenia-ln--independent milenia-tab-link">Rates</a></span> --}}
+                        <span><a id="tab-reviews-link" href="#tab-reviews" role="tab" aria-selected="false" aria-controls="tab-reviews" class="milenia-ln--independent milenia-tab-link"></a></span></div>
                     <!--================ End of Tabs Navigation ================-->
                     <!--================ Tabs Container ================-->
                     <div class="milenia-tabs-container">
                     <!--================ Tab ================-->
                     <div id="tab-description" tabindex="0" role="tabpanel" aria-labelledby="tab-description-link" class="milenia-tab">
-                        <p>Our Standard Rooms at the GENESIS building offer privacy, a view of greenery,  infusing calm with all the modern comforts at Crystal Lake Resort and Tours.</p><a href="#" data-fancybox-album-src="[{&quot;src&quot;: &quot;images/floor-plan.png&quot;, &quot;opts&quot;: {&quot;caption&quot;: &quot;The floor plan&quot;}}]" class="milenia-btn milenia-btn--link milenia-btn--scheme-primary"></a>
+                        <p>An offshoot from the Diplomatic Suites, our Royal Suites offer you the perfect accommodation to recharge between adventures and rest up before another day filled with getaway fun that is our trademark. In these spacious suites with plenty of spacious living spaces, sumptuous design and flawless attention to detail is just the start of your perfect vacation.</p><a href="#" data-fancybox-album-src="[{&quot;src&quot;: &quot;images/floor-plan.png&quot;, &quot;opts&quot;: {&quot;caption&quot;: &quot;The floor plan&quot;}}]" class="milenia-btn milenia-btn--link milenia-btn--scheme-primary"></a>
                     </div>
                     <!--================ End of Tab ================-->
                     <!--================ Tab ================-->
@@ -141,7 +145,7 @@
                         <ol class="comments-list">
                             <li class="comment">
                             <div class="comment-body">
-                                <div class="comment-author-avatar"><a href="#" class="milenia-color--unchangeable"><img src="images/author-image-4.png" alt="Camala Haddon"></a></div>
+                                <div class="comment-author-avatar"><a href="#" class="milenia-color--unchangeable"><img src="{{ asset('images/author-image-4.png') }}" alt="Camala Haddon"></a></div>
                                 <div class="comment-author-info">
                                 <cite class="fn milenia-text-color--dark">Camala Haddon</cite>
                                 <div class="comment-meta row milenia-columns-aligner--edges-md align-items-center">
@@ -158,7 +162,7 @@
                             </li>
                             <li class="comment">
                             <div class="comment-body">
-                                <div class="comment-author-avatar"><a href="#" class="milenia-color--unchangeable"><img src="images/author-image-5.png" alt="Bradley Grosh"></a></div>
+                                <div class="comment-author-avatar"><a href="#" class="milenia-color--unchangeable"><img src="{{ asset('images/author-image-5.png') }}" alt="Bradley Grosh"></a></div>
                                 <div class="comment-author-info">
                                 <cite class="fn milenia-text-color--dark">Bradley Grosh</cite>
                                 <div class="comment-meta row milenia-columns-aligner--edges-md align-items-center">

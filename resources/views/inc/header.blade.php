@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="{{ asset('vendors/revolution/css/navigation.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/jquery-ui/jquery-ui.min.css') }}">
     @yield('bs-cdn')
+    @yield('fa-cdn')
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.min.css') }}">
     <!--================ Theme CSS ================-->
@@ -166,12 +167,10 @@
                       <nav class="milenia-navigation-container">
                         <ul class="milenia-navigation milenia-navigation--vertical-sm milenia-navigation--bottom-underlined">
 
-                          <li class="menu-item menu-item-has-children {{ Request::path() === '/' ? 'current-menu-item' : '' }}"><a href="/" class="milenia-ln--independent">Home</a>
+                          <li class="menu-item menu-item-has-children {{ Request::path() === '/' ? 'current-menu-item' : '' }}"><a href="{{ url('/') }}" class="milenia-ln--independent">Home</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
-                              <li class="menu-item"><a href="/about" class="milenia-ln--independent">About Us</a>
-                              </li>
-                              <li class="menu-item"><a href="#" class="milenia-ln--independent">Finding Us</a>
+                              <li class="menu-item"><a href="{{ url('/about') }}" class="milenia-ln--independent">About Us</a>
                               </li>
                             </ul>
                             <!--================ End of Sub Menu ================-->
@@ -181,19 +180,19 @@
                             <a href="#" class="milenia-ln--independent">Accommodation</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
-                              <li class="menu-item"><a href="/rooms/standard" class="milenia-ln--independent">Standard Rooms</a>
+                              <li class="menu-item"><a href="{{ url('/rooms/standard') }}" class="milenia-ln--independent">Standard Rooms</a>
                               </li>
-                              <li class="menu-item"><a href="/rooms/executive" class="milenia-ln--independent">Executive Rooms</a>
+                              <li class="menu-item"><a href="{{ url('/rooms/executive') }}" class="milenia-ln--independent">Executive Rooms</a>
                               </li>
-                              <li class="menu-item"><a href="/rooms/studio" class="milenia-ln--independent">Studio Rooms</a>
+                              <li class="menu-item"><a href="{{ url('/rooms/studio') }}" class="milenia-ln--independent">Studio Rooms</a>
                               </li>
-                              <li class="menu-item"><a href="/rooms/deluxe" class="milenia-ln--independent">Deluxe Rooms</a>
+                              <li class="menu-item"><a href="{{ url('/rooms/deluxe') }}" class="milenia-ln--independent">Deluxe Rooms</a>
                               </li>
-                              <li class="menu-item"><a href="/rooms/royal" class="milenia-ln--independent">Royal Suites</a>
+                              <li class="menu-item"><a href="{{ url('/rooms/royal') }}" class="milenia-ln--independent">Royal Suites</a>
                               </li>
-                              <li class="menu-item"><a href="/rooms/diplomatic" class="milenia-ln--independent">Diplomatic Suites</a>
+                              <li class="menu-item"><a href="{{ url('/rooms/diplomatic') }}" class="milenia-ln--independent">Diplomatic Suites</a>
                               </li>
-                              <li class="menu-item"><a href="/rooms/2bedroom" class="milenia-ln--independent">Two-Bedroom Suites</a>
+                              <li class="menu-item"><a href="{{ url('/rooms/2bedroom') }}" class="milenia-ln--independent">Two-Bedroom Suites</a>
                               </li>
                             </ul>
                             <!--================ End of Sub Menu ================-->
@@ -202,13 +201,13 @@
                           <li class="menu-item menu-item-has-children"><a href="/events" class="milenia-ln--independent">Events</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
-                              <li class="menu-item"><a href="/events" class="milenia-ln--independent">Events List</a>
+                              <li class="menu-item"><a href="{{ url('/events') }}" class="milenia-ln--independent">Events List</a>
                               </li>
-                              <li class="menu-item"><a href="#" class="milenia-ln--independent">Meetings</a>
+                              <li class="menu-item"><a href="{{ url('/meetings') }}" class="milenia-ln--independent">Meetings</a>
                               </li>
-                              <li class="menu-item"><a href="/weddings" class="milenia-ln--independent">Weddings</a>
+                              <li class="menu-item"><a href="{{ url('/weddings') }}" class="milenia-ln--independent">Weddings</a>
                               </li>
-                              <li class="menu-item"><a href="#" class="milenia-ln--independent">Social Gatherings</a>
+                              <li class="menu-item"><a href="{{ url('/socialgatherings') }}" class="milenia-ln--independent">Social Gatherings</a>
                               </li>
                             </ul>
                             <!--================ End of Sub Menu ================-->
@@ -217,11 +216,11 @@
                           <li class="menu-item menu-item-has-children"><a href="events_list.html" class="milenia-ln--independent">Facilities</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
-                              <li class="menu-item"><a href="#" class="milenia-ln--independent">Food and Drink</a>
+                              <li class="menu-item"><a href="{{ url('') }}" class="milenia-ln--independent">Food and Drink</a>
                               </li>
-                              <li class="menu-item"><a href="#" class="milenia-ln--independent">Conference Hall and Boardroom</a>
+                              <li class="menu-item"><a href="{{ url('') }}" class="milenia-ln--independent">Conference Hall and Boardroom</a>
                               </li>
-                              <li class="menu-item"><a href="/funspots" class="milenia-ln--independent">Fun Spots and Equipment</a>
+                              <li class="menu-item"><a href="{{ url('/funspots') }}" class="milenia-ln--independent">Fun Spots and Equipment</a>
                               </li>
                             </ul>
                             <!--================ End of Sub Menu ================-->
@@ -232,9 +231,9 @@
                           <li class="menu-item menu-item-has-children"><a href="#" class="milenia-ln--independent">Special Offers</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="#" class="milenia-ln--independent">Family Packages</a></li>
-                                <li class="menu-item"><a href="#" class="milenia-ln--independent">Singles Packages</a></li>
-                                <li class="menu-item"><a href="#" class="milenia-ln--independent">Group Packages</a></li>
+                                <li class="menu-item"><a href="{{ url('') }}" class="milenia-ln--independent">Family Packages</a></li>
+                                <li class="menu-item"><a href="{{ url('') }}" class="milenia-ln--independent">Singles Packages</a></li>
+                                <li class="menu-item"><a href="{{ url('') }}" class="milenia-ln--independent">Group Packages</a></li>
                             </ul>
                             <!--================ End of Sub Menu ================-->
                           </li>
