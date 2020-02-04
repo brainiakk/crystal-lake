@@ -3,6 +3,7 @@
 @section('title', 'Crystal Lake | About Us')
 
 @section('content')
+    <hr>
     <div class="milenia-content">
         <header class="milenia-page-header milenia-entity-single milenia-entity--room">
             <div class="row align-items-center milenia-columns-aligner--edges-lg">
@@ -11,7 +12,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="milenia-entity-meta">
-                    <div>from <strong class="milenia-entity-price">N30,000</strong>/night</div>
+                    <div>from <strong class="milenia-entity-price">N80,000</strong>/night</div>
                 </div>
             </div>
             </div>
@@ -28,7 +29,7 @@
                 <!--================ Tabs ================-->
                 <div class="milenia-tabs milenia-tabs--style-2 milenia-tabs--tour-sections-lg">
                     <!--================ Tabs Navigation ================-->
-                    <div role="tablist" aria-label="Tour Sections v1" class="milenia-tabs-nav"><span class="milenia-active"><a id="tab-description-link" href="#tab-description" role="tab" aria-selected="false" aria-controls="tab-description" class="milenia-ln--independent milenia-tab-link">Description</a></span><span><a id="tab-amenities-link" href="#tab-amenities" role="tab" aria-selected="true" aria-controls="tab-amenities" class="milenia-ln--independent milenia-tab-link">Amenities</a></span><span><a id="tab-rates-link" href="#tab-rates" role="tab" aria-selected="false" aria-controls="tab-rates" class="milenia-ln--independent milenia-tab-link">Rates</a></span><span><a id="tab-reviews-link" href="#tab-reviews" role="tab" aria-selected="false" aria-controls="tab-reviews" class="milenia-ln--independent milenia-tab-link">Reviews</a></span></div>
+                    <div role="tablist" aria-label="Tour Sections v1" class="milenia-tabs-nav"><span class="milenia-active"><a id="tab-description-link" href="#tab-description" role="tab" aria-selected="false" aria-controls="tab-description" class="milenia-ln--independent milenia-tab-link">Description</a></span><span><a id="tab-amenities-link" href="#tab-amenities" role="tab" aria-selected="true" aria-controls="tab-amenities" class="milenia-ln--independent milenia-tab-link">Amenities</a></span><span><a id="tab-reviews-link" href="#tab-reviews" role="tab" aria-selected="false" aria-controls="tab-reviews" class="milenia-ln--independent milenia-tab-link">Reviews</a></span></div>
                     <!--================ End of Tabs Navigation ================-->
                     <!--================ Tabs Container ================-->
                     <div class="milenia-tabs-container">
@@ -69,31 +70,6 @@
                             </ul>
                         </div>
                         </div>
-                    </div>
-                    <!--================ End of Tab ================-->
-                    <!--================ Tab ================-->
-                    <div id="tab-rates" tabindex="0" role="tabpanel" aria-labelledby="tab-rates-link" class="milenia-tab">
-                        <table aria-labelledby="table-label-1" class="milenia-table milenia-table--responsive-lg">
-                        <tbody>
-                            <tr>
-                            <td data-cell-title="Season" class="milenia-color--black">Main season 1</td>
-                            <td data-cell-title="Period">10 Mar – 30 Apr 2018</td>
-                            <td data-cell-title="Price" class="milenia-color--black">N30,000/night</td>
-                            </tr>
-                            <tr>
-                            <td data-cell-title="Season" class="milenia-color--black">Christmas &amp; New Year's</td>
-                            <td data-cell-title="Period">22 Dec 2018 - 6 Jan 2019</td>
-                            <td data-cell-title="Price" class="milenia-color--black">N30,000/night</td>
-                            </tr>
-                        
-                            </tr>
-                            <tr>
-                            <td data-cell-title="Season" class="milenia-color--black">Weekend only</td>
-                            <td data-cell-title="Period">Thursday through Sunday</td>
-                            <td data-cell-title="Price" class="milenia-color--black">N30,000/night</td>
-                            </tr>
-                        </tbody>
-                        </table><small id="table-label-1" class="milenia-table-label">All prices are exclusive of GST. 15% Goods and Services tax is applicable above the standard rates.</small>
                     </div>
                     <!--================ End of Tab ================-->
                     <!--================ Tab ================-->
@@ -231,78 +207,78 @@
                         <div class="milenia-entities milenia-entities--rooms">
                         <!--================ Entity ================-->
                         <article class="milenia-entity">
-                            <div class="milenia-entity-media"><a href="#" class="milenia-ln--independent"><img src="{{ asset('images/40.jpg') }}" alt=""></a></div>
+                            <div class="milenia-entity-media"><a href="{{ url('/rooms/standard') }}" class="milenia-ln--independent"><img src="{{ asset('images/standard_room_1.jpg') }}" alt=""></a></div>
                             <div class="milenia-entity-content">
                             <div class="milenia-entity-header">
                                 <div class="milenia-entity-meta">
                                 <div>From N30,000/night</div>
                                 </div>
-                                <h2 class="milenia-entity-title"><a href="Executive Rooms.html" class="milenia-color--unchangeable">Executive Room</a></h2>
+                                <h2 class="milenia-entity-title"><a href="{{ url('/rooms/standard') }}" class="milenia-color--unchangeable">Standard Room</a></h2>
                             </div>
                             </div>
                         </article>
                         <!--================ End of Entity ================-->
                         <!--================ Entity ================-->
                         <article class="milenia-entity">
-                            <div class="milenia-entity-media"><a href="#" class="milenia-ln--independent"><img src="{{ asset('images/20.jfif') }}" alt=""></a></div>
+                            <div class="milenia-entity-media"><a href="{{ url('/rooms/executive') }}" class="milenia-ln--independent"><img src="{{ asset('images/executive-room_1.png') }}" alt=""></a></div>
                             <div class="milenia-entity-content">
                             <div class="milenia-entity-header">
                                 <div class="milenia-entity-meta">
-                                <div>From N40,000/night</div>
+                                <div>From N35,000/night</div>
                                 </div>
-                                <h2 class="milenia-entity-title"><a href="Studio Rooms.html" class="milenia-color--unchangeable">Studio Room</a></h2>
+                                <h2 class="milenia-entity-title"><a href="{{ url('/rooms/executive') }}" class="milenia-color--unchangeable">Executive Room</a></h2>
                             </div>
                             </div>
                         </article>
                         <!--================ End of Entity ================-->
                         <!--================ Entity ================-->
                         <article class="milenia-entity">
-                            <div class="milenia-entity-media"><a href="#" class="milenia-ln--independent"><img src="{{ asset('images/oguta.c.jpg') }}" alt=""></a></div>
+                            <div class="milenia-entity-media"><a href="{{ url('/rooms/studio') }}" class="milenia-ln--independent"><img src="{{ asset('images/studio-room_1.png') }}" alt=""></a></div>
                             <div class="milenia-entity-content">
                             <div class="milenia-entity-header">
                                 <div class="milenia-entity-meta">
                                 <div>From N40,000/night</div>
                                 </div>
-                                <h2 class="milenia-entity-title"><a href="Deluxe Rooms.html" class="milenia-color--unchangeable">Deluxe Room</a></h2>
+                                <h2 class="milenia-entity-title"><a href="{{ url('/rooms/studio') }}" class="milenia-color--unchangeable">Studio Room</a></h2>
                             </div>
                             </div>
                         </article>
                         <!--================ End of Entity ================-->
                         <!--================ Entity ================-->
                         <article class="milenia-entity">
-                            <div class="milenia-entity-media"><a href="#" class="milenia-ln--independent"><img src="{{ asset('images/oguta.c.jpg') }}" alt=""></a></div>
+                            <div class="milenia-entity-media"><a href="{{ url('/rooms/deluxe') }}" class="milenia-ln--independent"><img src="{{ asset('images/deluxe-room_1.png') }}" alt=""></a></div>
                             <div class="milenia-entity-content">
                             <div class="milenia-entity-header">
                                 <div class="milenia-entity-meta">
-                                <div>From N40,000/night</div>
+                                <div>From N45,000/night</div>
                                 </div>
-                                <h2 class="milenia-entity-title"><a href="Deluxe Rooms.html" class="milenia-color--unchangeable">Deluxe Room</a></h2>
+                                <h2 class="milenia-entity-title"><a href="{{ url('/rooms/deluxe') }}" class="milenia-color--unchangeable">Deluxe Room</a></h2>
                             </div>
                             </div>
                         </article>
                         <!--================ End of Entity ================--> 
                         <!--================ Entity ================-->
                         <article class="milenia-entity">
-                            <div class="milenia-entity-media"><a href="#" class="milenia-ln--independent"><img src="{{ asset('images/oguta.c.jpg') }}" alt=""></a></div>
+                            <div class="milenia-entity-media"><a href="{{ url('/rooms/royal') }}" class="milenia-ln--independent"><img src="{{ asset('images/royal-suite_1.png') }}" alt=""></a></div>
                             <div class="milenia-entity-content">
                             <div class="milenia-entity-header">
                                 <div class="milenia-entity-meta">
-                                <div>From N40,000/night</div>
+                                <div>From N50,000/night</div>
                                 </div>
-                                <h2 class="milenia-entity-title"><a href="Deluxe Rooms.html" class="milenia-color--unchangeable">Deluxe Room</a></h2>
+                                <h2 class="milenia-entity-title"><a href="{{ url('/rooms/royal') }}" class="milenia-color--unchangeable">Royal Suite</a></h2>
                             </div>
                             </div>
                         </article>
                         <!--================ End of Entity ================--> 
                         <!--================ Entity ================-->
                         <article class="milenia-entity">
-                            <div class="milenia-entity-media"><a href="#" class="milenia-ln--independent"><img src="{{ asset('images/oguta.c.jpg') }}" alt=""></a></div>
+                            <div class="milenia-entity-media"><a href="{{ url('/rooms/diplomatic') }}" class="milenia-ln--independent"><img src="{{ asset('images/diplomatic-suite_1.png') }}" alt=""></a></div>
                             <div class="milenia-entity-content">
                             <div class="milenia-entity-header">
                                 <div class="milenia-entity-meta">
-                                <div>From N40,000/night</div>
+                                <div>From N55,000/night</div>
                                 </div>
-                                <h2 class="milenia-entity-title"><a href="Deluxe Rooms.html" class="milenia-color--unchangeable">Deluxe Room</a></h2>
+                                <h2 class="milenia-entity-title"><a href="{{ url('/rooms/diplomatic') }}" class="milenia-color--unchangeable">Diplomatic Suite</a></h2>
                             </div>
                             </div>
                         </article>
