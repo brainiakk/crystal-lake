@@ -71,7 +71,7 @@
                     <div class="col-lg-6">
                       <p class="milenia-section-description milenia-section-description--style-2"></p>
                       <p>Whether you are planning a romantic getaway, a weekend alone, an action-packed adventure with friends, or a fun-filled family holiday, Crystal Lake Resort and Tours offers something for everyone.With an exciting array of activities and entertainment to choose from, guests will never have to wonder how to spend any second of their stay here.</p>
-                      <div class="milenia-sign"><img src="images/sign-1.png" alt=""><small>General Manager</small></div>
+                      <div class="milenia-sign"><img src="{{ asset('images/sign-1.png') }}" alt=""><small>General Manager</small></div>
                     </div>
                   </div>
                 </section>

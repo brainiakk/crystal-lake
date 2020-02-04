@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="{{ asset('vendors/revolution/css/navigation.min.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/jquery-ui/jquery-ui.min.css') }}">
     @yield('bs-cdn')
+    @yield('fa-cdn')
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.min.css') }}">
     <!--================ Theme CSS ================-->
@@ -170,8 +171,6 @@
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
                               <li class="menu-item"><a href="/about" class="milenia-ln--independent">About Us</a>
-                              </li>
-                              <li class="menu-item"><a href="#" class="milenia-ln--independent">Finding Us</a>
                               </li>
                             </ul>
                             <!--================ End of Sub Menu ================-->

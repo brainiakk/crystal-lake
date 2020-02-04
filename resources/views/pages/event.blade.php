@@ -36,7 +36,7 @@
                       <h6 class="milenia-fw-bold">Details</h6>
                       <ul class="milenia-details-list milenia-details-list--colors-reversed milenia-list--unstyled">
                         <li><span>Date:</span>
-                          <time datetime="2019-04-15">{{ $event->start_date}} {{ $event->start_date === $event->end_date ? '' : "- {{ $event->end_date }}" }}</time>
+                          <time datetime="2019-04-15">{{ $event->start_date}} {{ $event->start_date === $event->end_date ? '' : "- $event->end_date" }}</time>
                         </li>
                         <li><span>Time:</span>
                           <time datetime="2019-04-15">{{ $event->start_time }} - {{ $event->end_time }}</time>

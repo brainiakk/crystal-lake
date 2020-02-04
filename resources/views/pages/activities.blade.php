@@ -2,6 +2,12 @@
 
 @section('title', 'Crystal Lake | Activities')
 
+{{-- font awesome cdn --}}
+@section('fa-cdn')
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+@endsection
+
 @section('content')
 <!--================ Breadcrumb ================-->
 <div   class="milenia-breadcrumb text-center milenia-colorizer--scheme-light">
@@ -10,149 +16,39 @@
     </div>
   </div>
   <!--================ End of Breadcrumb ================-->
-  <div class="milenia-content-2">
-    <div class="container">
-      <div class="row">
-        <main class="col">
-          <div class="milenia-entity-content">
-            <!--================ Content Section ================-->
-            <section class="milenia-section milenia-body--scheme-green">
-              <div class="milenia-section">
-                <!--================ Entities (Style 13) ================-->
-                <div class="milenia-entities milenia-entities--style-13">
-                  <div class="milenia-grid milenia-grid--cols-3">
-                    <div class="milenia-grid-item">
-                      <!--================ Entity ================-->
-                      <article class="milenia-entity milenia-entity--with-thumb">
-                        <div data-bg-image-src="images/rooms-list-image-1.jpg" class="milenia-entity-media"><a href="#" aria-labelledby="rooms-5-heading-0" class="milenia-entity-link milenia-ln--independent"></a></div>
-                        <div class="milenia-entity-content milenia-aligner">
-                          <div class="milenia-aligner-outer">
-                            <div class="milenia-aligner-inner">
-                              <header class="milenia-entity-header">
-                                <div class="milenia-entity-meta">
-                                  <div>from  <strong class='milenia-entity-price'>$29.00</strong>/night</div>
-                                </div>
-                                <h2 id="rooms-5-heading-0" class="milenia-entity-title"><a href="#" class="milenia-color--unchangeable">Twin Private Room</a></h2>
-                              </header>
-                              <footer class="milenia-entity-footer"><a href="#" class="milenia-btn milenia-btn--scheme-secondary">Check availability</a></footer>
-                            </div>
-                          </div>
-                        </div>
-                      </article>
-                      <!--================ End of Entity ================-->
-                    </div>
-                    <div class="milenia-grid-item">
-                      <!--================ Entity ================-->
-                      <article class="milenia-entity milenia-entity--with-thumb">
-                        <div data-bg-image-src="images/rooms-list-image-2.jpg" class="milenia-entity-media"><a href="#" aria-labelledby="rooms-5-heading-1" class="milenia-entity-link milenia-ln--independent"></a></div>
-                        <div class="milenia-entity-content milenia-aligner">
-                          <div class="milenia-aligner-outer">
-                            <div class="milenia-aligner-inner">
-                              <header class="milenia-entity-header">
-                                <div class="milenia-entity-meta">
-                                  <div>from  <strong class='milenia-entity-price'>$19.00</strong>/night</div>
-                                </div>
-                                <h2 id="rooms-5-heading-1" class="milenia-entity-title"><a href="#" class="milenia-color--unchangeable">4 Bed Mixed Dorm</a></h2>
-                              </header>
-                              <footer class="milenia-entity-footer"><a href="#" class="milenia-btn milenia-btn--scheme-secondary">Check availability</a></footer>
-                            </div>
-                          </div>
-                        </div>
-                      </article>
-                      <!--================ End of Entity ================-->
-                    </div>
-                    <div class="milenia-grid-item">
-                      <!--================ Entity ================-->
-                      <article class="milenia-entity milenia-entity--with-thumb">
-                        <div data-bg-image-src="images/rooms-list-image-3.jpg" class="milenia-entity-media"><a href="#" aria-labelledby="rooms-5-heading-2" class="milenia-entity-link milenia-ln--independent"></a></div>
-                        <div class="milenia-entity-content milenia-aligner">
-                          <div class="milenia-aligner-outer">
-                            <div class="milenia-aligner-inner">
-                              <header class="milenia-entity-header">
-                                <div class="milenia-entity-meta">
-                                  <div>from  <strong class='milenia-entity-price'>$9.00</strong>/night</div>
-                                </div>
-                                <h2 id="rooms-5-heading-2" class="milenia-entity-title"><a href="#" class="milenia-color--unchangeable">8 Bed Mixed Dorm</a></h2>
-                              </header>
-                              <footer class="milenia-entity-footer"><a href="#" class="milenia-btn milenia-btn--scheme-secondary">Check availability</a></footer>
-                            </div>
-                          </div>
-                        </div>
-                      </article>
-                      <!--================ End of Entity ================-->
-                    </div>
-                    <div class="milenia-grid-item">
-                      <!--================ Entity ================-->
-                      <article class="milenia-entity milenia-entity--with-thumb">
-                        <div data-bg-image-src="images/rooms-list-image-4.jpg" class="milenia-entity-media"><a href="#" aria-labelledby="rooms-5-heading-3" class="milenia-entity-link milenia-ln--independent"></a></div>
-                        <div class="milenia-entity-content milenia-aligner">
-                          <div class="milenia-aligner-outer">
-                            <div class="milenia-aligner-inner">
-                              <header class="milenia-entity-header">
-                                <div class="milenia-entity-meta">
-                                  <div>from  <strong class='milenia-entity-price'>$21.00</strong>/night</div>
-                                </div>
-                                <h2 id="rooms-5-heading-3" class="milenia-entity-title"><a href="#" class="milenia-color--unchangeable">4 Bed Female Dorm</a></h2>
-                              </header>
-                              <footer class="milenia-entity-footer"><a href="#" class="milenia-btn milenia-btn--scheme-secondary">Check availability</a></footer>
-                            </div>
-                          </div>
-                        </div>
-                      </article>
-                      <!--================ End of Entity ================-->
-                    </div>
-                    <div class="milenia-grid-item">
-                      <!--================ Entity ================-->
-                      <article class="milenia-entity milenia-entity--with-thumb">
-                        <div data-bg-image-src="images/rooms-list-image-1.jpg" class="milenia-entity-media"><a href="#" aria-labelledby="rooms-5-heading-4" class="milenia-entity-link milenia-ln--independent"></a></div>
-                        <div class="milenia-entity-content milenia-aligner">
-                          <div class="milenia-aligner-outer">
-                            <div class="milenia-aligner-inner">
-                              <header class="milenia-entity-header">
-                                <div class="milenia-entity-meta">
-                                  <div>from  <strong class='milenia-entity-price'>$29.00</strong>/night</div>
-                                </div>
-                                <h2 id="rooms-5-heading-4" class="milenia-entity-title"><a href="#" class="milenia-color--unchangeable">Twin Private Room</a></h2>
-                              </header>
-                              <footer class="milenia-entity-footer"><a href="#" class="milenia-btn milenia-btn--scheme-secondary">Check availability</a></footer>
-                            </div>
-                          </div>
-                        </div>
-                      </article>
-                      <!--================ End of Entity ================-->
-                    </div>
-                    <div class="milenia-grid-item">
-                      <!--================ Entity ================-->
-                      <article class="milenia-entity milenia-entity--with-thumb">
-                        <div data-bg-image-src="images/rooms-list-image-2.jpg" class="milenia-entity-media"><a href="#" aria-labelledby="rooms-5-heading-5" class="milenia-entity-link milenia-ln--independent"></a></div>
-                        <div class="milenia-entity-content milenia-aligner">
-                          <div class="milenia-aligner-outer">
-                            <div class="milenia-aligner-inner">
-                              <header class="milenia-entity-header">
-                                <div class="milenia-entity-meta">
-                                  <div>from  <strong class='milenia-entity-price'>$19.00</strong>/night</div>
-                                </div>
-                                <h2 id="rooms-5-heading-5" class="milenia-entity-title"><a href="#" class="milenia-color--unchangeable">4 Bed Mixed Dorm</a></h2>
-                              </header>
-                              <footer class="milenia-entity-footer"><a href="#" class="milenia-btn milenia-btn--scheme-secondary">Check availability</a></footer>
-                            </div>
-                          </div>
-                        </div>
-                      </article>
-                      <!--================ End of Entity ================-->
-                    </div>
-                  </div>
-                </div>
-                <!--================ End of Entities (Style 13) ================-->
+  <br>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <ul class="milenia-list--icon milenia-list--icon-big">
+        <li>Golfing<i class="fas fa-golf-ball"></i></li>
+        <li>Swimming<i class="milenia-font-icon-swimming"></i></li>
+        <li>Zipline<i class="milenia-font-icon-car"></i></li>
+        
+      </ul>
+    </div>
+    div class="col-sm-4">
+      <ul class="milenia-list--icon milenia-list--icon-big">
+        <li>Gaming<i class="fas fa-gamepad"></i></li>
+        <li>Soccer<i class="fas fa-futbol"></i></li>
+      </ul>
+    </div>
+    <div class="col-sm-4">
+      <ul class="milenia-list--icon milenia-list--icon-big">
+        <li>Water Sliding<i class="milenia-font-icon-pool"></i></li>
+        <li>Lawn Tennis<i class="milenia-font-icon-tennis"></i></li>
+        <li>Table Tennis<i class="fas fa-table-tennis"></i></li>
 
-
-              </div>
-            </section>
-            <!--================ End of Content Section ================-->
-            
-          </div>
-        </main>
-      </div>
+        
+        <li>Golf Cart Riding<i class="milenia-font-icon-car"></i></li>
+        <li>Quad Bike Riding<i class="milenia-font-icon-car"></i></li>
+        <li>Wonder Lake Tours (Cruise Boats, Jet Skis and more)<i class="fas fa-ship"></i></li>
+        <li>Picnicking<i class="milenia-font-icon-picnic"></i></li>
+        <li>Fishing<i class="milenia-font-icon-fish"></i></li>
+        <li>Bonfire Night Jamz<i class="milenia-font-icon-music"></i></li>
+      </ul>
     </div>
   </div>
+</div>
+<br>
 @endsection
