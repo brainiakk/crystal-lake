@@ -35,7 +35,7 @@
                     <div class="milenia-tabs-container">
                     <!--================ Tab ================-->
                     <div id="tab-description" tabindex="0" role="tabpanel" aria-labelledby="tab-description-link" class="milenia-tab">
-                        <p>Our Standard Rooms at the GENESIS building offer privacy, a view of greenery,  infusing calm with all the modern comforts at Crystal Lake Resort and Tours.</p><a href="#" data-fancybox-album-src="[{&quot;src&quot;: &quot;images/floor-plan.png&quot;, &quot;opts&quot;: {&quot;caption&quot;: &quot;The floor plan&quot;}}]" class="milenia-btn milenia-btn--link milenia-btn--scheme-primary"></a>
+                        <p>An offshoot from the Diplomatic Suites, our Royal Suites offer you the perfect accommodation to recharge between adventures and rest up before another day filled with getaway fun that is our trademark. In these spacious suites with plenty of spacious living spaces, sumptuous design and flawless attention to detail is just the start of your perfect vacation.</p><a href="#" data-fancybox-album-src="[{&quot;src&quot;: &quot;images/floor-plan.png&quot;, &quot;opts&quot;: {&quot;caption&quot;: &quot;The floor plan&quot;}}]" class="milenia-btn milenia-btn--link milenia-btn--scheme-primary"></a>
                     </div>
                     <!--================ End of Tab ================-->
                     <!--================ Tab ================-->

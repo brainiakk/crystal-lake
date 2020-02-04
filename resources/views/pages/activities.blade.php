@@ -23,29 +23,26 @@
       <ul class="milenia-list--icon milenia-list--icon-big">
         <li>Golfing<i class="fas fa-golf-ball"></i></li>
         <li>Swimming<i class="milenia-font-icon-swimming"></i></li>
-        <li>Zipline<i class="milenia-font-icon-car"></i></li>
-        
+        <li>Table Tennis<i class="fas fa-table-tennis"></i></li>
+        <li>Quad Bike Riding<i class="milenia-font-icon-car"></i></li>
+        <li>Fishing<i class="milenia-font-icon-fish"></i></li>
       </ul>
     </div>
-    div class="col-sm-4">
+    <div class="col-sm-4">
       <ul class="milenia-list--icon milenia-list--icon-big">
-        <li>Gaming<i class="fas fa-gamepad"></i></li>
+        <li>Arcade Gaming<i class="fas fa-gamepad"></i></li>
         <li>Soccer<i class="fas fa-futbol"></i></li>
+        <li>Zipline<i class="milenia-font-icon-car"></i></li>
+        <li>Bonfire Night Jamz<i class="milenia-font-icon-music"></i></li>
       </ul>
     </div>
     <div class="col-sm-4">
       <ul class="milenia-list--icon milenia-list--icon-big">
         <li>Water Sliding<i class="milenia-font-icon-pool"></i></li>
         <li>Lawn Tennis<i class="milenia-font-icon-tennis"></i></li>
-        <li>Table Tennis<i class="fas fa-table-tennis"></i></li>
-
-        
         <li>Golf Cart Riding<i class="milenia-font-icon-car"></i></li>
-        <li>Quad Bike Riding<i class="milenia-font-icon-car"></i></li>
-        <li>Wonder Lake Tours (Cruise Boats, Jet Skis and more)<i class="fas fa-ship"></i></li>
         <li>Picnicking<i class="milenia-font-icon-picnic"></i></li>
-        <li>Fishing<i class="milenia-font-icon-fish"></i></li>
-        <li>Bonfire Night Jamz<i class="milenia-font-icon-music"></i></li>
+        <li>Wonder Lake Tours (Cruise Boats, Jet Skis <br> and more)<i class="fas fa-ship"></i></li>
       </ul>
     </div>
   </div>
