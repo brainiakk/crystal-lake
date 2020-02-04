@@ -84,18 +84,20 @@
               <h5 class="milenia-widget-title">From Gallery</h5>
               <div class="gallery gallery-columns-2">
                 <figure class="gallery-item">
-                  <div class="gallery-icon"><a href="images/info-box-image-18.jpg"><img src="images/info-box-image-18.jpg" alt=""></a></div>
+                  <div class="gallery-icon"><a href="{{ asset('images/block_a.jfif') }}"><img src="{{ asset('images/block_a.jfif') }}" alt=""></a></div>
                 </figure>
                 <figure class="gallery-item">
-                  <div class="gallery-icon"><a href="images/info-box-image-19.jpg"><img src="images/info-box-image-19.jpg" alt=""></a></div>
+                  <div class="gallery-icon"><a href="{{ asset('images/home_gallery_3.jfif') }}"><img src="{{ asset('images/home_gallery_3.jfif') }}" alt=""></a></div>
                 </figure>
                 <figure class="gallery-item">
-                  <div class="gallery-icon"><a href="images/info-box-image-14.jpg"><img src="images/info-box-image-14.jpg" alt=""></a></div>
+                  <div class="gallery-icon"><a href="{{ asset('images/homepage_slide_2.jfif') }}"><img src="{{ asset('images/homepage_slide_2.jfif') }}" alt=""></a></div>
                 </figure>
                 <figure class="gallery-item">
-                  <div class="gallery-icon"><a href="images/info-box-image-15.jpg"><img src="images/info-box-image-15.jpg" alt=""></a></div>
+                  <div class="gallery-icon"><a href="{{ asset('images/home_gallery_12.jpg') }}"><img src="{{ asset('images/home_gallery_12.jpg') }}" alt=""></a></div>
                 </figure>
-              </div><a href="#" class="milenia-btn milenia-btn--scheme-primary milenia-btn--link">More Photos</a>
+                <!--================ Link to gallery ================-->
+              {{-- </div><a href="#" class="milenia-btn milenia-btn--scheme-primary milenia-btn--link">More Photos</a> --}}
+                <!--================ End of Link to gallery ================-->
             </div>
           </div>
         </section>
@@ -175,7 +177,8 @@
                             <!--================ End of Sub Menu ================-->
                           </li>
 
-                          <li class="menu-item menu-item-has-children"><a href="#" class="milenia-ln--independent">Accommodation</a>
+                          <li class="menu-item menu-item-has-children">
+                            <a href="#" class="milenia-ln--independent">Accommodation</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
                               <li class="menu-item"><a href="/rooms/standard" class="milenia-ln--independent">Standard Rooms</a>
@@ -184,13 +187,13 @@
                               </li>
                               <li class="menu-item"><a href="/rooms/studio" class="milenia-ln--independent">Studio Rooms</a>
                               </li>
-                              <li class="menu-item"><a href="/deluxe" class="milenia-ln--independent">Deluxe Rooms</a>
+                              <li class="menu-item"><a href="/rooms/deluxe" class="milenia-ln--independent">Deluxe Rooms</a>
                               </li>
                               <li class="menu-item"><a href="/rooms/royal" class="milenia-ln--independent">Royal Suites</a>
                               </li>
                               <li class="menu-item"><a href="/rooms/diplomatic" class="milenia-ln--independent">Diplomatic Suites</a>
                               </li>
-                              <li class="menu-item"><a href="/rooms/2bedroom" class="milenia-ln--independent">2 Bedroom Suites</a>
+                              <li class="menu-item"><a href="/rooms/2bedroom" class="milenia-ln--independent">Two-Bedroom Suites</a>
                               </li>
                             </ul>
                             <!--================ End of Sub Menu ================-->

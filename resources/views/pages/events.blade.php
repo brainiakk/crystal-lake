@@ -55,17 +55,17 @@
                   <div class="milenia-aligner-outer">
                     <div class="milenia-aligner-inner">
                       <header class="milenia-entity-header">
-                        <div class="milenia-entity-price">Free</div>
+                        <div class="milenia-entity-price">{{ $event->price }}</div>
                         <div class="milenia-entity-meta">
                           <div>
-                            <time datetime="2019-03-02T05:00:00Z">March 2-3, 2019 @ 12:00 AM - 5:00 PM</time>
+                            <time datetime="2019-03-02T05:00:00Z">{{ $event->start_date}} {{ $event->start_date === $event->end_date ? '' : "- {{ $event->end_date }}" }}</time>
                           </div>
-                          <div><a href="#" class="milenia-color--unchangeable">340 W 50th St, New York</a></div>
+                          <h4 class="milenia-color--unchangeable">{{ $event->venue }}</h4>
                         </div>
-                        <h2 class="milenia-entity-title"><a href="events_single.html" class="milenia-color--unchangeable">Nemo Enim Ipsam Voluptatem</a></h2>
+                        <h2 class="milenia-entity-title"><a href="events_single.html" class="milenia-color--unchangeable">{{ $event->title }}</a></h2>
                       </header>
                       <div class="milenia-entity-body">
-                        <p>Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.</p>
+                        <p>{{ $event->description }}</p>
                       </div>
                       <footer class="milenia-entity-footer"><a href="events_single.html" class="milenia-btn">More Details</a>
                         <div class="milenia-entity-extra-actions">

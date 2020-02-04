@@ -7,7 +7,7 @@
         <header class="milenia-page-header milenia-entity-single milenia-entity--room">
             <div class="row align-items-center milenia-columns-aligner--edges-lg">
             <div class="col-lg-9">
-                <h1>Standard Room</h1>
+                <h1>Royal Room</h1>
             </div>
             <div class="col-lg-3">
                 <div class="milenia-entity-meta">
@@ -255,6 +255,45 @@
                             </div>
                         </article>
                         <!--================ End of Entity ================-->
+                        <!--================ Entity ================-->
+                        <article class="milenia-entity">
+                            <div class="milenia-entity-media"><a href="#" class="milenia-ln--independent"><img src="{{ asset('images/oguta.c.jpg') }}" alt=""></a></div>
+                            <div class="milenia-entity-content">
+                            <div class="milenia-entity-header">
+                                <div class="milenia-entity-meta">
+                                <div>From N40,000/night</div>
+                                </div>
+                                <h2 class="milenia-entity-title"><a href="Deluxe Rooms.html" class="milenia-color--unchangeable">Deluxe Room</a></h2>
+                            </div>
+                            </div>
+                        </article>
+                        <!--================ End of Entity ================-->
+                         <!--================ Entity ================-->
+                         <article class="milenia-entity">
+                            <div class="milenia-entity-media"><a href="#" class="milenia-ln--independent"><img src="{{ asset('images/oguta.c.jpg') }}" alt=""></a></div>
+                            <div class="milenia-entity-content">
+                            <div class="milenia-entity-header">
+                                <div class="milenia-entity-meta">
+                                <div>From N40,000/night</div>
+                                </div>
+                                <h2 class="milenia-entity-title"><a href="Deluxe Rooms.html" class="milenia-color--unchangeable">Deluxe Room</a></h2>
+                            </div>
+                            </div>
+                        </article>
+                        <!--================ End of Entity ================--> 
+                        <!--================ Entity ================-->
+                        <article class="milenia-entity">
+                            <div class="milenia-entity-media"><a href="#" class="milenia-ln--independent"><img src="{{ asset('images/oguta.c.jpg') }}" alt=""></a></div>
+                            <div class="milenia-entity-content">
+                            <div class="milenia-entity-header">
+                                <div class="milenia-entity-meta">
+                                <div>From N40,000/night</div>
+                                </div>
+                                <h2 class="milenia-entity-title"><a href="Deluxe Rooms.html" class="milenia-color--unchangeable">Deluxe Room</a></h2>
+                            </div>
+                            </div>
+                        </article>
+                        <!--================ End of Entity ================--> 
                         <!--================ Entity ================-->
                         <article class="milenia-entity">
                             <div class="milenia-entity-media"><a href="#" class="milenia-ln--independent"><img src="{{ asset('images/oguta.c.jpg') }}" alt=""></a></div>
