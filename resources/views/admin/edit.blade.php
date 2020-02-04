@@ -1,7 +1,6 @@
 @extends('layouts.admin')
 @section('title', 'Edit Event')
 @section('content')
- <div class="content-body">
             <!-- row -->
     <div class="container-fluid">
         <div class="row justify-content-center">
@@ -33,5 +32,4 @@
             </div>
         </div>
     </div>
-</div>
 @endsection

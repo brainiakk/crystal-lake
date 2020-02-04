@@ -151,8 +151,29 @@ class EventsController extends Controller
      * @param  \App\Events  $events
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Events $events)
+    public function destroy(Request $request, $eventId)
     {
-        //
+
+        if (\Auth::user()->level) {
+            $events = Events::findOrFail($eventId);
+            $chk = Events::where('user_id', \Auth::id())->where('event_id', $eventId)->first();
+            if (is_null($chk)) {
+                Session::flash('error', "Event wasn't created by You!!");
+                return Redirect::back();
+            }else {
+                $events = $chk;
+            }
+        } else {
+            return redirect('/login');
+        }
+
+
+        if ($events->delete()) {
+            Session::flash('success', "Event Deleted Successfully!!");
+            return Redirect::back();
+        } else {
+            Session::flash('error', "Event Deletion Failed!!");
+            return Redirect::back();
+        }
     }
 }

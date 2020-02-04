@@ -1,7 +1,6 @@
 @extends('layouts.admin')
 @section('title', 'Create Event')
 @section('content')
- <div class="content-body">
             <!-- row -->
     <div class="container-fluid">
         <div class="row">
@@ -13,6 +12,7 @@
                     <div class="card-body">
                         <div class="table-responsive">
                             <table class="table table-bordered table-striped verticle-middle table-responsive-sm">
+                                    @if (count($events) > 0)
                                 <thead>
                                     <tr>
                                         <th scope="col">Title</th>
@@ -23,7 +23,6 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @if (count($events) > 0)
                                         @foreach ($events as $event)
                                     <tr>
                                         <td>{{ $event->title }}</td>
@@ -38,18 +37,24 @@
                                         </td>
                                         <td>
                                             <span>
-                                            <a href="{{ url('/admin/edit', $event->event_id) }}" class="mr-4" data-toggle="tooltip" data-placement="top" title="Edit"><i
-                                                        class="fa fa-pencil color-muted"></i> </a><a href="javascript:void()"
-                                                    data-toggle="tooltip" data-placement="top" title="Close"><i
-                                                        class="fa fa-close color-danger"></i></a></span>
+                                                <a href="{{ url('/admin/edit', $event->event_id) }}" class="mr-4" data-toggle="tooltip" data-placement="top" title="Edit Event">
+                                                    <i class="fa fa-pencil color-muted"></i>
+                                                </a>
+
+                                                <a href="{{ url('/admin/delete', $event->event_id) }}" data-toggle="tooltip" data-placement="top" title="Delete Event">
+                                                    <i class="fa fa-close color-danger"></i>
+                                                </a>
+                                            </span>
                                         </td>
                                     </tr>
                                         @endforeach
                                         <div class="pagination">{!! $events->links() !!}</div>
-                                    @else
-
-                                    @endif
                                 </tbody>
+                                    @else
+                                    <tr>
+                                        <h6>No Event Created Yet - <a href="{{ url('/admin/create_events') }}" style="color: orange;"> Create New Event</a></h6>
+                                    </tr>
+                                    @endif
                             </table>
                         </div>
                     </div>
@@ -57,5 +62,4 @@
             </div>
         </div>
     </div>
-</div>
 @endsection
