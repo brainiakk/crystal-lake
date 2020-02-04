@@ -64,7 +64,7 @@
                             @endif
                             , {{ $event->start_date->format('Y') }}</div>
                         </div>
-                        <div data-bg-image-src="images/events-image-1.jpg" class="milenia-entity-media"><a href="events_single.html" class="milenia-ln--independent"><img src="images/events-image-1.jpg" alt=""></a></div>
+                        <div data-bg-image-src="{{ asset('/event_images/'.$event->image) }}" class="milenia-entity-media"><a href="" class="milenia-ln--independent"><img src="{{ asset('/event_images/'.$event->image) }}" alt=""></a></div>
                         <div class="milenia-entity-content milenia-aligner">
                         <div class="milenia-aligner-outer">
                             <div class="milenia-aligner-inner">
@@ -80,17 +80,15 @@
                                 <div>
                                     <time datetime="2019-03-02T05:00:00Z">March 2-3, 2019 @ 12:00 AM - 5:00 PM</time>
                                 </div>
-                                <div><a href="#" class="milenia-color--unchangeable">340 W 50th St, New York</a></div>
+                            <div><a href="#" class="milenia-color--unchangeable">{{ $event->venue }}</a></div>
                                 </div>
-                            <h2 class="milenia-entity-title"><a href="events_single.html" class="milenia-color--unchangeable">{{ $event->title }}</a></h2>
+                            <h2 class="milenia-entity-title"><a href="{{ url('/events', $event->event_id) }}" class="milenia-color--unchangeable">{{ $event->title }}</a></h2>
                             </header>
                             <div class="milenia-entity-body">
-                                <p>Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.</p>
+                                <p>{{ \Str::limit($event->desc, 200) }}</p>
                             </div>
-                            <footer class="milenia-entity-footer"><a href="events_single.html" class="milenia-btn">More Details</a>
-                                <div class="milenia-entity-extra-actions">
-                                <button type="button" data-arctic-modal="#share-modal" class="milenia-icon-btn"><i class="icon icon-share2"></i></button><a href="#" class="milenia-ln--independent milenia-icon-btn"><i class="icon icon-map-marker"></i></a><a href="#" class="milenia-ln--independent milenia-icon-btn"><i class="icon icon-at-sign"></i></a>
-                                </div>
+                            <footer class="milenia-entity-footer"><a href="{{ url('/events', $event->event_id) }}" class="milenia-btn">More Details</a>
+
                             </footer>
                             </div>
                         </div>
