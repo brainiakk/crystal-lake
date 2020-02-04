@@ -24,7 +24,7 @@ class EventsController extends Controller
      */
     public function index()
     {
-        $events = Events::whereStatus('1')->paginate(5);
+        $events = Events::whereStatus(1)->get();
         return view('pages.events', ['events' => $events]);
     }
 

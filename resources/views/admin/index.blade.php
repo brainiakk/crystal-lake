@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('title', 'Create Event')
+@section('title', 'Admin Dashboard')
 @section('content')
             <!-- row -->
     <div class="container-fluid">
