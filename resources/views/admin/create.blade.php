@@ -1,7 +1,6 @@
 @extends('layouts.admin')
 @section('title', 'Create Event')
 @section('content')
-            <!-- row -->
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-lg-6">
