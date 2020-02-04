@@ -47,11 +47,9 @@
 
 
                                 <div class="form-group">
-                                    <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="1" name="status" id="gridCheck">
-                                    <label class="form-check-label" for="gridCheck">
-                                        Publish
-                                    </label>
-                                    </div>
+                                    <select class="form-control"  name="status" for="gridCheck">
+                                        <option value="1" @if($event->status == 1) selected @endif> Publish</option>
+                                        <option value="0" @if($event->status == 0) selected @endif> Draft</option>
+                                    </select>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Publish Event</button>

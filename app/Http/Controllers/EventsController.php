@@ -68,12 +68,13 @@ class EventsController extends Controller
 
         if ($request->hasfile('image')) {
             $image = $request->file('image');
-            $filename = Carbon::now()->format('Y-m-d-H:i:s'). '.' . $image->getClientOriginalExtension();
+            $filename = Carbon::now()->format('Y-m-d-H-i-s'). '.' . $image->getClientOriginalExtension();
             $location = public_path('event_images/') . $filename;
 
-            Image::make($image)->save($location);
-
+            Image::make($image)->resize(545, 390)->save($location);
             $event->image = $filename;
+        }else{
+            $event->image = "";
         }
 
 
@@ -151,15 +152,27 @@ class EventsController extends Controller
         if (!is_null($update)) {
             if ($request->hasfile('image')) {
             $image = $request->file('image');
-            $filename = Carbon::now()->format('Y-m-d-H:i:s'). '.' . $image->getClientOriginalExtension();
+            $filename = Carbon::now()->format('Y-m-d-H-i-s'). '.' . $image->getClientOriginalExtension();
             $location = public_path('event_images/') . $filename;
 
-            Image::make($image)->save($location);
-
+            Image::make($image)->resize(545, 390)->save($location);
             $rfilename = $filename;
+            }else{
+                $filename = $update->image;
             }
+            $update->status = $request->status;
+            $update->title = $request->title;
+            $update->desc = $request->desc;
+            $update->venue = $request->venue;
+            $update->price = $request->price;
+            $update->start_date = $request->start_date;
+            $update->end_date = $request->end_date;
+            $update->start_time = $request->start_time;
+            $update->end_time = $request->end_time;
+
+
             if ($update->update([
-            'image' => $filename
+            'image' => $filename,
             ],$request->except(['_token', '_method']))) {
                 // event(new BlogPostEdited($new_blog_post));
                 Session::flash('success', "Event Edited Successfully!!");

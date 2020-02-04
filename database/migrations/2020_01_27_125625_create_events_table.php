@@ -24,8 +24,8 @@ class CreateEventsTable extends Migration
             $table->date('end_date');
             $table->time('start_time');
             $table->time('end_time');
-            $table->integer('status');
-            $table->string('price');
+            $table->integer('status')->nullable();
+            $table->string('price')->nullable();
             $table->timestamps();
         });
     }
