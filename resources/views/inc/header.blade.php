@@ -239,7 +239,7 @@
                             <!--================ End of Sub Menu ================-->
                           </li>
 
-                          <li class="menu-item"><a href="/reservation"  class="milenia-ln--independent">Make a Reservation</a></li>
+                          <li class="menu-item"><a href="{{ url('/reservation') }}"  class="milenia-ln--independent">Make a Reservation</a></li>
                       </nav>
                       <!--================ End of Navigation ================-->
                     </div>

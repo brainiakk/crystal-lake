@@ -69,7 +69,7 @@ class EventsController extends Controller
         if ($request->hasfile('image')) {
             $image = $request->file('image');
             $filename = Carbon::now()->format('Y-m-d-H-i-s'). '.' . $image->getClientOriginalExtension();
-            $location = public_path('event_images/') . $filename;
+            $location = public_path('event_images/' . $filename);
 
             Image::make($image)->resize(545, 390)->save($location);
             $event->image = $filename;
