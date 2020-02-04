@@ -29,7 +29,11 @@
                 <!--================ Tabs ================-->
                 <div class="milenia-tabs milenia-tabs--style-2 milenia-tabs--tour-sections-lg">
                     <!--================ Tabs Navigation ================-->
-                    <div role="tablist" aria-label="Tour Sections v1" class="milenia-tabs-nav"><span class="milenia-active"><a id="tab-description-link" href="#tab-description" role="tab" aria-selected="false" aria-controls="tab-description" class="milenia-ln--independent milenia-tab-link">Description</a></span><span><a id="tab-amenities-link" href="#tab-amenities" role="tab" aria-selected="true" aria-controls="tab-amenities" class="milenia-ln--independent milenia-tab-link">Amenities</a></span><span><a id="tab-rates-link" href="#tab-rates" role="tab" aria-selected="false" aria-controls="tab-rates" class="milenia-ln--independent milenia-tab-link">Rates</a></span><span><a id="tab-reviews-link" href="#tab-reviews" role="tab" aria-selected="false" aria-controls="tab-reviews" class="milenia-ln--independent milenia-tab-link">Reviews</a></span></div>
+                    <div role="tablist" aria-label="Tour Sections v1" class="milenia-tabs-nav">
+                        <span class="milenia-active"><a id="tab-description-link" href="#tab-description" role="tab" aria-selected="false" aria-controls="tab-description" class="milenia-ln--independent milenia-tab-link">Description</a></span>
+                        <span><a id="tab-amenities-link" href="#tab-amenities" role="tab" aria-selected="true" aria-controls="tab-amenities" class="milenia-ln--independent milenia-tab-link">Amenities</a></span>
+                        {{-- <span><a id="tab-rates-link" href="#tab-rates" role="tab" aria-selected="false" aria-controls="tab-rates" class="milenia-ln--independent milenia-tab-link">Rates</a></span> --}}
+                        <span><a id="tab-reviews-link" href="#tab-reviews" role="tab" aria-selected="false" aria-controls="tab-reviews" class="milenia-ln--independent milenia-tab-link"></a></span></div>
                     <!--================ End of Tabs Navigation ================-->
                     <!--================ Tabs Container ================-->
                     <div class="milenia-tabs-container">
@@ -141,7 +145,7 @@
                         <ol class="comments-list">
                             <li class="comment">
                             <div class="comment-body">
-                                <div class="comment-author-avatar"><a href="#" class="milenia-color--unchangeable"><img src="images/author-image-4.png" alt="Camala Haddon"></a></div>
+                                <div class="comment-author-avatar"><a href="#" class="milenia-color--unchangeable"><img src="{{ asset('images/author-image-4.png') }}" alt="Camala Haddon"></a></div>
                                 <div class="comment-author-info">
                                 <cite class="fn milenia-text-color--dark">Camala Haddon</cite>
                                 <div class="comment-meta row milenia-columns-aligner--edges-md align-items-center">
@@ -158,7 +162,7 @@
                             </li>
                             <li class="comment">
                             <div class="comment-body">
-                                <div class="comment-author-avatar"><a href="#" class="milenia-color--unchangeable"><img src="images/author-image-5.png" alt="Bradley Grosh"></a></div>
+                                <div class="comment-author-avatar"><a href="#" class="milenia-color--unchangeable"><img src="{{ asset('images/author-image-5.png') }}" alt="Bradley Grosh"></a></div>
                                 <div class="comment-author-info">
                                 <cite class="fn milenia-text-color--dark">Bradley Grosh</cite>
                                 <div class="comment-meta row milenia-columns-aligner--edges-md align-items-center">
