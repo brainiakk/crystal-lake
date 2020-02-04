@@ -17,13 +17,20 @@ class ReservationMail extends Mailable
     public $guest_num;
     public $start_date;
     public $end_date;
+    public $standard;
+    public $deluxe;
+    public $studio;
+    public $executive;
+    public $royal;
+    public $diplomatic;
+    public $bedroom;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($name, $tel, $email, $room_num, $guest_num, $start_date, $end_date)
+    public function __construct($name, $tel, $email, $room_num, $guest_num, $start_date, $end_date, $standard, $deluxe, $studio, $royal, $diplomatic, $executive, $bedroom)
     {
         $this->name = $name;
         $this->tel = $tel;
@@ -32,6 +39,13 @@ class ReservationMail extends Mailable
         $this->guest_num = $guest_num;
         $this->start_date = $start_date;
         $this->end_date = $end_date;
+        $this->standard = $standard;
+        $this->deluxe = $deluxe;
+        $this->executive = $executive;
+        $this->royal = $royal;
+        $this->diplomatic = $diplomatic;
+        $this->bedroom = $bedroom;
+        $this->studio = $studio;
     }
 
 

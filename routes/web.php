@@ -37,11 +37,12 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
         return view('admin.create');
     });
     Route::get('/edit/{eventId}', 'EventsController@edit');
+    Route::get('/delete/{eventId}', 'EventsController@destroy');
     Route::post('store_event', 'EventsController@store')->name('store.event');
-    Route::post('update_event', 'EventsController@update')->name('update.event');
+    Route::patch('update_event/{eventId}', 'EventsController@update')->name('update.event');
 });
 
-// Auth::routes(['register' => false]);
-Auth::routes();
+Auth::routes(['register' => false]);
+// Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

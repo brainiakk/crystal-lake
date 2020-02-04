@@ -107,7 +107,12 @@ class EventsController extends Controller
     public function edit($eventId)
     {
         $event = Events::findOrFail($eventId);
-        return view('admin.edit')->withEvent($event);
+        if ($event) {
+            return view('admin.edit')->withEvent($event);
+        } else {
+            Session::flash('error', "No Such Event Exists!!");
+            return Redirect::back();
+        }
 
     }
 
@@ -140,9 +145,35 @@ class EventsController extends Controller
      * @param  \App\Events  $events
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Events $events)
+    public function update(Request $request, $eventId)
     {
-        //
+        $update = Events::find($eventId);
+        if (!is_null($update)) {
+            if ($request->hasfile('image')) {
+            $image = $request->file('image');
+            $filename = Carbon::now()->format('Y-m-d-H:i:s'). '.' . $image->getClientOriginalExtension();
+            $location = public_path('event_images/') . $filename;
+
+            Image::make($image)->save($location);
+
+            $rfilename = $filename;
+            }
+            if ($update->update([
+            'image' => $filename
+            ],$request->except(['_token', '_method']))) {
+                // event(new BlogPostEdited($new_blog_post));
+                Session::flash('success', "Event Edited Successfully!!");
+                return Redirect::back();
+            } else {
+                Session::flash('error', "Event Editing Failed!!");
+                return Redirect::back();
+            }
+        } else {
+                Session::flash('error', "No Such Event Exists!!");
+                return Redirect::back();
+        }
+
+
     }
 
     /**
@@ -151,8 +182,29 @@ class EventsController extends Controller
      * @param  \App\Events  $events
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Events $events)
+    public function destroy(Request $request, $eventId)
     {
-        //
+
+        if (\Auth::user()->level) {
+            $events = Events::findOrFail($eventId);
+            $chk = Events::where('user_id', \Auth::id())->where('event_id', $eventId)->first();
+            if (is_null($chk)) {
+                Session::flash('error', "Event wasn't created by You!!");
+                return Redirect::back();
+            }else {
+                $events = $chk;
+            }
+        } else {
+            return redirect('/login');
+        }
+
+
+        if ($events->delete()) {
+            Session::flash('success', "Event Deleted Successfully!!");
+            return Redirect::back();
+        } else {
+            Session::flash('error', "Event Deletion Failed!!");
+            return Redirect::back();
+        }
     }
 }
