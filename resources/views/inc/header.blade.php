@@ -216,9 +216,9 @@
                           <li class="menu-item menu-item-has-children"><a href="events_list.html" class="milenia-ln--independent">Facilities</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
-                              <li class="menu-item"><a href="{{ url('') }}" class="milenia-ln--independent">Food and Drink</a>
+                              <li class="menu-item"><a href="{{ url('/food') }}" class="milenia-ln--independent">Food and Drink</a>
                               </li>
-                              <li class="menu-item"><a href="{{ url('') }}" class="milenia-ln--independent">Conference Hall and Boardroom</a>
+                              <li class="menu-item"><a href="{{ url('/conference') }}" class="milenia-ln--independent">Conference Hall and Boardroom</a>
                               </li>
                               <li class="menu-item"><a href="{{ url('/funspots') }}" class="milenia-ln--independent">Fun Spots and Equipment</a>
                               </li>
@@ -231,9 +231,9 @@
                           <li class="menu-item menu-item-has-children"><a href="#" class="milenia-ln--independent">Special Offers</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="{{ url('') }}" class="milenia-ln--independent">Family Packages</a></li>
-                                <li class="menu-item"><a href="{{ url('') }}" class="milenia-ln--independent">Singles Packages</a></li>
-                                <li class="menu-item"><a href="{{ url('') }}" class="milenia-ln--independent">Group Packages</a></li>
+                                <li class="menu-item"><a href="{{ url('/family') }}" class="milenia-ln--independent">Family Packages</a></li>
+                                <li class="menu-item"><a href="{{ url('/singles') }}" class="milenia-ln--independent">Singles Packages</a></li>
+                                <li class="menu-item"><a href="{{ url('/groups') }}" class="milenia-ln--independent">Group Packages</a></li>
                             </ul>
                             <!--================ End of Sub Menu ================-->
                           </li>

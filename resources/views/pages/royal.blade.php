@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Crystal Lake | About Us')
+@section('title', 'Crystal Lake | Royal Room')
 
 @section('content')
 <hr>
@@ -8,7 +8,7 @@
         <header class="milenia-page-header milenia-entity-single milenia-entity--room">
             <div class="row align-items-center milenia-columns-aligner--edges-lg">
             <div class="col-lg-9">
-                <h1>Royal Room</h1>
+                <h1>Royal Suite</h1>
             </div>
             <div class="col-lg-3">
                 <div class="milenia-entity-meta">
@@ -22,9 +22,9 @@
             <div class="row">
             <main class="col-lg-9 col-md-8 milenia-entity-single milenia-entity--room">
                 <div class="milenia-entity-content">
-                <div id="simple-slideshow-1" class="owl-carousel milenia-simple-slideshow"><img src="{{ asset('images/standard_room_1.jpg') }}" alt=""><img src="{{ asset('images/standard_room_2.jpg') }}" alt=""><img src="{{ asset('images/standard_room_3.jpg') }}" alt=""><img src="{{ asset('images/standard_room_4.jpg') }}" alt=""><img src="{{ asset('images/standard_room_5.jpg') }}" alt=""><img src="{{ asset('images/standard_room_6.jpg') }}" alt=""><img src="{{ asset('images/standard_room_7.jpg') }}" alt="">
+                <div id="simple-slideshow-1" class="owl-carousel milenia-simple-slideshow"><img src="{{ asset('images/royal-suite_1.png') }}" alt=""><img src="{{ asset('images/royal-suite_2.png') }}" alt=""><img src="{{ asset('images/royal-suite_3.png') }}" alt=""><img src="{{ asset('images/royal-suite_4.png') }}" alt="">
                 </div>
-                <div data-sync="#simple-slideshow-1" class="owl-carousel owl-carousel--nav-edges owl-carousel--nav-onhover owl-carousel--nav-small milenia-simple-slideshow-thumbs"><img src="{{ asset('images/standard_room_1.jpg') }}" alt=""><img src="{{ asset('images/standard_room_2.jpg') }}" alt=""><img src="{{ asset('images/standard_room_3.jpg') }}" alt=""><img src="{{ asset('images/standard_room_4.jpg') }}" alt=""><img src="{{ asset('images/standard_room_5.jpg') }}" alt=""><img src="{{ asset('images/standard_room_6.jpg') }}" alt=""><img src="{{ asset('images/standard_room_7.jpg') }}" alt="">
+                <div data-sync="#simple-slideshow-1" class="owl-carousel owl-carousel--nav-edges owl-carousel--nav-onhover owl-carousel--nav-small milenia-simple-slideshow-thumbs"><img src="{{ asset('images/royal-suite_1.png') }}" alt=""><img src="{{ asset('images/royal-suite_2.png') }}" alt=""><img src="{{ asset('images/royal-suite_3.png') }}" alt=""><img src="{{ asset('images/royal-suite_4.png') }}" alt="">
                 </div>
                 <!--================ Tabs ================-->
                 <div class="milenia-tabs milenia-tabs--style-2 milenia-tabs--tour-sections-lg">

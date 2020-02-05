@@ -30,6 +30,12 @@ Route::get('/rooms/diplomatic', 'RoomsController@diplomatic');
 Route::get('/rooms/2bedroom', 'RoomsController@two_bedroom');
 
 Route::get('/meetings', 'PagesController@meetings');
+Route::get('/socialgatherings', 'PagesController@socialgatherings');
+Route::get('/singles', 'PagesController@singles');
+Route::get('/groups', 'PagesController@groups');
+Route::get('/food', 'PagesController@food');
+Route::get('/conference', 'PagesController@conference');
+Route::get('/family', 'PagesController@family');
 
 
 /* Admin backend routes - CRUD for posts, categories, and approving/deleting submitted comments */

@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Crystal Lake | About Us')
+@section('title', 'Crystal Lake | Events')
 
 @section('content')
     {{-- <div id="wrapper">
