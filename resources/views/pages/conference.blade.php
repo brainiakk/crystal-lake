@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Crystal Lake | Meetings')
+@section('title', 'Crystal Lake | Hall & Boardroom')
 
 @section('content')
 <hr>
@@ -13,7 +13,7 @@
               <div class="milenia-entity-content">
                 <!--================ Content Section ================-->
                 <section class="milenia-section milenia-body--scheme-lightbrown">
-                  <h3>MEETINGS AT CRYSTAL LAKE</h3>
+                  <h3>CONFERENCE HALL AND BOARDROOM</h3>
                   <!--================ Tabbed Carousel ================-->
                   <div class="milenia-tabbed-carousel">
                     <!--================ Entities (Style 15) ================-->
@@ -24,18 +24,21 @@
                           <article class="milenia-entity">
                             <div class="milenia-entity-media">
                               <div class="owl-carousel owl-carousel--vadaptive milenia-simple-slideshow">
-                                <div data-bg-image-src="{{ asset('images/meetings_1.jpg') }}" class="milenia-entity-slide"></div>
-                                <div data-bg-image-src="{{ asset('images/meetings_2.jpg') }}" class="milenia-entity-slide"></div>
+                                <div data-bg-image-src="{{ asset('images/conference_room_1.jpeg') }}" class="milenia-entity-slide"></div>
                               </div>
                             </div>
                             <div class="milenia-entity-content milenia-aligner">
                               <div class="milenia-aligner-outer">
                                 <div class="milenia-aligner-inner">
                                   <header class="milenia-entity-header">
-                                    <h2 class="milenia-entity-title"><a href="#" class="milenia-color--unchangeable">Meetings</a></h2>
+                                    <h2 class="milenia-entity-title"><a href="#" class="milenia-color--unchangeable"></a></h2>
                                   </header>
                                   <div class="milenia-entity-body">
-                                    <p>Our meeting spaces have been one of the reasons our guests keep coming back to host their events here. We also cater for and host Government functions. We remain first choice for other organizations, corporate or otherwise. With excellent staff support, flexible sitting arrangements, natural lighting and ultra-modern amenities, our executive-style Board Room and 800 Capacity Conference Hall gives you the perfect venue to host that event that will <strong>WOW</strong> your guests and keep them talking long after.</p>
+                                      
+                                    {{-- Text Content --}}
+                                    <p></p>
+                                    {{-- Text Content --}}
+
                                   </div>
                                 </div>
                               </div>

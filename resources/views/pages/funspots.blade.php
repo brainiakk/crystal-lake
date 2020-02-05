@@ -17,22 +17,30 @@
             <div class="milenia-grid milenia-grid--cols-1 milenia-grid--no-gutters">
                 <!--================ Pool Bar Section ================-->
                 <div class="milenia-grid-item">
-                <article class="milenia-entity milenia-entity--format-image">
-                  <div class="milenia-entity-media"><a href="#" aria-labelledby="entity-heading-10" data-bg-image-src="{{ asset('images/poolbar.jpeg') }}" class="milenia-entity-link milenia-ln--independent"></a></div>
-                  <div class="milenia-entity-content milenia-aligner">
-                    <div class="milenia-aligner-outer">
-                      <div class="milenia-aligner-inner">
-                        <header class="milenia-entity-header">
-                          <h2 id="entity-heading-10" class="milenia-entity-title"><a href="undefined" class="milenia-color--unchangeable">Pool Bar</a></h2>
-                        </header>
-                        <div class="milenia-entity-body">
-                          <p>DJ spinning, wine list updated, sea breeze caressing your body and the surrounding vista surpassing your imaginations…………..welcome to our Poolside bar. Strategically positioned between the swimming pool, lake, basketball and lawn tennis courts; this particular spot checks all your boxes for a fun-filled resort relaxation.</p>
+                  <article class="milenia-entity milenia-entity--format-slideshow">
+                    <div class="milenia-entity-media">
+                      <div class="owl-carousel owl-carousel--vadaptive milenia-simple-slideshow">
+                        <div data-bg-image-src="{{ asset('images/poolbar.jpeg') }}" class="milenia-entity-slide"></div>
+                        <div data-bg-image-src="{{ asset('images/poolbar_2.jpg') }}" class="milenia-entity-slide"></div>
+                        <div data-bg-image-src="{{ asset('images/poolbar_3.jpeg') }}" class="milenia-entity-slide"></div>
+                        <div data-bg-image-src="{{ asset('images/poolbar_4.jpeg') }}" class="milenia-entity-slide"></div>
+                        <div data-bg-image-src="{{ asset('images/poolbar_5.jpeg') }}" class="milenia-entity-slide"></div>
+                      </div>
+                    </div>
+                    <div class="milenia-entity-content milenia-aligner">
+                      <div class="milenia-aligner-outer">
+                        <div class="milenia-aligner-inner">
+                          <header class="milenia-entity-header">
+                            <h2 class="milenia-entity-title"><a href="undefined" class="milenia-color--unchangeable">Pool Bar</a></h2>
+                          </header>
+                          <div class="milenia-entity-body">
+                            <p>DJ spinning, wine list updated, sea breeze caressing your body and the surrounding vista surpassing your imaginations…………welcome to our Poolside bar. Strategically positioned between the swimming pool, lake, basketball and lawn tennis courts; this particular spot checks all your boxes for a fun-filled resort relaxation.</p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </article>
-              </div>
+                  </article>
+                </div>
               <!--================ End of Pool Bar Section ================-->
               <!--================ Dividing space ================-->
               <div class="milenia-grid-item">
@@ -72,6 +80,7 @@
                     <div class="owl-carousel owl-carousel--vadaptive milenia-simple-slideshow">
                       <div data-bg-image-src="{{ asset('images/swimming_pool.png') }}" class="milenia-entity-slide"></div>
                       <div data-bg-image-src="{{ asset('images/swimming_pool_2.png') }}" class="milenia-entity-slide"></div>
+                      <div data-bg-image-src="{{ asset('images/swimming_pool_3.jpeg') }}" class="milenia-entity-slide"></div>
                     </div>
                   </div>
                   <div class="milenia-entity-content milenia-aligner">
@@ -89,6 +98,138 @@
                 </article>
               </div>
               <!--================ End of Swimming Pool Section ================-->
+              <!--================ Dividing space ================-->
+              <div class="milenia-grid-item">
+                <br>
+                <br>
+              </div>
+              <!--================ End of Dividing space ================-->
+              <!--================ Jet Ski Section ================-->
+              <div class="milenia-grid-item">
+                <article class="milenia-entity milenia-entity--format-slideshow">
+                  <div class="milenia-entity-media">
+                    <div class="owl-carousel owl-carousel--vadaptive milenia-simple-slideshow">
+                      <div data-bg-image-src="{{ asset('images/jetski.jpg') }}" class="milenia-entity-slide"></div>
+                    </div>
+                  </div>
+                  <div class="milenia-entity-content milenia-aligner">
+                    <div class="milenia-aligner-outer">
+                      <div class="milenia-aligner-inner">
+                        <header class="milenia-entity-header">
+                          <h2 class="milenia-entity-title"><a href="undefined" class="milenia-color--unchangeable">Jet Ski</a></h2>
+                        </header>
+                        <div class="milenia-entity-body">
+
+                          {{-- Text content --}}
+                          <p></p>
+                          {{-- Text content --}}
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <!--================ End of Jet Ski Section ================-->
+              <!--================ Dividing space ================-->
+              <div class="milenia-grid-item">
+                <br>
+                <br>
+              </div>
+              <!--================ End of Dividing space ================-->
+              <!--================ White Sand Beach Section ================-->
+              <div class="milenia-grid-item">
+                <article class="milenia-entity milenia-entity--format-slideshow">
+                  <div class="milenia-entity-media">
+                    <div class="owl-carousel owl-carousel--vadaptive milenia-simple-slideshow">
+                      <div data-bg-image-src="{{ asset('images/white_sand_beach.jpg') }}" class="milenia-entity-slide"></div>
+                    </div>
+                  </div>
+                  <div class="milenia-entity-content milenia-aligner">
+                    <div class="milenia-aligner-outer">
+                      <div class="milenia-aligner-inner">
+                        <header class="milenia-entity-header">
+                          <h2 class="milenia-entity-title"><a href="undefined" class="milenia-color--unchangeable">White Sand Beach</a></h2>
+                        </header>
+                        <div class="milenia-entity-body">
+
+                          {{-- Text content --}}
+                          <p></p>
+                          {{-- Text content --}}
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <!--================ End of White Sand Beach Section ================-->
+              <!--================ Dividing space ================-->
+              <div class="milenia-grid-item">
+                <br>
+                <br>
+              </div>
+              <!--================ End of Dividing space ================-->
+              <!--================ Wonder Lake Tours Section ================-->
+              <div class="milenia-grid-item">
+                <article class="milenia-entity milenia-entity--format-slideshow">
+                  <div class="milenia-entity-media">
+                    <div class="owl-carousel owl-carousel--vadaptive milenia-simple-slideshow">
+                      <div data-bg-image-src="{{ asset('images/wonder_lake_tours.jpg') }}" class="milenia-entity-slide"></div>
+                    </div>
+                  </div>
+                  <div class="milenia-entity-content milenia-aligner">
+                    <div class="milenia-aligner-outer">
+                      <div class="milenia-aligner-inner">
+                        <header class="milenia-entity-header">
+                          <h2 class="milenia-entity-title"><a href="undefined" class="milenia-color--unchangeable">Wonder Lake Tours</a></h2>
+                        </header>
+                        <div class="milenia-entity-body">
+
+                          {{-- Text content --}}
+                          <p></p>
+                          {{-- Text content --}}
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <!--================ End of Wonder Lake Tours Section ================-->
+              <!--================ Dividing space ================-->
+              <div class="milenia-grid-item">
+                <br>
+                <br>
+              </div>
+              <!--================ End of Dividing space ================-->
+              <!--================ Cruise Boat Section ================-->
+              <div class="milenia-grid-item">
+                <article class="milenia-entity milenia-entity--format-slideshow">
+                  <div class="milenia-entity-media">
+                    <div class="owl-carousel owl-carousel--vadaptive milenia-simple-slideshow">
+                      <div data-bg-image-src="{{ asset('images/cruise_boat.jpg') }}" class="milenia-entity-slide"></div>
+                    </div>
+                  </div>
+                  <div class="milenia-entity-content milenia-aligner">
+                    <div class="milenia-aligner-outer">
+                      <div class="milenia-aligner-inner">
+                        <header class="milenia-entity-header">
+                          <h2 class="milenia-entity-title"><a href="undefined" class="milenia-color--unchangeable">Cruise Boat</a></h2>
+                        </header>
+                        <div class="milenia-entity-body">
+
+                          {{-- Text content --}}
+                          <p></p>
+                          {{-- Text content --}}
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <!--================ End of Cruise Boat Section ================-->
             </div>
           </div>
           <!--================ End of Entities (Style 3) ================-->

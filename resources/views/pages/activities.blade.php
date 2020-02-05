@@ -17,7 +17,9 @@
   </div>
   <!--================ End of Breadcrumb ================-->
   <br>
+  
   <div class="container">
+    {{-- Activities List Icons --}}
   <div class="row">
     <div class="col-sm-4">
       <ul class="milenia-list--icon milenia-list--icon-big">
@@ -46,6 +48,127 @@
       </ul>
     </div>
   </div>
+  {{-- End of Activities List Icons --}}
+
+  {{-- Activities Photos --}}
+  <div class="row">
+    <main class="col">
+      <div class="milenia-entity-content">
+        <!--================ Content Section ================-->
+        <section class="milenia-section milenia-body--scheme-lightbrown">
+          <div class="milenia-section">
+            <!--================ Entities (Style 14) ================-->
+            <div class="milenia-entities milenia-entities--style-14">
+              <div class="milenia-grid milenia-grid--cols-2">
+                <div class="milenia-grid-item">
+                  <!--================ Entity ================-->
+                  <article class="milenia-entity milenia-entity--with-thumb">
+                    {{-- <div class="milenia-entity-media"><a href="#" aria-labelledby="rooms-6-heading-0" class="milenia-entity-link milenia-ln--independent"><img src="{{ asset('images/boating.jpg') }}" alt=""></a></div> --}}
+                    <div class="milenia-entity-content milenia-aligner">
+                      <div class="milenia-aligner-outer">
+                        <div class="milenia-aligner-inner">
+                          <header class="milenia-entity-header">
+                            {{-- <h4 id="rooms-6-heading-0" class="milenia-entity-title">Boating</h4> --}}
+                          </header>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!--================ End of Entity ================-->
+                </div>
+                <div class="milenia-grid-item">
+                  <!--================ Entity ================-->
+                  <article class="milenia-entity milenia-entity--with-thumb">
+                    {{-- <div class="milenia-entity-media"><a href="#" aria-labelledby="rooms-6-heading-1" class="milenia-entity-link milenia-ln--independent"><img src="{{ asset('images/fishing.jpg') }}" alt=""></a></div> --}}
+                    <div class="milenia-entity-content milenia-aligner">
+                      <div class="milenia-aligner-outer">
+                        <div class="milenia-aligner-inner">
+                          <header class="milenia-entity-header">
+                            {{-- <h4 id="rooms-6-heading-0" class="milenia-entity-title">Fishing Activities</h4> --}}
+                          </header>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!--================ End of Entity ================-->
+                </div>
+                <div class="milenia-grid-item">
+                  <!--================ Entity ================-->
+                  <article class="milenia-entity milenia-entity--with-thumb">
+                  {{-- <div class="milenia-entity-media"><a href="#" aria-labelledby="rooms-6-heading-2" class="milenia-entity-link milenia-ln--independent"><img src="{{ asset('images/activities_cruise.jpg') }}" alt=""></a></div> --}}
+                    <div class="milenia-entity-content milenia-aligner">
+                      <div class="milenia-aligner-outer">
+                        <div class="milenia-aligner-inner">
+                          <header class="milenia-entity-header">
+                            <!-- <h4 id="rooms-6-heading-0" class="milenia-entity-title">Classic Balcony Room</h4> -->
+                          </header>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!--================ End of Entity ================-->
+                </div>
+                <div class="milenia-grid-item">
+                  <!--================ Entity ================-->
+                  <article class="milenia-entity milenia-entity--with-thumb">
+                    {{-- <div class="milenia-entity-media"><a href="#" aria-labelledby="rooms-6-heading-3" class="milenia-entity-link milenia-ln--independent"><img src="{{ asset('images/activities_golf_cart.jpg') }}" alt=""></a></div> --}}
+                    <div class="milenia-entity-content milenia-aligner">
+                      <div class="milenia-aligner-outer">
+                        <div class="milenia-aligner-inner">
+                          <header class="milenia-entity-header">
+                            <!-- <h4 id="rooms-6-heading-0" class="milenia-entity-title">Classic Balcony Room</h4> -->
+                          </header>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!--================ End of Entity ================-->
+                </div>
+                <div class="milenia-grid-item">
+                  <!--================ Entity ================-->
+                  <article class="milenia-entity milenia-entity--with-thumb">
+                    <div class="milenia-entity-media"><a href="#" aria-labelledby="rooms-6-heading-3" class="milenia-entity-link milenia-ln--independent"><img src="{{ asset('images/activities_kids_pool.jpg') }}" alt=""></a></div>
+                    <div class="milenia-entity-content milenia-aligner">
+                      <div class="milenia-aligner-outer">
+                        <div class="milenia-aligner-inner">
+                          <header class="milenia-entity-header">
+                            <!-- <h4 id="rooms-6-heading-0" class="milenia-entity-title">Classic Balcony Room</h4> -->
+                          </header>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!--================ End of Entity ================-->
+                </div>
+                <div class="milenia-grid-item">
+                  <!--================ Entity ================-->
+                  <article class="milenia-entity milenia-entity--with-thumb">
+                    <div class="milenia-entity-media"><a href="#" aria-labelledby="rooms-6-heading-3" class="milenia-entity-link milenia-ln--independent"><img src="{{ asset('images/activities_kids_pool_2.jpg') }}" alt=""></a></div>
+                    <div class="milenia-entity-content milenia-aligner">
+                      <div class="milenia-aligner-outer">
+                        <div class="milenia-aligner-inner">
+                          <header class="milenia-entity-header">
+                            <!-- <h4 id="rooms-6-heading-0" class="milenia-entity-title">Classic Balcony Room</h4> -->
+                          </header>
+                        </div>
+                      </div>
+                    </div>
+                  </article>
+                  <!--================ End of Entity ================-->
+                </div>
+              </div>
+            </div>
+            <!--================ End of Entities (Style 14) ================-->
+
+
+          </div>
+        </section>
+        <!--================ End of Content Section ================-->
+      </div>
+    </main>
+  </div>
+  {{-- End of Activities Photos --}}
 </div>
-<br>
+  
+  
 @endsection

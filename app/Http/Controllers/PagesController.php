@@ -60,7 +60,7 @@ class PagesController extends Controller
         return view('pages.food');
     }
 
-    public function conferences()
+    public function conference()
     {
         return view('pages.conference');
     }
