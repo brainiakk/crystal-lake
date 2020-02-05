@@ -55,7 +55,7 @@
                                 </li>
                                 <li class="nav-item dropdown header-profile">
                                     <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="mdi mdi-account-circle"></i>
+                                        <i class="mdi mdi-account-circle " style="font-size: 24px;"></i>
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right">
                                         <div class="dropdown-profile-header">
