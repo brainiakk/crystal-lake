@@ -17,13 +17,44 @@ class ReservationController extends Controller
      * @return \Illuminate\Http\Response
      */
 
+public function messages()
+{
+    return [
+        'name.required' => 'A title is required',
+        'tel.required'  => 'A message is required',
+    ];
+}
     public function reservation(Request $request)
     {
+        $validator = $request->validate([
+            'name' => 'required|max:255',
+            'tel' => 'required',
+            'email' => 'required|email',
+            'start_date' => 'required|date',
+            'end_date' => 'required|date',
+            'guest_num' => 'required',
+        ],
+        [
+        'name.required' => 'Name Field is required',
+        'tel.required'  => 'Please provide a valid Phone Number',
+        'email.required'  => 'Please provide a valid email address',
+        'email.email'  => 'Email address provided is not valid',
+        'start_date.required'  => 'Please provide Your date of arrival',
+        'guest_num.required'  => 'Please provide number of guest',
+        'end_date.required'  => 'Please provide Your date of departure',
+        'start_date.date'  => 'Please provide a valid date of arrival',
+        'end_date.date'  => 'Please provide a valid date of departure',
+        ]);
+
+        if ($validator->fails()) {
+            return redirect('/reservation')
+                        ->withErrors($validator)
+                        ->withInput();
+        }
 
     $name = $request->input('name');
     $tel = $request->input('tel');
     $email = $request->input('email');
-    $room_num = $request->input('room_num');
     $guest_num = $request->input('guest_num');
     $start_date = $request->input('start_date');
     $end_date = $request->input('end_date');

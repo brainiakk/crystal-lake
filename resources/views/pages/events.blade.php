@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Crystal Lake | About Us')
+@section('title', 'Crystal Lake | Events')
 
 @section('content')
     {{-- <div id="wrapper">
@@ -39,12 +39,13 @@
 
     <section class="milenia-section">
         <h3>EVENTS</h3>
-        <!--================ Entities (Style 19) ================-->
+
+        @if (count($events) > 0)
+                <!--================ Entities (Style 19) ================-->
         <div class="milenia-entities milenia-entities--style-19 milenia-entities--list">
-          <div data-isotope-layout="masonry" class="milenia-grid milenia-grid--isotope milenia-grid--cols-3">
+            <div data-isotope-layout="masonry" class="milenia-grid milenia-grid--isotope milenia-grid--cols-3">
             <div class="milenia-grid-sizer"></div>
             <div class="milenia-grid-item">
-                @if (count($events) > 0)
                 @foreach ($events as $event)
                     <!--================ Entity ================-->
                     <article class="milenia-entity milenia-entity--format-image">
@@ -97,12 +98,12 @@
                     <!--================ End of Entity ================-->
                 <br/>
                 @endforeach
-                @else
-                    <article><h5>No Events</h5></article>
-                @endif
             </div>
             </div>
           </div>
+        @else
+            <div><h5>No Events</h5></div>
+        @endif
         </div>
         <!--================ End of Entities (Style 19) ================-->
         <!--================ Pagination ================-->
