@@ -230,6 +230,40 @@
                 </article>
               </div>
               <!--================ End of Cruise Boat Section ================-->
+              <!--================ Dividing space ================-->
+              <div class="milenia-grid-item">
+                <br>
+                <br>
+              </div>
+              <!--================ End of Dividing space ================-->
+              <!--================ Playground Section ================-->
+              <div class="milenia-grid-item">
+                <article class="milenia-entity milenia-entity--format-slideshow">
+                  <div class="milenia-entity-media">
+                    <div class="owl-carousel owl-carousel--vadaptive milenia-simple-slideshow">
+                      <div data-bg-image-src="{{ asset('images/playground_1.jpeg') }}" class="milenia-entity-slide"></div>
+                      <div data-bg-image-src="{{ asset('images/playground_2.jpeg') }}" class="milenia-entity-slide"></div>
+                    </div>
+                  </div>
+                  <div class="milenia-entity-content milenia-aligner">
+                    <div class="milenia-aligner-outer">
+                      <div class="milenia-aligner-inner">
+                        <header class="milenia-entity-header">
+                          <h2 class="milenia-entity-title"><a href="undefined" class="milenia-color--unchangeable">Playground</a></h2>
+                        </header>
+                        <div class="milenia-entity-body">
+
+                          {{-- Text content --}}
+                          <p></p>
+                          {{-- Text content --}}
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <!--================ End of Playground Section ================-->
             </div>
           </div>
           <!--================ End of Entities (Style 3) ================-->
