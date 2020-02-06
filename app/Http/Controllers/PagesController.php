@@ -35,4 +35,38 @@ class PagesController extends Controller
         return view('pages.booking');
     }
 
+    public function meetings()
+    {
+        return view('pages.meetings');
+    }
+
+    public function socialgatherings()
+    {
+        return view('pages.socialgatherings');
+    }
+
+    public function singles()
+    {
+        return view('pages.singles');
+    }
+
+    public function groups()
+    {
+        return view('pages.groups');
+    }
+
+    public function food()
+    {
+        return view('pages.food');
+    }
+
+    public function conference()
+    {
+        return view('pages.conference');
+    }
+
+    public function family()
+    {
+        return view('pages.family');
+    }
 }

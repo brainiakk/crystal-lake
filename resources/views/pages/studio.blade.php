@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Crystal Lake | About Us')
+@section('title', 'Crystal Lake | Studio Room')
 
 @section('content')
 <hr>

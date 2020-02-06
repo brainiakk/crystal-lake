@@ -7,7 +7,7 @@
     <div   class="milenia-breadcrumb text-center milenia-colorizer--scheme-dark">
         <div class="container">
           <h1 class="milenia-page-title">Weddings</h1>
-          <nav class="milenia-breadcrumb-path"><span><a href="/">Home</a></span>/<span>Weddings</span>
+          <nav class="milenia-breadcrumb-path"><span><a href="{{ url('/') }}">Home</a></span>/<span>Weddings</span>
           </nav>
         </div>
       </div>
@@ -60,7 +60,7 @@
                           <div class="milenia-pricing-table-media"><a href="#" class="milenia-pricing-table-link milenia-ln--independent"><img src="images/wedding_3.jfif" alt=""></a></div>
                           <div class="milenia-pricing-table-content milenia-outline-over">
                             <h2 class="milenia-pricing-table-title milenia-color--unchangeable">Honeymoon</h2>
-                            <p>You made it official now and it’s time to unwind. After all the excitement, the last thing you want is to arrive at your honeymoon destination, only open in high season. Crystal Lake Resort and Tours provides you with the perfect opportunity to relax connect and recoup your energy. Stay in one of our Diplomatic Suites or any of our tastefully furnished Deluxe rooms and choose from our amazing array of fun activities; Golfing, Wonder Lake tours (Mini Cruise-Boat or Luxury Barge), Water sliding and lots more.</p><strong class="milenia-pricing-table-price"><!---$199--></strong><a href="#" class="milenia-btn milenia-btn--link milenia-btn--scheme-primary"><!--More Details--></a>
+                            <p>You made it official now and it’s time to unwind. After all the excitement, the last thing you want is to arrive at your honeymoon destination and realize it is only open in high season. Crystal Lake Resort and Tours provides you with the perfect opportunity to relax connect and recoup your energy. Stay in one of our Diplomatic Suites or any of our tastefully furnished deluxe rooms and choose from our amazing array of fun activities.</p><strong class="milenia-pricing-table-price"><!---$199--></strong><a href="#" class="milenia-btn milenia-btn--link milenia-btn--scheme-primary"><!--More Details--></a>
                           </div>
                         </article>
                         </article>
