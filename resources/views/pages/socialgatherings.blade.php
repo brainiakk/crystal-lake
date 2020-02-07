@@ -11,7 +11,7 @@
                   <main class="col">
                     <div class="milenia-entity-content">
                       <!--================ Content Section ================-->
-                      <section class="milenia-section milenia-body--scheme-lightbrown">
+                      <section class="milenia-section milenia-body--scheme-blue">
                         <h3>Social Gatherings</h3>
                         <!--================ Tabbed Carousel ================-->
                         <div class="milenia-tabbed-carousel">
@@ -34,9 +34,15 @@
                                           <h2 class="milenia-entity-title"><a href="#" class="milenia-color--unchangeable"></a></h2>
                                         </header>
                                         <div class="milenia-entity-body">
-                                            <p>Be it for your Parties:</p><br><i class="fa fa-comment-dots"></i><span>Birthday, Graduation, Promotion, Engagement</span>
-                                            <p>Or Social Functions:</p><br><i class="fa fa-comment-dots"></i><span>unveiling, Beauty Pageant, etc.</span><br>
-                                            <p>Crystal Lake Resort and Tours gives you a variety of spots to pick from. From our ultra-modern conference hall to an executive-style Boardroom or even the white sand beach if you have a crowd of outdoor lovers. What’s more, we’ll help take your fun, joyous, wonderful, sophisticated and personal ideas and turn them into the special occasion they deserve;  from custom decorating to creative catering, resulting in a flawless event that reflects you and your group perfectly.</p>                                
+                                            Be it for your Parties:
+                                              <ul class="milenia-list--icon">
+                                                <li>Birthday, Graduation, Promotion, Engagement<i class="milenia-tc--primary icon icon-check"></i></li>
+                                              </ul>
+                                            Or Social Functions: 
+                                            <ul class="milenia-list--icon">
+                                              <li>unveiling, Beauty Pageant, etc.<i class="milenia-tc--primary icon icon-check"></i></li>
+                                            </ul>
+                                            <p>Crystal Lake Resort and Tours gives you a variety of spots to pick from. From our ultra-modern conference hall to an executive-style Boardroom or even the white sand beach if you have a crowd of outdoor lovers. What’s more, we’ll help take your fun, joyous, wonderful, sophisticated and personal ideas and turn them into the special occasion they deserve;  from custom decorating to creative catering, resulting in a flawless event that reflects you and your group perfectly.</p>
                                         </div>
                                       </div>
                                     </div>

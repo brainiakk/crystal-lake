@@ -264,6 +264,41 @@
                 </article>
               </div>
               <!--================ End of Playground Section ================-->
+              <!--================ Dividing space ================-->
+              <div class="milenia-grid-item">
+                <br>
+                <br>
+              </div>
+              <!--================ End of Dividing space ================-->
+              <!--================ Arcade Section ================-->
+              <div class="milenia-grid-item">
+                <article class="milenia-entity milenia-entity--format-slideshow">
+                  <div class="milenia-entity-media">
+                    <div class="owl-carousel owl-carousel--vadaptive milenia-simple-slideshow">
+                      <div data-bg-image-src="{{ asset('images/arcade_1.jpeg') }}" class="milenia-entity-slide"></div>
+                    </div>
+                  </div>
+                  <div class="milenia-entity-content milenia-aligner">
+                    <div class="milenia-aligner-outer">
+                      <div class="milenia-aligner-inner">
+                        <header class="milenia-entity-header">
+                          <h2 class="milenia-entity-title"><a href="undefined" class="milenia-color--unchangeable">Arcade</a></h2>
+                        </header>
+                        <div class="milenia-entity-body">
+
+                          {{-- Text content --}}
+                          <p>
+                            Our fully equipped arcade house for the game lovers features an assortment of racing simulators, shooting arcade games, PlayStation4, dual-hoop indoor basketball arcade games and more…………. Yes! We do mean it when we say there’s something for everyone.
+                          </p>
+                          {{-- Text content --}}
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <!--================ End of Arcade Section ================-->
             </div>
           </div>
           <!--================ End of Entities (Style 3) ================-->

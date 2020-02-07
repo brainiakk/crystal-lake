@@ -10,16 +10,17 @@
                   <div class="milenia-grid-item-inner">
                     <div class="milenia-grid-item-content">
                       <div class="milenia-info-widget">
-                        <div class="milenia-info-widget-logo"><a href="/" class="milenia-ln--independent"><img src="{{ asset('images/header_logo_crystallake.png') }}" alt=""></a></div>
+                      <div class="milenia-info-widget-logo"><a href="{{ url('/') }}" class="milenia-ln--independent"><img src="{{ asset('images/header_logo_crystallake.png') }}" alt=""></a></div>
                         <div class="milenia-grid milenia-grid--cols-3">
                           <div class="milenia-grid-item">
-                            <address><span class="milenia-text-color--contrast">Address: </span><br>No. 1 Tourismo Boulevard<br>  by Ministry of Works, <br>Oguta, Imo State</address><a href="#" class="milenia-uppercased-link">Get Direction</a>
+                            <address><span class="milenia-text-color--contrast">Address: </span><br>No. 1 Tourismo Boulevard<br>  by Ministry of Works, <br>Oguta, Imo State</address>
+                            {{-- <a href="#" class="milenia-uppercased-link">Get Direction</a> --}}
                           </div>
                           <div class="milenia-grid-item">
                             <address><span class="milenia-text-color--contrast">Phone: </span><br>09068116377<br>08063566576<br>08030877889</address>
                           </div>
                           <div class="milenia-grid-item milenia-widget--email">
-                            <address><span class="milenia-text-color--contrast">Email:<br> </span><a href="mailto:#">mail@companyname.com</a></address>
+                            <address><span class="milenia-text-color--contrast">Email:<br> </span><a href="mailto:reservations@crystallakeresortoguta.com">reservations@crystallakeresortoguta.com</a></address>
                           </div>
                         </div>
                       </div>

@@ -8,7 +8,7 @@
         <div id="rev-slider-3" data-version="5.4.5" class="milenia-d-none rev-slider fullwidthbanner rev-has-scrollbottom-icon">
           <ul>
             <!--================ Slide 1 ================-->
-            <li data-transition="fade" data-speed="0" data-delay="9000"><img src="images/homepage_slide_1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="2" class="rev-slidebg">
+            <li data-transition="fade" data-speed="0" data-delay="9000"><img src="{{ asset('images/homepage_slide_1.jpg') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="2" class="rev-slidebg">
               <!--================ Layer ================-->
               <div data-frames="[{&quot;delay&quot;:200,&quot;speed&quot;:2000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-x="center" data-y="center" data-hoffset="0" data-voffset="['-70', '-70', '-90', '-90']" data-width="['400']" data-height="['auto']" data-textAlign="['center']" data-color="['#fff']" data-fontsize="['14']" data-lineheight="['20']" class="tp-caption tp-resizeme tp-layer-section-subtitle">Welcome to Crystal Lake Resort and Tours</div>
               <!--================ End of Layer ================-->
@@ -22,7 +22,7 @@
             <!--================ End of Slide 1 ================-->
 
             <!--================ Slide 2 ================-->
-            <li data-transition="fade" data-speed="0" data-delay="9000"><img src="images/homepage_slide_2.jfif" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="2" class="rev-slidebg">
+            <li data-transition="fade" data-speed="0" data-delay="9000"><img src="{{ asset('images/homepage_slide_2.jfif') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="2" class="rev-slidebg">
               <!--================ Layer ================-->
               <div data-frames="[{&quot;delay&quot;:200,&quot;speed&quot;:2000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-x="center" data-y="center" data-hoffset="0" data-voffset="['-70', '-70', '-90', '-90']" data-width="['400']" data-height="['auto']" data-textAlign="['center']" data-color="['#fff']" data-fontsize="['14']" data-lineheight="['20']" class="tp-caption tp-resizeme tp-layer-section-subtitle">Welcome to Crystal Lake Resort and Tours</div>
               <!--================ End of Layer ================-->
@@ -36,7 +36,7 @@
             <!--================ End of Slide 2 ================-->
 
             <!--================ Slide 3 ================-->
-            <li data-transition="fade" data-speed="0" data-delay="9000"><img src="images/homepage_slide_3.jfif" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="2" class="rev-slidebg">
+            <li data-transition="fade" data-speed="0" data-delay="9000"><img src="{{ asset('images/homepage_slide_3.jfif') }}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="2" class="rev-slidebg">
               <!--================ Layer ================-->
               <div data-frames="[{&quot;delay&quot;:200,&quot;speed&quot;:2000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-x="center" data-y="center" data-hoffset="0" data-voffset="['-70', '-70', '-90', '-90']" data-width="['400']" data-height="['auto']" data-textAlign="['center']" data-color="['#fff']" data-fontsize="['14']" data-lineheight="['20']" class="tp-caption tp-resizeme tp-layer-section-subtitle">Welcome to Crystal Lake Resort and Tours</div>
               <!--================ End of Layer ================-->
@@ -77,67 +77,52 @@
                 </section>
                 <!--================ End of Content Section ================-->
                 <!--================ Content Section ================-->
-                <div class="milenia-section milenia-section--no-py milenia-section--stretched-content-no-px">
-                  <!--================ Banners ================-->
-                  
-                        <!--================ End of Banner ================-->
-                      </div>
-                    </div>
-                  </div>
-                  <!--================ End of Banners ================-->
-                </div>
-                <!--================ End of Content Section ================-->
-                <!--================ Content Section ================-->
                 <div class="milenia-section milenia-section--py-medium">
                   <!--================ Awards ================-->
                   <div class="milenia-awards">
                     <div class="milenia-grid milenia-grid--cols-6">
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_1.jpg" class="milenia-ln--independent"><img src="images/home_gallery_1.jpg" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_1.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_1.jpg') }}" alt=""></a></figure>
                       </div>
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_2.jfif" class="milenia-ln--independent"><img src="images/home_gallery_2.jfif" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_2.jfif') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_2.jfif') }}" alt=""></a></figure>
                       </div>
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_3.jfif" class="milenia-ln--independent"><img src="images/home_gallery_3.jfif" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_3.jfif') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_3.jfif') }}" alt=""></a></figure>
                       </div>
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_4.jpg" class="milenia-ln--independent"><img src="images/home_gallery_4.jpg" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_4.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_4.jpg') }}" alt=""></a></figure>
                       </div>
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_5.jpg" class="milenia-ln--independent"><img src="images/home_gallery_5.jpg" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_5.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_5.jpg') }}" alt=""></a></figure>
                       </div>
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_6.jpg" class="milenia-ln--independent"><img src="images/home_gallery_6.jpg" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_6.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_6.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <br>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_7.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_7.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_8.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_8.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_9.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_9.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_10.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_10.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_11.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_11.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_12.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_12.jpg') }}" alt=""></a></figure>
                       </div>
                     </div>
                   </div>
                   <!--================ End of Awards ================-->
                 </div>
-                <div class="milenia-awards">
-                    <div class="milenia-grid milenia-grid--cols-6">
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_7.jpg" class="milenia-ln--independent"><img src="images/home_gallery_7.jpg" alt=""></a></figure>
-                      </div>
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_8.jpg" class="milenia-ln--independent"><img src="images/home_gallery_8.jpg" alt=""></a></figure>
-                      </div>
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_9.jpg" class="milenia-ln--independent"><img src="images/home_gallery_9.jpg" alt=""></a></figure>
-                      </div>
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_10.jpg" class="milenia-ln--independent"><img src="images/home_gallery_10.jpg" alt=""></a></figure>
-                      </div>
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_11.jpg" class="milenia-ln--independent"><img src="images/home_gallery_11.jpg" alt=""></a></figure>
-                      </div>
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_12.jpg" class="milenia-ln--independent"><img src="images/home_gallery_12.jpg" alt=""></a></figure>
-                      </div>
-                    </div>
-                  </div>
                 <!--================ End of Content Section ================-->
-              </div>
             </main>
           </div>
         </div>
