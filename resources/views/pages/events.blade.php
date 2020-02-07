@@ -3,40 +3,6 @@
 @section('title', 'Crystal Lake | Events')
 
 @section('content')
-    {{-- <div id="wrapper">
-        <div
-            id="page"
-            class="container">
-
-            <div id="content">
-                <div class="title">
-                    <h2>Events</h2>
-                </div>
-
-                <ul class="style1">
-                    @foreach ($events as $event)
-
-                    <li class="first">
-                        <h2>
-                            <a href="{{ $article->path() }}">
-                                {{ $article->title }}
-                            </a>
-                        </h2>
-                        <br>
-                        <p>
-                            <img src="/images/banner.jpg" alt="" class="image image-full" />
-                        </p>
-                        <p>{{ $article->excerpt }}</p>
-                    </li>
-                    @endforeach
-                </ul>
-
-            </div>
-        </div>
-    </div> --}}
-
-
-
     <section class="milenia-section">
         <h3>EVENTS</h3>
         <!--================ Entities (Style 19) ================-->
@@ -110,7 +76,6 @@
           <nav>
             <ul class="milenia-list--unstyled milenia-pagination milenia-pagination--stretched">
               <li class="milenia-pagination--pushed-to-left-md"><a href="#" class="prev page-numbers">February</a></li>
-              <li><a href="#" class="middle page-numbers">+ Export Events</a></li>
               <li class="milenia-pagination--pushed-to-right-md"><a href="#" class="next page-numbers">April</a></li>
             </ul>
           </nav>

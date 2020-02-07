@@ -77,67 +77,52 @@
                 </section>
                 <!--================ End of Content Section ================-->
                 <!--================ Content Section ================-->
-                <div class="milenia-section milenia-section--no-py milenia-section--stretched-content-no-px">
-                  <!--================ Banners ================-->
-                  
-                        <!--================ End of Banner ================-->
-                      </div>
-                    </div>
-                  </div>
-                  <!--================ End of Banners ================-->
-                </div>
-                <!--================ End of Content Section ================-->
-                <!--================ Content Section ================-->
                 <div class="milenia-section milenia-section--py-medium">
                   <!--================ Awards ================-->
                   <div class="milenia-awards">
                     <div class="milenia-grid milenia-grid--cols-6">
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_1.jpg" class="milenia-ln--independent"><img src="images/home_gallery_1.jpg" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_1.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_1.jpg') }}" alt=""></a></figure>
                       </div>
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_2.jfif" class="milenia-ln--independent"><img src="images/home_gallery_2.jfif" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_2.jfif') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_2.jfif') }}" alt=""></a></figure>
                       </div>
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_3.jfif" class="milenia-ln--independent"><img src="images/home_gallery_3.jfif" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_3.jfif') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_3.jfif') }}" alt=""></a></figure>
                       </div>
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_4.jpg" class="milenia-ln--independent"><img src="images/home_gallery_4.jpg" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_4.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_4.jpg') }}" alt=""></a></figure>
                       </div>
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_5.jpg" class="milenia-ln--independent"><img src="images/home_gallery_5.jpg" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_5.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_5.jpg') }}" alt=""></a></figure>
                       </div>
                       <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_6.jpg" class="milenia-ln--independent"><img src="images/home_gallery_6.jpg" alt=""></a></figure>
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_6.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_6.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <br>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_7.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_7.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_8.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_8.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_9.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_9.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_10.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_10.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_11.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_11.jpg') }}" alt=""></a></figure>
+                      </div>
+                      <div class="milenia-grid-item">
+                        <figure class="milenia-award"><a href="{{ asset('images/home_gallery_12.jpg') }}" class="milenia-ln--independent"><img src="{{ asset('images/home_gallery_12.jpg') }}" alt=""></a></figure>
                       </div>
                     </div>
                   </div>
                   <!--================ End of Awards ================-->
                 </div>
-                <div class="milenia-awards">
-                    <div class="milenia-grid milenia-grid--cols-6">
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_7.jpg" class="milenia-ln--independent"><img src="images/home_gallery_7.jpg" alt=""></a></figure>
-                      </div>
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_8.jpg" class="milenia-ln--independent"><img src="images/home_gallery_8.jpg" alt=""></a></figure>
-                      </div>
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_9.jpg" class="milenia-ln--independent"><img src="images/home_gallery_9.jpg" alt=""></a></figure>
-                      </div>
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_10.jpg" class="milenia-ln--independent"><img src="images/home_gallery_10.jpg" alt=""></a></figure>
-                      </div>
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_11.jpg" class="milenia-ln--independent"><img src="images/home_gallery_11.jpg" alt=""></a></figure>
-                      </div>
-                      <div class="milenia-grid-item">
-                        <figure class="milenia-award"><a href="images/home_gallery_12.jpg" class="milenia-ln--independent"><img src="images/home_gallery_12.jpg" alt=""></a></figure>
-                      </div>
-                    </div>
-                  </div>
                 <!--================ End of Content Section ================-->
-              </div>
             </main>
           </div>
         </div>
