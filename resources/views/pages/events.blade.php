@@ -71,7 +71,7 @@
                             <div class="milenia-aligner-inner">
                             <header class="milenia-entity-header">
                                 <div class="milenia-entity-price">
-                                    @if ($event->price != "" || !is_null($event->price) )
+                                    @if ($event->price != "free" || $event->price != "" || !is_null($event->price) )
                                         ₦{{ $event->price }}
                                     @else
                                         FREE
@@ -79,7 +79,9 @@
                                 </div>
                                 <div class="milenia-entity-meta">
                                 <div>
-                                    <time datetime="2019-03-02T05:00:00Z">March 2-3, 2019 @ 12:00 AM - 5:00 PM</time>
+                                    <time datetime="{{ $event->start_date}}">
+                                        {{ $event->start_date->format('dS M Y') }} {{ $event->start_date->format('d M Y') == $event->end_date->format('d M Y') ? '' : "-". $event->end_date->format('dS M Y') }}
+                                    </time>
                                 </div>
                             <div><a href="#" class="milenia-color--unchangeable">{{ $event->venue }}</a></div>
                                 </div>

@@ -23,7 +23,8 @@
                       <ul class="milenia-details-list milenia-details-list--colors-reversed milenia-list--unstyled">
                         <li><span>Date:</span>
                           <time datetime="{{ $event->start_date}}">
-                              {{ $event->start_date->format('dS M Y') }} {{ $event->start_date->format('d M Y') == $event->end_date->format('d M Y') ? '' : "-". $event->end_date->format('dS M Y') }}</time>
+                              {{ $event->start_date->format('dS M Y') }} {{ $event->start_date->format('d M Y') == $event->end_date->format('d M Y') ? '' : "-". $event->end_date->format('dS M Y') }}
+                          </time>
                         </li>
                         <li><span>Time:</span>
                           <time datetime="2019-04-15">{{ $event->start_time }} - {{ $event->end_time }}</time>
