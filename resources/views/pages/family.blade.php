@@ -12,7 +12,7 @@
             <main class="col">
               <div class="milenia-entity-content">
                 <!--================ Content Section ================-->
-                <section class="milenia-section milenia-body--scheme-lightbrown">
+                <section class="milenia-section milenia-body--scheme-blue">
                   <h3>Family Reunions</h3>
                   <!--================ Tabbed Carousel ================-->
                   <div class="milenia-tabbed-carousel">
