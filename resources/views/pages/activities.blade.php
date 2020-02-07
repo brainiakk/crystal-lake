@@ -56,7 +56,7 @@
     <main class="col">
       <div class="milenia-entity-content">
         <!--================ Content Section ================-->
-        <section class="milenia-section milenia-body--scheme-lightbrown">
+        <section class="milenia-section milenia-body--scheme-blue">
           <!--================ Top 2 Photos ================-->
           <div class="milenia-entities milenia-entities--style-1">
             <div class="milenia-grid milenia-grid--cols-3">
@@ -132,8 +132,8 @@
             </div>
           </div>
           <!--================ End of Top 2 Photos ================-->
-          <!--================ Middle 2 Photos ================-->
-          <div class="milenia-entities milenia-entities--style-1">
+          <!--================ Bottom 2 Photos ================-->
+          {{-- <div class="milenia-entities milenia-entities--style-1">
             <div class="milenia-grid milenia-grid--cols-3">
               <div class="milenia-grid-item">
                 <!--================ Entity ================-->
@@ -182,8 +182,8 @@
                 <!--================ End of Entity ================-->
               </div>
             </div>
-          </div>
-          <!--================ End of Middle 2 Photos ================-->
+          </div> --}}
+          <!--================ End of Bottom 2 Photos ================-->
         </section>
         <!--================ End of Content Section ================-->
       </div>
