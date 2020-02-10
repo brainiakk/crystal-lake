@@ -37,7 +37,7 @@
                             <div class="milenia-aligner-inner">
                             <header class="milenia-entity-header">
                                 <div class="milenia-entity-price">
-                                    @if ($event->price != "free" || $event->price != "" || !is_null($event->price) )
+                                    @if ( $event->price != "" || !is_null($event->price) )
                                         ₦{{ $event->price }}
                                     @else
                                         FREE
