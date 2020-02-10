@@ -40,10 +40,12 @@
                                                 <a href="{{ url('/admin/edit', $event->event_id) }}" class="mr-4" data-toggle="tooltip" data-placement="top" title="Edit Event">
                                                     <i class="fa fa-pencil color-muted"></i>
                                                 </a>
-
+                                                @if ($event->user_id == \Auth::id())
                                                 <a href="{{ url('/admin/delete', $event->event_id) }}" data-toggle="tooltip" data-placement="top" title="Delete Event">
                                                     <i class="fa fa-close color-danger"></i>
                                                 </a>
+
+                                                @endif
                                             </span>
                                         </td>
                                     </tr>

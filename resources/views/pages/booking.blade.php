@@ -16,6 +16,17 @@
 
 
              <form action="{{ route('send.booking') }}" method="POST" class="m-2 px-5">
+
+                @if ($errors->any())
+                    <div class="alert alert-danger alert-block">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li style="list-style-type:none; ">{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
                 @if (Session::has('success') )
                 <div class="alert alert-info alert-block">
                     <button type="button" class="close" data-dismiss="alert">×</button>
@@ -30,15 +41,15 @@
                 @csrf
                 <div class="form-group">
                     <label for="name">Full Name</label>
-                    <input type="text" class="form-control" name="name">
+                    <input type="text" class="form-control" name="name" required>
                 </div>
                 <div class="form-group">
                     <label for="tel">Phone Number</label>
-                    <input type="text" class="form-control" name="tel">
+                    <input type="text" class="form-control" name="tel" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" name="email" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" name="email" aria-describedby="emailHelp" required>
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <br/>
@@ -106,16 +117,16 @@
                 <br/>
                 <div class="form-group">
                     <label for="start_date">Arrival Date</label>
-                    <input type="text" name="start_date" class="form-control start_date" data-provide='datepicker'>
+                    <input type="text" name="start_date" class="form-control start_date" data-provide='datepicker' required autocomplete="off">
                     {{-- <div class="col-md-12 date_show" style="height: 90%;"></div> --}}
                 </div>
                 <div class="form-group">
                     <label for="end_date">Departure Date</label>
-                    <input type="text" name="end_date" class="form-control end_date" data-provide='datepicker'>
+                    <input type="text" name="end_date" class="form-control end_date" data-provide='datepicker' required autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label for="guest_num">Number of Guests</label>
-                    <input type="text" class="form-control" name="guest_num">
+                    <input type="text" class="form-control" name="guest_num" required>
                 </div>
                 <br>
                 <div class="form-group" style="float:right">

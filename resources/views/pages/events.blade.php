@@ -5,12 +5,13 @@
 @section('content')
     <section class="milenia-section">
         <h3>EVENTS</h3>
-        <!--================ Entities (Style 19) ================-->
+
+        @if (count($events) > 0)
+                <!--================ Entities (Style 19) ================-->
         <div class="milenia-entities milenia-entities--style-19 milenia-entities--list">
-          <div data-isotope-layout="masonry" class="milenia-grid milenia-grid--isotope milenia-grid--cols-3">
+            <div data-isotope-layout="masonry" class="milenia-grid milenia-grid--isotope milenia-grid--cols-3">
             <div class="milenia-grid-sizer"></div>
             <div class="milenia-grid-item">
-                @if (count($events) > 0)
                 @foreach ($events as $event)
                     <!--================ Entity ================-->
                     <article class="milenia-entity milenia-entity--format-image">
@@ -36,7 +37,7 @@
                             <div class="milenia-aligner-inner">
                             <header class="milenia-entity-header">
                                 <div class="milenia-entity-price">
-                                    @if ($event->price != "" || !is_null($event->price) )
+                                    @if ($event->price != "free" || $event->price != "" || !is_null($event->price) )
                                         ₦{{ $event->price }}
                                     @else
                                         FREE
@@ -44,7 +45,9 @@
                                 </div>
                                 <div class="milenia-entity-meta">
                                 <div>
-                                    <time datetime="2019-03-02T05:00:00Z">March 2-3, 2019 @ 12:00 AM - 5:00 PM</time>
+                                    <time datetime="{{ $event->start_date}}">
+                                        {{ $event->start_date->format('dS M Y') }} {{ $event->start_date->format('d M Y') == $event->end_date->format('d M Y') ? '' : "-". $event->end_date->format('dS M Y') }}
+                                    </time>
                                 </div>
                             <div><a href="#" class="milenia-color--unchangeable">{{ $event->venue }}</a></div>
                                 </div>
@@ -63,12 +66,12 @@
                     <!--================ End of Entity ================-->
                 <br/>
                 @endforeach
-                @else
-                    <article><h5>No Events</h5></article>
-                @endif
             </div>
             </div>
           </div>
+        @else
+            <div><h5>No Events</h5></div>
+        @endif
         </div>
         <!--================ End of Entities (Style 19) ================-->
         <!--================ Pagination ================-->
