@@ -54,6 +54,7 @@
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <br/>
+                <hr>
                 <div class="form-group">
                   <div class="col-md-12"><h4 class="text-center" style="font-family: sans-serif; font-size: 18px;">Room Category</h4></div>
                   <div class="col-md-12"><p class="text-center" style="font-family: sans-serif; font-size: 14px;">Select a Room Type and enter the Number of Rooms below it.</p></div>
