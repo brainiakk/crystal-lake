@@ -17,7 +17,7 @@
                             {{-- <a href="#" class="milenia-uppercased-link">Get Direction</a> --}}
                           </div>
                           <div class="milenia-grid-item">
-                            <address><span class="milenia-text-color--contrast">Phone: </span><br>09068116377<br>08063566576<br>08030877889</address>
+                            <address><span class="milenia-text-color--contrast">Phone: </span><br><a href="tel: +2349068116377">09068116377</a><br><a href="tel: +2348063566576">08063566576</a><br><a href="tel: +2348030877889">08030877889</a></address>
                           </div>
                           <div class="milenia-grid-item milenia-widget--email">
                             <address><span class="milenia-text-color--contrast">Email:<br> </span><a href="mailto:reservations@crystallakeresortoguta.com">reservations@crystallakeresortoguta.com</a></address>
