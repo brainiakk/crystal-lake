@@ -38,7 +38,7 @@
                                       
                                     {{-- Text Content --}}
                                     <p>
-                                        Picking the right place for your clan has always been the first move towards a successful family reunion. From budget-friendly options to luxurious suites, diverse culinary delights and activities like children’s programs, whole family game time with golfing, water games, arcade games, zip line running and lots more thrown in-between. Our family-friendly packages, free budget planning tips and excellent staff support will ensure you have that optimum family experience.
+                                      Picking the right place for your clan has always been the first move towards a successful family reunion. From budget-friendly options to luxurious suites, diverse culinary delights and activities like children’s programs, whole family game time with golfing, water games, arcade games, zip line running and lots more thrown in-between. Our family-friendly packages, free budget planning tips and excellent staff support will ensure you have that memorable family experience.
                                     </p>
                                     {{-- Text Content --}}
 
