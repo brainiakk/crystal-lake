@@ -278,7 +278,7 @@
                         <!--================ End of Entity ================-->
                         <!--================ Entity ================-->
                         <article class="milenia-entity">
-                            <div class="milenia-entity-media"><a href="{{ url('/rooms/2bedroom') }}" class="milenia-ln--independent"><img src="{{ asset('images/') }}" alt=""></a></div>
+                            <div class="milenia-entity-media"><a href="{{ url('/rooms/2bedroom') }}" class="milenia-ln--independent"><img src="{{ asset('images/2bedroom_1.jpg') }}" alt=""></a></div>
                             <div class="milenia-entity-content">
                             <div class="milenia-entity-header">
                                 <div class="milenia-entity-meta">
