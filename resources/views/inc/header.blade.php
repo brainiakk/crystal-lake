@@ -133,7 +133,7 @@
               <div class="milenia-aligner-outer">
                 <div class="milenia-aligner-inner">
                   <div class="milenia-header-items">
-                    <div><a href="/" class="milenia-ln--independent"><img src="{{ asset('images/header_logo_crystallake.png') }}" alt=""></a></div>
+                  <div><a href="{{ url('/') }}" class="milenia-ln--independent"><img src="{{ asset('images/header_logo_crystallake.png') }}" alt=""></a></div>
                   </div>
                 </div>
               </div>
@@ -213,12 +213,12 @@
                             <!--================ End of Sub Menu ================-->
                           </li>
 
-                          <li class="menu-item menu-item-has-children"><a href="events_list.html" class="milenia-ln--independent">Facilities</a>
+                          <li class="menu-item menu-item-has-children"><a href="#" class="milenia-ln--independent">Facilities</a>
                             <!--================ Sub Menu ================-->
                             <ul class="sub-menu">
                               <li class="menu-item"><a href="{{ url('/food') }}" class="milenia-ln--independent">Food and Drink</a>
                               </li>
-                              <li class="menu-item"><a href="{{ url('/conference') }}" class="milenia-ln--independent">Conference Hall and Boardroom</a>
+                              <li class="menu-item"><a href="{{ url('/conference') }}" class="milenia-ln--independent">Event Venues</a>
                               </li>
                               <li class="menu-item"><a href="{{ url('/funspots') }}" class="milenia-ln--independent">Fun Spots and Equipment</a>
                               </li>
@@ -226,7 +226,7 @@
                             <!--================ End of Sub Menu ================-->
                           </li>
 
-                          <li class="menu-item"><a href="{{ url('/activities')}}" class="milenia-ln--independent {{ Request::path() === '/activities' ? 'current-menu-item' : '' }}">Activities</a></li>
+                          <li class="menu-item"><a href="{{ url('/activities') }}" class="milenia-ln--independent {{ Request::path() === '/activities' ? 'current-menu-item' : '' }}">Activities</a></li>
 
                           <li class="menu-item menu-item-has-children"><a href="#" class="milenia-ln--independent">Special Offers</a>
                             <!--================ Sub Menu ================-->

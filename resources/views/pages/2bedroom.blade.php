@@ -22,9 +22,9 @@
             <div class="row">
             <main class="col-lg-9 col-md-8 milenia-entity-single milenia-entity--room">
                 <div class="milenia-entity-content">
-                <div id="simple-slideshow-1" class="owl-carousel milenia-simple-slideshow"><img src="{{ asset('images/standard_room_1.jpg') }}" alt=""><img src="{{ asset('images/standard_room_2.jpg') }}" alt=""><img src="{{ asset('images/standard_room_3.jpg') }}" alt=""><img src="{{ asset('images/standard_room_4.jpg') }}" alt=""><img src="{{ asset('images/standard_room_5.jpg') }}" alt=""><img src="{{ asset('images/standard_room_6.jpg') }}" alt=""><img src="{{ asset('images/standard_room_7.jpg') }}" alt="">
+                <div id="simple-slideshow-1" class="owl-carousel milenia-simple-slideshow"><img src="{{ asset('images/2bedroom_1.jpg') }}" alt=""><img src="{{ asset('images/2bedroom_2.jpg') }}" alt=""><img src="{{ asset('images/2bedroom_3.jpg') }}" alt="">
                 </div>
-                <div data-sync="#simple-slideshow-1" class="owl-carousel owl-carousel--nav-edges owl-carousel--nav-onhover owl-carousel--nav-small milenia-simple-slideshow-thumbs"><img src="{{ asset('images/standard_room_1.jpg') }}" alt=""><img src="{{ asset('images/standard_room_2.jpg') }}" alt=""><img src="{{ asset('images/standard_room_3.jpg') }}" alt=""><img src="{{ asset('images/standard_room_4.jpg') }}" alt=""><img src="{{ asset('images/standard_room_5.jpg') }}" alt=""><img src="{{ asset('images/standard_room_6.jpg') }}" alt=""><img src="{{ asset('images/standard_room_7.jpg') }}" alt="">
+                <div data-sync="#simple-slideshow-1" class="owl-carousel owl-carousel--nav-edges owl-carousel--nav-onhover owl-carousel--nav-small milenia-simple-slideshow-thumbs"><img src="{{ asset('images/2bedroom_1.jpg') }}" alt=""><img src="{{ asset('images/2bedroom_2.jpg') }}" alt=""><img src="{{ asset('images/2bedroom_3.jpg') }}" alt="">
                 </div>
                 <!--================ Tabs ================-->
                 <div class="milenia-tabs milenia-tabs--style-2 milenia-tabs--tour-sections-lg">
@@ -38,7 +38,7 @@
                     <div class="milenia-tabs-container">
                     <!--================ Tab ================-->
                     <div id="tab-description" tabindex="0" role="tabpanel" aria-labelledby="tab-description-link" class="milenia-tab">
-                        <p>Our Standard Rooms at the GENESIS building offer privacy, a view of greenery,  infusing calm with all the modern comforts at Crystal Lake Resort and Tours.</p><a href="#" data-fancybox-album-src="[{&quot;src&quot;: &quot;images/floor-plan.png&quot;, &quot;opts&quot;: {&quot;caption&quot;: &quot;The floor plan&quot;}}]" class="milenia-btn milenia-btn--link milenia-btn--scheme-primary"></a>
+                        <p>Our 150-square-meter suite also has its own pantry equipped for preparation and serving of in-room meals, with a central living room and double king size bedrooms large enough for a family of 8-10. Secluded from the rest of the resort facilities and thoughtfully furnished with all the trappings of the perfect condo, it has become a favorite for the vacationing family.</p><a href="#" data-fancybox-album-src="[{&quot;src&quot;: &quot;images/floor-plan.png&quot;, &quot;opts&quot;: {&quot;caption&quot;: &quot;The floor plan&quot;}}]" class="milenia-btn milenia-btn--link milenia-btn--scheme-primary"></a>
                     </div>
                     <!--================ End of Tab ================-->
                     <!--================ Tab ================-->

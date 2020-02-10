@@ -44,9 +44,11 @@
                     <div class="milenia-grid-item-content">
                       <nav class="milenia-tt-uppercase">
                         <ul>
-                          <li><a href="/about">About</a></li>
-                          <li><a href="#">Special Offers</a></li>
-                          <li><a href="/events">Events</a></li>
+                          <li><a href="{{ url('/about') }}">About Us</a></li>
+                          <li>||</li>
+                          <li><a href="{{ url('/events') }}">Events</a></li>
+                          <li>||</li>
+                          <li><a href="{{ url('/reservation') }}">Make a Reservation</a></li>
                         </ul>
                       </nav>
                     </div>
