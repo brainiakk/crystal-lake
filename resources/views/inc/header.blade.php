@@ -238,6 +238,7 @@
                             <!--================ End of Sub Menu ================-->
                           </li>
 
+                          <li class="menu-item"><a href="{{ url('/gallery') }}"  class="milenia-ln--independent">Photo Gallery</a></li>
                           <li class="menu-item"><a href="{{ url('/reservation') }}"  class="milenia-ln--independent">Make a Reservation</a></li>
                       </nav>
                       <!--================ End of Navigation ================-->

@@ -36,6 +36,7 @@ Route::get('/groups', 'PagesController@groups');
 Route::get('/food', 'PagesController@food');
 Route::get('/conference', 'PagesController@conference');
 Route::get('/family', 'PagesController@family');
+Route::get('/gallery', 'PagesController@gallery');
 
 
 /* Admin backend routes - CRUD for posts, categories, and approving/deleting submitted comments */
