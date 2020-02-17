@@ -8,6 +8,7 @@ use App\Mail\ReservationMail;
 use Input;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Validator;
 
 class ReservationController extends Controller
 {
@@ -17,16 +18,10 @@ class ReservationController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-public function messages()
-{
-    return [
-        'name.required' => 'A title is required',
-        'tel.required'  => 'A message is required',
-    ];
-}
+
     public function reservation(Request $request)
     {
-        $validator = $request->validate([
+        $validator = Validator::make($request->all(), [
             'name' => 'required|max:255',
             'tel' => 'required',
             'email' => 'required|email',
@@ -108,7 +103,7 @@ public function messages()
         $bedroom = 0;
     }
 
-    Mail::to('generalmanager@crystallakeresortoguta.com')->send(new ReservationMail($name, $tel, $email, $room_num, $guest_num, $start_date, $end_date, $standard, $deluxe, $studio, $royal, $diplomatic, $executive, $bedroom));
+    Mail::to('reservations@crystallakeresortoguta.com')->send(new ReservationMail($name, $tel, $email, $guest_num, $start_date, $end_date, $standard, $deluxe, $studio, $royal, $diplomatic, $executive, $bedroom));
 
     if (count(Mail::failures()) > 0){
         Session::flash('error', "Email was not sent!!");

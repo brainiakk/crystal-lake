@@ -13,7 +13,6 @@ class ReservationMail extends Mailable
     public $name;
     public $tel;
     public $email;
-    public $room_num;
     public $guest_num;
     public $start_date;
     public $end_date;
@@ -30,12 +29,11 @@ class ReservationMail extends Mailable
      *
      * @return void
      */
-    public function __construct($name, $tel, $email, $room_num, $guest_num, $start_date, $end_date, $standard, $deluxe, $studio, $royal, $diplomatic, $executive, $bedroom)
+    public function __construct($name, $tel, $email, $guest_num, $start_date, $end_date, $standard, $deluxe, $studio, $royal, $diplomatic, $executive, $bedroom)
     {
         $this->name = $name;
         $this->tel = $tel;
         $this->email = $email;
-        $this->room_num = $room_num;
         $this->guest_num = $guest_num;
         $this->start_date = $start_date;
         $this->end_date = $end_date;
