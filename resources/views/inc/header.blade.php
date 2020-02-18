@@ -113,6 +113,16 @@
         <header id="milenia-header" class="milenia-header milenia-header--light">
 
         <div class="container">
+          <div class="container">
+            <div class="row">
+              <div class="col-5">
+                <p align="right"><strong>Call:</strong> <a href="tel: +2349068116377">09068116377 </a></p>
+              </div>
+              <div class="col-7">
+                <p align="left"><strong> Email:</strong> <a href="mailto:reservations@crystallakeresortoguta.com">reservations@crystallakeresortoguta.com</a>
+              </div>
+            </div>
+          </div>
           <!--================ Section ================-->
           <div class="milenia-header-section-md">
             <!--================ Column ================-->
