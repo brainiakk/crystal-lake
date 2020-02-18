@@ -3,7 +3,7 @@
 @section('title', 'Crystal Lake | Photo Gallery')
 
 @section('content')
-  <body class="milenia-body--scheme-blue">
+<body class="milenia-body--scheme-blue">
     <div class="milenia-preloader"></div>
     <!--================ Breadcrumb ================-->
     <div class="milenia-breadcrumb text-center milenia-colorizer--scheme-dark">
@@ -27,7 +27,7 @@
                       <div class="milenia-grid-item milenia-category-rooms">
                         <!--================ Gallery Item ================-->
                         <figure class="milenia-gallery-item milenia-gallery-item--with-thumb"><a href="{{ asset('images/gallery1.jpg') }}" data-fancybox="gallery" data-caption="Nemo Enim Ipsam" class="milenia-ln--independent milenia-gallery-item-link"><img src="{{ asset('images/gallery1.jpg') }}" alt=""></a>
-                          {{-- <figcaption class="milenia-gallery-item-caption">Nemo Enim Ipsam</figcaption> --}}
+                          {{-- 0<figcaption class="milenia-gallery-item-caption">Nemo Enim Ipsam</figcaption> --}}
                         </figure>
                         <!--================ End of Gallery Item ================-->
                       </div>
