@@ -3,14 +3,14 @@
 @section('title', 'Crystal Lake | About Us')
 
 @section('content')
-      <!--================ Breadcrumb ================-->
-      <div class="milenia-breadcrumb text-center milenia-colorizer--scheme-dark">
+<hr>
         <div class="container">
-          <h1 class="milenia-page-title">About Us</h1>
-          <nav class="milenia-breadcrumb-path"><span><a href="/">Home</a></span>/<span>About Us</span>
-          </nav>
+          <div class="row justify-content-center">
+            <div align="center" class="col-md-4"> 
+              <blockquote class="milenia-blockquote--style-2" style="color: white !important"><h3>About Us</h3></blockquote>
+            </div>
+          </div>
         </div>
-      </div>
       <!--================ End of Breadcrumb ================-->
       <div class="milenia-content  ">
         <div class="container">

@@ -3,18 +3,17 @@
 @section('title', 'Crystal Lake | Photo Gallery')
 
 @section('content')
+<hr>
 <body class="milenia-body--scheme-blue">
     <div class="milenia-preloader"></div>
-    <!--================ Breadcrumb ================-->
-    <div class="milenia-breadcrumb text-center milenia-colorizer--scheme-dark">
-        <div class="container">
-          <h1 class="milenia-page-title">Photo Gallery</h1>
-        </div>
-      </div>
-      <!--================ End of Breadcrumb ================-->
     <div id="milenia-page-wrapper" class="milenia-page-wrapper">
     <div class="milenia-content  ">
         <div class="container">
+          <div class="row justify-content-center">
+            <div align="center" class="col-md-auto"> 
+              <blockquote class="milenia-blockquote--style-2" style="color: white !important"><h3>Photo Gallery</h3></blockquote>
+            </div>
+          </div>
           <div class="row">
             <main class="col">
               <div class="milenia-entity-content">
