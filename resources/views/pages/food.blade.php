@@ -77,10 +77,8 @@
                         <article class="milenia-entity">
                           <div class="milenia-entity-media">
                             <div class="owl-carousel owl-carousel--vadaptive milenia-simple-slideshow">
-                              <div data-bg-image-src="{{ asset('images/trybal_1.jpg') }}" class="milenia-entity-slide"></div>
                               <div data-bg-image-src="{{ asset('images/trybal_2.jpg') }}" class="milenia-entity-slide"></div>
                               <div data-bg-image-src="{{ asset('images/trybal_3.jpg') }}" class="milenia-entity-slide"></div>
-                              <div data-bg-image-src="{{ asset('images/trybal_4.jpg') }}" class="milenia-entity-slide"></div>
                             </div>
                           </div>
                           <div class="milenia-entity-content milenia-aligner">

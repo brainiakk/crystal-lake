@@ -36,7 +36,7 @@
         <li>Soccer<i class="fas fa-futbol"></i></li>
         <li>Zipline<i class="milenia-font-icon-car"></i></li>
         <li>Bonfire Night Jamz<i class="milenia-font-icon-music"></i></li>
-        <li>Playground Activities<i class="milenia-font-icon-palms"></i></li>
+        <li>Kiddies Playground<i class="milenia-font-icon-palms"></i></li>
       </ul>
     </div>
     <div class="col-sm-4">

@@ -12,7 +12,8 @@
     <!--================ Favicon ================-->
     <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
     <!--================ Google web fonts ================-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700|Open+Sans:200,300,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:200,300,400,400i,600,600i,700,700i,800,800i|Open+Sans:200,300,400,400i,600,600i,700,700i,800,800i">
+    {{-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700|Open+Sans:200,300,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i"> --}}
     <!--================ Vendor CSS ================-->
   <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css') }}">
@@ -113,13 +114,14 @@
         <header id="milenia-header" class="milenia-header milenia-header--light">
 
         <div class="container">
-          <div class="container">
-            <div class="row">
-              <div class="col-5">
-                <p align="right"><strong>Call:</strong> <a href="tel: +2349068116377">09068116377 </a></p>
-              </div>
-              <div class="col-7">
-                <p align="left"><strong> Email:</strong> <a href="mailto:reservations@crystallakeresortoguta.com">reservations@crystallakeresortoguta.com</a>
+          <div class="milenia-header-section-md">
+            <div class="milenia-header-col milenia-aligner milenia-aligner--valign-middle milenia-header-col--padding-default milenia-header-col--padding-average-md milenia-header-col--padding-no-bottom">
+              <div class="milenia-aligner-outer">
+                <div class="milenia-aligner-inner">
+                  <div class="milenia-header-items">
+                  <div><a href="{{ url('/') }}" class="milenia-ln--independent"><img src="{{ asset('images/header_logo_crystallake.png') }}" alt=""></a></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -143,7 +145,9 @@
               <div class="milenia-aligner-outer">
                 <div class="milenia-aligner-inner">
                   <div class="milenia-header-items">
-                  <div><a href="{{ url('/') }}" class="milenia-ln--independent"><img src="{{ asset('images/header_logo_crystallake.png') }}" alt=""></a></div>
+                  <div>
+                    <p align="center"><strong>Call:</strong> <a href="tel: +2349068116377">09068116377 </a></br>
+                    <strong> Email:</strong> <a href="mailto:reservations@crystallakeresortoguta.com">reservations@crystallakeresortoguta.com</a></p></div>
                   </div>
                 </div>
               </div>

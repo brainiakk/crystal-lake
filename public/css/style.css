@@ -355,7 +355,7 @@ Headers:    'Abril Fatface' sans-serif;
 
             h1, h2, h3, h4, h5, h6 {
                 color: #1c1c1c;
-                font-family: "Playfair Display", serif;
+                font-family: "Roboto Slab", serif;
                 font-weight: 400;
                 line-height: 1.2;
             }
@@ -635,7 +635,7 @@ Headers:    'Abril Fatface' sans-serif;
             bottom: 0;
             left: 0;
             text-align: center;
-            font-family: Playfair Display, serif;
+            font-family: Roboto Slab, serif;
             font-size: 1.875rem;
             line-height: 2.34375rem;
             color: #1c1c1c;
@@ -2382,14 +2382,14 @@ Headers:    'Abril Fatface' sans-serif;
                 }
 
                 .milenia-widget .milenia-events .milenia-event-date {
-                    font-family: Playfair Display, serif;
+                    font-family: Roboto Slab, serif;
                     width: 4.875rem;
                     margin-right: 1.25rem;
                     float: left;
                 }
 
                 .milenia-widget .milenia-events .milenia-event-date-date {
-                    font-family: Old Standard TT, serif;
+                    font-family: Roboto Slab, serif;
                     font-size: 1.875rem;
                     line-height: 1;
                     font-weight: 700;
@@ -2465,7 +2465,7 @@ Headers:    'Abril Fatface' sans-serif;
                 .milenia-widget .recentcomments > a {
                     font-size: 1.125rem;
                     line-height: 1.63125rem;
-                    font-family: "Playfair Display", serif;
+                    font-family: "Roboto Slab", serif;
                 }
 
             /* ----------------------------------------
@@ -2530,7 +2530,7 @@ Headers:    'Abril Fatface' sans-serif;
                 .milenia-widget .milenia-weather-indicator--style-3 {
                     font-size: 3rem;
                     letter-spacing: -3px;
-                    font-family: "Old Standard TT", serif;
+                    font-family: "Roboto Slab", serif;
                 }
 
                 .milenia-widget .milenia-weather-indicator--style-3 .fa,
@@ -3883,7 +3883,7 @@ Headers:    'Abril Fatface' sans-serif;
         .comment .fn {
             font-style: normal;
             font-size: 1.125rem;
-            font-family: Playfair Display, serif;
+            font-family: Roboto Slab, serif;
             margin-bottom: 0.7rem;
             color: #313131;
             display: block;
@@ -4219,7 +4219,7 @@ Headers:    'Abril Fatface' sans-serif;
 
         .milenia-dropcap > *:first-child:first-letter {
             font-size: 3.25rem;
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
             font-weight: 900;
             line-height: 1;
             display: block;
@@ -4484,7 +4484,7 @@ Headers:    'Abril Fatface' sans-serif;
         dl dt {
             font-size: 1.125rem;
             font-weight: 700;
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
             line-height: 1.3;
             text-transform: uppercase;
         }
@@ -4500,8 +4500,8 @@ Headers:    'Abril Fatface' sans-serif;
 
         .milenia-entity-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled), .milenia-list--icon,
         .milenia-list--icon-big, .milenia-entity-content ol:not(.milenia-list--unstyled) {
-            -ms-word-break: break-all;
-                word-break: break-all;
+            -ms-word-break: normal;
+                word-break: normal;
         }
 
         .milenia-entity-content ul:not(.milenia-list--icon):not(.milenia-list--unstyled) ul, .milenia-list--icon ul,
@@ -4972,7 +4972,7 @@ Headers:    'Abril Fatface' sans-serif;
     ---------------------------------------- */
 
         blockquote:not(.milenia-blockquote--unstyled) {
-            font-family: "Old Standard TT", serif;
+            font-family: "Roboto Slab", serif;
             font-size: 1.5rem;
             line-height: 1.625;
             font-style: italic;
@@ -5068,8 +5068,8 @@ Headers:    'Abril Fatface' sans-serif;
             vertical-align: top;
             cursor: pointer;
             outline: none;
-            -ms-word-break: break-all;
-                word-break: break-all;
+            -ms-word-break: normal;
+                word-break: normal;
 
             -webkit-transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
                     transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -5548,7 +5548,7 @@ Headers:    'Abril Fatface' sans-serif;
             font-size: 1.125rem;
             line-height: 1.3;
             font-weight: 700;
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
             text-transform: uppercase;
             text-align: initial;
             display: block;
@@ -5720,7 +5720,7 @@ Headers:    'Abril Fatface' sans-serif;
 
         .milenia-tabs:not(.milenia-tabs--unstyled) .milenia-tabs-nav {
             font-weight: 700;
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
             text-transform: uppercase;
             letter-spacing: 0.18px;
             font-size: 0;
@@ -5757,7 +5757,7 @@ Headers:    'Abril Fatface' sans-serif;
             font-size: 1.125rem;
             line-height: 1.3;
             font-weight: 700;
-            font-family: Playfair Display, serif;
+            font-family: Roboto Slab, serif;
             text-transform: uppercase;
             letter-spacing: 0.18px;
 
@@ -6141,7 +6141,7 @@ Headers:    'Abril Fatface' sans-serif;
         }
 
         .milenia-counter-count {
-            font-family: "Old Standard TT", serif;
+            font-family: "Roboto Slab", serif;
             font-size: 3rem;
             line-height: .9;
             white-space: nowrap;
@@ -6318,7 +6318,7 @@ Headers:    'Abril Fatface' sans-serif;
         }
 
         .milenia-team-member-name {
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
             font-size: 1.5rem;
             line-height: 1.875rem;
             font-weight: 700;
@@ -6556,7 +6556,7 @@ Headers:    'Abril Fatface' sans-serif;
         }
 
         .milenia-pricing-table-price {
-            font-family: Old Standard TT, serif;
+            font-family: Roboto Slab, serif;
             font-size: 2.25rem;
             line-height: 1;
             font-weight: 700;
@@ -6565,7 +6565,7 @@ Headers:    'Abril Fatface' sans-serif;
         }
 
         .milenia-pricing-table-price:not(:last-child) {
-            font-family: Old Standard TT, serif;
+            font-family: Roboto Slab, serif;
             font-size: 2.25rem;
             line-height: 1;
             font-weight: 700;
@@ -7202,7 +7202,7 @@ Headers:    'Abril Fatface' sans-serif;
     ---------------------------------------- */
 
         .milenia-info-box-title {
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
             font-size: 1.5rem;
             line-height: 2rem;
             font-weight: 400;
@@ -8849,7 +8849,7 @@ Headers:    'Abril Fatface' sans-serif;
             .milenia-entities--style-16 .milenia-entity-price,
             .milenia-entity-single.milenia-entity--room .milenia-entity-price {
                 font-size: 1.4rem;
-                font-family: "Old Standard TT", serif;
+                font-family: "Roboto Slab", serif;
                 vertical-align: baseline;
             }
 
@@ -9739,7 +9739,7 @@ Headers:    'Abril Fatface' sans-serif;
             }
 
             .milenia-entities--style-19 .milenia-entity-price {
-                font-family: "Playfair Display", serif;
+                font-family: "Roboto Slab", serif;
                 font-size: 1.125rem;
                 line-height: 1.875rem;
             }
@@ -9754,14 +9754,14 @@ Headers:    'Abril Fatface' sans-serif;
             }
 
             .milenia-entities--style-19 .milenia-entity-date-date {
-                font-family: "Old Standard TT", serif;
+                font-family: "Roboto Slab", serif;
                 font-size: 3.75rem;
                 line-height: 3rem;
                 letter-spacing: -3px;
             }
 
             .milenia-entities--style-19 .milenia-entity-date-month-year {
-                font-family: "Playfair Display", serif;
+                font-family: "Roboto Slab", serif;
                 font-size: 1rem;
                 line-height: 1.25rem;
             }
@@ -9845,7 +9845,7 @@ Headers:    'Abril Fatface' sans-serif;
             ---------------------------------------- */
 
                 .milenia-entity-link-element {
-                    font-family: "Old Standard TT", serif;
+                    font-family: "Roboto Slab", serif;
                     font-size: 1.5rem;
                     line-height: 2.4375rem;
                     font-style: italic;
@@ -10224,7 +10224,7 @@ Headers:    'Abril Fatface' sans-serif;
             }
 
             .milenia-tabbed-carousel-thumb-caption {
-                font-family: "Playfair Display", serif;
+                font-family: "Roboto Slab", serif;
                 font-size: 1rem;
                 line-height: 1.125rem;
                 text-transform: uppercase;
@@ -10461,7 +10461,7 @@ Headers:    'Abril Fatface' sans-serif;
         }
 
         .milenia-testimonial blockquote {
-            font-family: "Old Standard TT", serif;
+            font-family: "Roboto Slab", serif;
             font-size: 1.875rem;
             line-height: 3.25rem;
             font-style: italic;
@@ -10717,7 +10717,7 @@ Headers:    'Abril Fatface' sans-serif;
         }
 
         .tp-layer-section-title {
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
         }
 
         .rev-has-scrollbottom-icon::after, .rev-has-scrollbottom-icon::before {
@@ -10824,7 +10824,7 @@ Headers:    'Abril Fatface' sans-serif;
         .milenia-estimate-mark {
             width: 12.5rem;
             height: 12.5rem;
-            font-family: "Old Standard TT", serif;
+            font-family: "Roboto Slab", serif;
             text-transform: uppercase;
             font-size: 4.5rem;
             letter-spacing: -5px;
@@ -10837,7 +10837,7 @@ Headers:    'Abril Fatface' sans-serif;
 
         .milenia-estimate-mark-text {
             font-size: 1.125rem;
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
             font-style: normal;
             font-weight: 400;
             letter-spacing: 0;
@@ -11006,7 +11006,7 @@ Headers:    'Abril Fatface' sans-serif;
             }
 
             .milenia-field-datepicker--style-1 .milenia-field-datepicker-day {
-                font-family: "Old Standard TT", serif;
+                font-family: "Roboto Slab", serif;
                 color: #1c1c1c;
                 font-size: 3.7rem;
                 line-height: 0.82;
@@ -11024,7 +11024,7 @@ Headers:    'Abril Fatface' sans-serif;
             }
 
             .milenia-field-datepicker--style-1 .milenia-field-datepicker-month-year {
-                font-family: "Playfair Display", serif;
+                font-family: "Roboto Slab", serif;
                 line-height: 1.25rem;
                 color: #1c1c1c;
                 display: block;
@@ -11047,7 +11047,7 @@ Headers:    'Abril Fatface' sans-serif;
                 padding-right: 2.8125rem;
                 font-size: 1.5rem;
                 line-height: 1.8125rem;
-                font-family: "Playfair Display", serif;
+                font-family: "Roboto Slab", serif;
                 color: #1c1c1c;
             }
 
@@ -11680,7 +11680,7 @@ Headers:    'Abril Fatface' sans-serif;
             }
 
             .milenia-field-counter-value {
-                font-family: "Old Standard TT", serif;
+                font-family: "Roboto Slab", serif;
                 color: #1c1c1c;
                 font-size: 3.7rem;
                 line-height: 0.82;
@@ -11897,7 +11897,7 @@ Headers:    'Abril Fatface' sans-serif;
             }
 
             .milenia-singlefield-form-titled-wrapper .milenia-singlefield-form-title {
-                font-family: "Playfair Display", serif;
+                font-family: "Roboto Slab", serif;
                 font-size: 2.25rem;
                 line-height: 2.4375rem;
                 margin-right: 1.25rem;
@@ -12276,7 +12276,7 @@ Headers:    'Abril Fatface' sans-serif;
         .milenia-booking-form--style-2 .form-col--title {
             font-size: 3rem;
             line-height: 3.75rem;
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
         }
 
         .milenia-booking-form--style-2 .form-col--arrival-date .form-control, .milenia-booking-form--style-2 .form-col--departure-date .form-control, .milenia-booking-form--style-2 .form-col--rooms .form-control, .milenia-booking-form--style-2 .form-col--adults .form-control, .milenia-booking-form--style-2 .form-col--children .form-control {
@@ -12305,7 +12305,7 @@ Headers:    'Abril Fatface' sans-serif;
             padding: 0 1.4rem 0 0;
             height: 1.8rem;
             line-height: 1.7rem;
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
             font-size: 1.5rem;
         }
 
@@ -12713,7 +12713,7 @@ Headers:    'Abril Fatface' sans-serif;
         }
 
         .milenia-countdown .countdown-amount {
-            font-family: "Old Standard TT", serif;
+            font-family: "Roboto Slab", serif;
             font-size: 3rem;
             line-height: 1;
             display: block;
@@ -13025,7 +13025,7 @@ Headers:    'Abril Fatface' sans-serif;
 
         .milenia-weather-indicator--style-2 {
             color: #1c1c1c;
-            font-family: "Old Standard TT", serif;
+            font-family: "Roboto Slab", serif;
             font-size: 1.875rem;
         }
 
@@ -13780,7 +13780,7 @@ Headers:    'Abril Fatface' sans-serif;
         }
 
         .milenia-404-title {
-            font-family: "Old Standard TT", serif;
+            font-family: "Roboto Slab", serif;
             font-size: 25rem;
             line-height: 1;
         }
@@ -13841,7 +13841,7 @@ Headers:    'Abril Fatface' sans-serif;
     ---------------------------------------- */
 
         .milenia-contact-info {
-            font-family: "Playfair Display", serif;
+            font-family: "Roboto Slab", serif;
             font-size: 2.25rem;
             line-height: 3.2625rem;
         }
