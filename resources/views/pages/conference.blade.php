@@ -79,13 +79,13 @@
                                       
                                     {{-- Text Content --}}
                                     <p>
-                                      <ul class="milenia-list--icon">
-                                          <li>Our largest indoor venue, the Crystal Events Hall, can accommodate 1000 attendees. <i class="milenia-tc--primary icon icon-check"></i></li>
-                                          <li>Serene just about describes our surroundings <i class="milenia-tc--primary icon icon-check"></i></li>
-                                          <li>Our security team is top notch<i class="milenia-tc--primary icon icon-check"></i></li>
-                                          <li>Our AV equipment and technical support is upgraded every third quarter of the year.<i class="milenia-tc--primary icon icon-check"></i></li>
-                                          <li>We provide customized catering for our guests<i class="milenia-tc--primary icon icon-check"></i></li>
-                                          <li>We give you value for your money……..plus more.<i class="milenia-tc--primary icon icon-check"></i></li>
+                                      <ul class="milenia-list--icon" style="list-style-type: circle !important;">
+                                          <li>Our largest indoor venue, the Crystal Events Hall, can accommodate 1000 attendees. <i class="fa fa-dot-cirlce"></i></li>
+                                          <li>Serene just about describes our surroundings <i class="fa fa-dot-cirlce"></i></li>
+                                          <li>Our security team is top notch<i class="fa fa-dot-cirlce"></i></li>
+                                          <li>Our AV equipment and technical support is upgraded every third quarter of the year.<i class="fa fa-dot-cirlce"></i></li>
+                                          <li>We provide customized catering for our guests<i class="fa fa-dot-cirlce"></i></li>
+                                          <li>We give you value for your money……..plus more.<i class="fa fa-dot-cirlce"></i></li>
                                       </ul>
                                     </p>
                                     <br>
@@ -93,12 +93,12 @@
                                     <span><h6><strong>Other Services:</strong></h6></span>
                                     <br>
                                     <div>
-                                      <ul class="milenia-list--icon">
-                                        <li>Typing<i class="milenia-tc--primary icon icon-check"></i></li>
-                                        <li>Photocopying<i class="milenia-tc--primary icon icon-check"></i></li>
-                                        <li>Printing<i class="milenia-tc--primary icon icon-check"></i></li>
-                                        <li>Scanning<i class="milenia-tc--primary icon icon-check"></i></li>
-                                        <li>Wi-Fi<i class="milenia-tc--primary icon icon-check"></i></li>
+                                      <ul class="milenia-list--icon" style="list-style-type: circle !important;">
+                                        <li>Typing<i class="fa fa-dot-cirlce"></i></li>
+                                        <li>Photocopying<i class="fa fa-dot-cirlce"></i></li>
+                                        <li>Printing<i class="fa fa-dot-cirlce"></i></li>
+                                        <li>Scanning<i class="fa fa-dot-cirlce"></i></li>
+                                        <li>Wi-Fi<i class="fa fa-dot-cirlce"></i></li>
                                       </ul>
                                     </div>
                                     {{-- Text Content --}}
