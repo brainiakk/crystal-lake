@@ -1312,12 +1312,14 @@ Eorik SliderArea Style
 }
 
 .eorik-slider-item .eorik-slider-text h1 {
-  font-size: 160px;
+  font-size: 80px;
   color: #ffffff;
-  margin-top: 30px;
-  margin-bottom: -20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-family: "beautiful-heartregular";
 }
+
+
 
 .eorik-slider-item .eorik-slider-text span {
   color: #ffffff;
@@ -1400,36 +1402,63 @@ Eorik SliderArea Style
 }
 
 .slider-item-bg-1::after {
-  background-image: url(../img/homepage_slide_1.jpg);
+  background-image: url("/images/homepage_slide_1.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  
 }
 
 .slider-item-bg-2::after {
-  background-image: url(../img/homepage_slide_2.jfif);
+  background-image: url("/images/homepage_slide_2.jfif");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  
 }
 
 .slider-item-bg-3::after {
-  background-image: url(../img/homepage_slide_3.jfif);
+  background-image: url("/images/homepage_slide_3.jfif");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 .slider-item-bg-4::after {
-  background-image: url(../img/homepage_slide_4.jpg);
+  background-image: url("/images/homepage_slide_4.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 .slider-item-bg-5::after {
-  background-image: url(../img/homepage_slide_5.jpg);
+  background-image: url("/images/homepage_slide_5.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 .slider-item-bg-6::after {
-  background-image: url(../img/homepage_slide_6.jpg);
+  background-image: url("/images/homepage_slide_6.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 .slider-item-bg-7::after {
-  background-image: url(../img/homepage_slide_7.jpg);
+  background-image: url("/images/homepage_slide_7.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 .slider-item-bg-8::after {
-  background-image: url(../img/homepage_slide_8.jpg);
+  background-image: url("/images/homepage_slide_8.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
+
 @-webkit-keyframes moveScale {
   0% {
     -webkit-transform: scale(1.1);
