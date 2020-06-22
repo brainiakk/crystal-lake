@@ -51,7 +51,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function () {
     Route::patch('update_event/{eventId}', 'EventsController@update')->name('update.event');
 });
 
-Auth::routes(['register' => false]);
+Auth::routes();
 // Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
