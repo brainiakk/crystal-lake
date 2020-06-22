@@ -1,26 +1,26 @@
 <!doctype html>
 <html lang="en">
-    
+
 <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS --> 
+        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-        <!-- Beautiful Fonts CSS --> 
+        <!-- Beautiful Fonts CSS -->
         <link rel="stylesheet" href="{{ asset('css/beautiful-fonts.css') }}">
-        <!-- Owl Theme Default CSS --> 
+        <!-- Owl Theme Default CSS -->
         <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
-        <!-- Owl Carousel CSS --> 
+        <!-- Owl Carousel CSS -->
         <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
-        <!-- Owl Magnific CSS --> 
+        <!-- Owl Magnific CSS -->
         <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
-        <!-- Animate CSS --> 
+        <!-- Animate CSS -->
         <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
-        <!-- Boxicons CSS --> 
-		<link rel="stylesheet" href="{{ asset('css/boxicons.min.css') }}"> 
-        <!-- Flaticon CSS --> 
+        <!-- Boxicons CSS -->
+		<link rel="stylesheet" href="{{ asset('css/boxicons.min.css') }}">
+        <!-- Flaticon CSS -->
 		<link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
         <!-- Meanmenu CSS -->
         <link rel="stylesheet" href="{{ asset('css/meanmenu.css') }}">
@@ -34,10 +34,10 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <!-- Responsive CSS -->
 		<link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
-		
+
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
-		
+
         <!-- TITLE -->
         <title>@yield('title')</title>
     </head>
@@ -51,7 +51,7 @@
 			</div>
 		</div>
 		<!-- End Preloader Area -->
-	
+
 		<!-- Start Ecorik Navbar Area -->
 		<div class="eorik-nav-style fixed-top">
 			<div class="navbar-area">
@@ -172,7 +172,7 @@
 									<li class="nav-item">
 										<a href="{{ url('/gallery') }}" class="nav-link dropdown-toggle">
 											Gallery
-											<i class='bx bx-chevron-down'></i>
+											<i class='bx bx-chevron-down '></i>
 										</a>
 									</li>
 									<li class="nav-item">
@@ -197,10 +197,10 @@
 		</div>
 		<!-- End Ecorik Navbar Area -->
 
-		      
+
 
 		<!-- Start Sidebar Modal -->
-		<div class="sidebar-modal">  
+		<div class="sidebar-modal">
 			<div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
