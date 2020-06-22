@@ -36,7 +36,7 @@
 		<link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 		
 		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="{{ asset('img/favicon.png') }}">
+		<link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}">
 		
         <!-- TITLE -->
         <title>@yield('title')</title>
@@ -132,86 +132,53 @@
 									</li>
 									<li class="nav-item">
 										<a href="#" class="nav-link dropdown-toggle">
+											Facilities
+											<i class='bx bx-chevron-down'></i>
+										</a>
+										<ul class="dropdown-menu">
+											<li class="nav-item">
+												<a href="{{ url('/food') }}" class="nav-link">Food and Drink</a>
+											</li>
+											<li class="nav-item">
+												<a href="{{ url('/conference') }}" class="nav-link">Event Venues</a>
+											</li>
+											<li class="nav-item">
+												<a href="{{ url('/funspots') }}" class="nav-link">Fun Spots and Equipment</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="{{ url('/activities') }}" class="nav-link {{ Request::path() === '/activities' ? 'active' : '' }}">
+											Activities
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="#" class="nav-link dropdown-toggle">
+											Offers
+											<i class='bx bx-chevron-down'></i>
+										</a>
+										<ul class="dropdown-menu">
+											<li class="nav-item">
+												<a href="{{ url('/family') }}" class="nav-link">Family Packages</a>
+											</li>
+											<li class="nav-item">
+												<a href="{{ url('/singles') }}" class="nav-link">Singles Packages</a>
+											</li>
+											<li class="nav-item">
+												<a href="{{ url('/groups') }}" class="nav-link">Group Packages</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="{{ url('/gallery') }}" class="nav-link dropdown-toggle">
 											Gallery
 											<i class='bx bx-chevron-down'></i>
 										</a>
-										<ul class="dropdown-menu">
-											<li class="nav-item">
-												<a href="gallery-columns-two.html" class="nav-link">Gallery Columns Two</a>
-											</li>
-											<li class="nav-item">
-												<a href="gallery-columns-three.html" class="nav-link">Gallery Columns Three</a>
-											</li>
-											<li class="nav-item">
-												<a href="gallery-columns-four.html" class="nav-link">Gallery Columns Four</a>
-											</li>
-											<li class="nav-item">
-												<a href="gallery-light-box.html" class="nav-link">Gallery Light Box</a>
-											</li>
-											<li class="nav-item">
-												<a href="gallery-masonry.html" class="nav-link">Gallery Masonry</a>
-											</li>
-										</ul>
 									</li>
 									<li class="nav-item">
-										<a href="#" class="nav-link dropdown-toggle">
-											Services
-											<i class='bx bx-chevron-down'></i>
+										<a href="{{ url('/reservation') }}" class="nav-link dropdown-toggle">
+											Reservation
 										</a>
-										<ul class="dropdown-menu">
-											<li class="nav-item">
-												<a href="service-style-one.html" class="nav-link">Service Style One</a>
-											</li>
-											<li class="nav-item">
-												<a href="service-style-two.html" class="nav-link">Service Style Two</a>
-											</li>
-											<li class="nav-item">
-												<a href="service-style-three.html" class="nav-link">Service Style Three</a>
-											</li>
-											<li class="nav-item">
-												<a href="service-style-four.html" class="nav-link">Service Style Four</a>
-											</li>
-											<li class="nav-item">
-												<a href="service-details.html" class="nav-link">Service Details</a>
-											</li>
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a href="#" class="nav-link dropdown-toggle">
-											News
-											<i class='bx bx-chevron-down'></i>
-										</a>
-										<ul class="dropdown-menu">
-											<li class="nav-item">
-												<a href="news-grid.html" class="nav-link">News Grid</a>
-											</li>
-											<li class="nav-item">
-												<a href="news-columns-two.html" class="nav-link">News Columns Two</a>
-											</li>
-											<li class="nav-item">
-												<a href="news-left-sidebar.html" class="nav-link">News Left Sidebar</a>
-											</li>
-											<li class="nav-item">
-												<a href="news-right-sidebar.html" class="nav-link">News Right Sidebar</a>
-											</li>
-											<li class="nav-item">
-												<a href="news-details.html" class="nav-link">News Details</a>
-											</li>
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a href="#" class="nav-link dropdown-toggle">
-											Contacts
-											<i class='bx bx-chevron-down'></i>
-										</a>
-										<ul class="dropdown-menu">
-											<li class="nav-item">
-												<a href="contact-style-one.html" class="nav-link">Contact Style One</a>
-											</li>
-											<li class="nav-item">
-												<a href="contact-style-two.html" class="nav-link">Contact Style Two</a>
-											</li>
-										</ul>
 									</li>
 								</ul>
 								<!-- Start Other Option -->

@@ -1,36 +1,13 @@
 <!-- Start Footer Area -->
 <footer class="footer-top-area pt-140 jarallax" data-jarallax='{"speed": 0.3}'>
     <div class="container">
-        <div class="section-title">
-            <h2>Subscribe newsletter</h2>
-            <p>Newsletr dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreonsectetur adipiscinet dolore.</p>
-        </div>
-        <div class="footer-tops-area pb-60">
-            <div class="row">
-                <!-- Start Subscribe Area -->
-                <div class="subscribe-wrap">
-                    <form class="newsletter-form" data-toggle="validator">
-                        <input type="email" class="input-tracking" placeholder="Your Email" name="EMAIL" required autocomplete="off">
-    
-                        <button class="default-btn active" type="submit">
-                            Subscribe
-                            <i class="flaticon-right"></i>
-                        </button>
-    
-                        <div id="validator-newsletter" class="form-result"></div>
-                    </form>
-                </div>
-                <!-- End Subscribe Area -->
-            </div>
-        </div>
         <div class="footer-middle-area pt-60">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
                     <div class="single-widget">
                         <a href="{{ url('/')}} ">
                             <img src=" {{ asset('images/header_logo_crystallake.png') }}" alt="Image">
                         </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus.</p>
                         <ul class="social-icon">
                             <li>
                                 <a href="https://web.facebook.com/crystallakeresortntours">
@@ -45,113 +22,33 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-widget">
-                        <h3>Quick Links</h3>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Big Data
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Wellness
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Spa Gallery
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Reservation
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    FAQ 
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Contact 
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single-widget">
-                        <h3>Services</h3>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Restaurant
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Swimming Pool
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Wellness & Spa
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Conference Room
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Events
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="right-icon bx bx-chevrons-right"></i>
-                                    Adult Room
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="single-widget">
                         <h3>Contact Info</h3>
                         <ul class="information">
                             <li class="address">
                                 <i class="flaticon-maps-and-flags"></i>
                                 <span>Address</span>
-                                205 Fida Walinton, Tongo Street Front The USA
+                                No. 1 Tourismo Boulevard by Ministry of Works, Oguta, Imo State
                             </li>
                             <li class="address">
                                 <i class="flaticon-call"></i>
                                 <span>Phone</span>
-                                <a href="tel:+882-569-756">
-                                    +882-569-756
+                                <a href="tel:+2349068116377">
+                                    09068116377,
+                                </a>
+                                <a href="tel:+2348063566576">
+                                    08063566576,
+                                </a>
+                                <a href="tel:+2348030877889">
+                                    08030877889
                                 </a>
                             </li>
                             <li class="address">
                                 <i class="flaticon-envelope"></i>
                                 <span>Email</span>
-                                <a href="mailto:hello@ecorik.com">
-                                    hello@ecorik.com
+                                <a href="mailto:reservations@crystallakeresortoguta.com">
+                                    reservations@crystallakeresortoguta.com
                                 </a>
                             </li>
                         </ul>
@@ -163,19 +60,19 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="copy-right">
-                        <p>Copyright <i class="bx bx-copyright"></i> 2020 <a href="index-2.html">Ecorik</a>. All Rights Reserved</p>
+                        <p>Copyright <i class="bx bx-copyright"></i> {{ date('Y') }} Crystal Lake Resort and Tours. All Rights Reserved.</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="designed">
-                        <p>Designed By <i class='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+                        <p>Designed By <i class='bx bx-heart'></i> <a href="http://gescangroup.com/" target="_blank">GESCAN</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer-shape">
-        <img src="{{ asset('img/shape/white-shape-bottom.png') }}" alt="Image">
+        <img src="{{ asset('images/white-shape-bottom.png') }}" alt="Image">
     </div>
 </footer>
 <!-- End Footer Area -->

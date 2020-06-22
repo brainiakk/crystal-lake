@@ -120,15 +120,15 @@ This files table contents are outlined below>>>>>
 /*
 Default Style
 ============================*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,400i,500,600,700&amp;display=swap");
-@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display:400,400i&amp;display=swap");
-@import url("https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,500,500i,600,600i,700,700i,800&amp;display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,600,600i,700,700i,800,800i&amp;display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:200,300,400,400i,600,600i,700,700i,800,800i&amp;display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,500,500i,600,600i,700,700i,800&amp;display=swap"); */
 body {
   padding: 0;
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #7a7e9a;
 }
 
@@ -162,7 +162,7 @@ button:focus {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #24416b;
-  font-family: "DM Serif Display", serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
 }
 
@@ -182,7 +182,7 @@ h3 {
 p {
   font-size: 16px;
   margin-bottom: 15px;
-  font-family: "Muli", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 p:last-child {
@@ -627,7 +627,7 @@ Default Btn Area Style
   position: relative;
   cursor: pointer;
   border-radius: 50px;
-  font-family: "Muli", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
@@ -1536,7 +1536,7 @@ Check Area Style
   border-radius: 0;
   padding: 0;
   font-size: 35px;
-  font-family: "Muli", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: -18px;
   width: 100%;
   font-weight: 700;
@@ -1584,7 +1584,7 @@ Check Area Style
   padding: 0;
   font-size: 25px;
   width: 100%;
-  font-family: "Muli", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #7a7e9a;
   line-height: 1;
@@ -1650,12 +1650,12 @@ Check Area Style
 }
 
 .datepicker table tr td {
-  font-family: "Muli", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
 
 .datepicker table tr th {
-  font-family: "Muli", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 13px;
 }
@@ -2514,7 +2514,7 @@ Restaurants Area Style
   color: #ffffff;
   text-transform: uppercase;
   font-size: 20px;
-  font-family: "DM Serif Display", serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -2842,7 +2842,7 @@ Footer Top Area Style
 
 .single-widget .information li.address span {
   display: block;
-  font-family: "DM Serif Display", serif;
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
   font-weight: 600;
 }
@@ -5516,7 +5516,7 @@ INNER PAGE STYLE
 Page Title Area Style
 =====================================================*/
 .page-title-area {
-  background-image: url(../img/page-bg.jpg);
+  background-image: url("/images/page_bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7053,7 +7053,7 @@ Pricing Area Style
 
 .pricing-area .single-pricing span {
   font-size: 30px;
-  font-family: "DM Serif Display", serif;
+  font-family: "Roboto Slab", serif;
   color: #24416b;
   font-weight: 700;
   display: block;
@@ -7140,7 +7140,7 @@ Pricing Area Style
 .pricing-area .tab.quote-list-tab .tabs li {
   display: inline-block;
   padding: 0 10px;
-  font-family: "DM Serif Display", serif;
+  font-family: "Roboto Slab", serif;
   color: #24416b;
   font-size: 20px;
   font-weight: 700;
@@ -7631,7 +7631,7 @@ Book Table Area Style
 }
 
 .book-from h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 27px;
   font-weight: 600;
   text-transform: uppercase;
