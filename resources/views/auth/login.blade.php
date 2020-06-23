@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@section('title', 'Crystal Lake | Login')
 @section('content')
 
 <!-- Start Page Title Area -->
@@ -9,12 +9,10 @@
             <h2>Log In</h2>
             <ul>
                 <li>
-                    <a href="index-2.html">
+                    <a href="{{  url('/') "> }}
                         Home
                     </a>
                 </li>
-                <li>Pages</li>
-                <li>User</li>
                 <li>Log In</li>
             </ul>
         </div>
