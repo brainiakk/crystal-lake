@@ -1,7 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Crystal Lake | Login')
 @section('content')
-
 <!-- Start Page Title Area -->
 <div class="page-title-area">
     <div class="container">
