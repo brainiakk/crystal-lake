@@ -147,11 +147,11 @@
 											</li>
 										</ul>
 									</li>
-									<li class="nav-item">
+									{{--  <li class="nav-item">
 										<a href="{{ url('/activities') }}" class="nav-link {{ Request::path() === '/activities' ? 'active' : '' }}">
 											Activities
 										</a>
-									</li>
+									</li>  --}}
 									<li class="nav-item">
 										<a href="#" class="nav-link dropdown-toggle">
 											Offers
@@ -173,7 +173,14 @@
 										<a href="{{ url('/gallery') }}" class="nav-link dropdown-toggle">
 											Gallery
 											<i class='bx bx-chevron-down '></i>
-										</a>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                                <a href="{{ url('/activities') }}" class="nav-link {{ Request::path() === '/activities' ? 'active' : '' }}">
+                                                    Activities
+                                                </a>
+                                            </li>
+                                        </ul>
 									</li>
 									<li class="nav-item">
 										<a href="{{ url('/reservation') }}" class="nav-link dropdown-toggle">
