@@ -1978,6 +1978,7 @@ Rooms Area Style
 .single-rooms .room-content h3 {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  font-size: 25px;
 }
 
 .single-rooms .room-content span {
@@ -5516,7 +5517,7 @@ INNER PAGE STYLE
 Page Title Area Style
 =====================================================*/
 .page-title-area {
-  background-image: url("/images/page_bg.png");
+  background-image: url("/images/page_bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9717,5 +9718,388 @@ Gallery Area Style
 .single-gallery:hover .gallery-image img {
   -webkit-transform: scale(2.3) rotate(4deg);
           transform: scale(2.3) rotate(4deg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #19b1d1;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #19b1d1), to(#19b1d1));
+  background-image: linear-gradient(to bottom, #19b1d1 100%, #19b1d1 100%);
+}
+
+section {
+  background: transparent;
+  border: 0 none;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+}
+
+section {
+  display: block;
+}
+
+article > div > a {
+  text-decoration: none;
+  outline: none !important;
+  vertical-align: baseline;
+}
+
+article > div > a > img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+article > div > h2 {
+  color: #1c1c1c;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+body.milenia-body--border-layout .milenia-section:not(.milenia-section--no-py) {
+  padding-top: 5.9rem;
+}
+
+body.milenia-body--border-layout .milenia-section:not(.milenia-section--no-py):last-child {
+  padding-bottom: 5.9rem;
+}
+
+mark, rp, rt, ruby, summary, time {
+  display: inline;
+}
+
+.milenia-aligner .milenia-aligner-inner {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+}
+
+.milenia-entity .milenia-aligner-inner,
+.milenia-entities--style-7 .milenia-entity {
+   height: auto !important;
+}
+
+.milenia-aligner .milenia-aligner-outer {
+  display: table;
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}
+
+.milenia-btn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block !important;
+  vertical-align: top;
+  cursor: pointer;
+  outline: none;
+  -ms-word-break: normal;
+      word-break: normal;
+
+  -webkit-transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: all .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+       -o-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.milenia-btn:not(.milenia-btn--link):not(.milenia-btn--big):not(.milenia-btn--huge):not(.milenia-btn--xxl) {
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  padding-top: 0.58rem;
+  padding-bottom: 0.6rem;
+}
+
+.milenia-btn:not(.milenia-btn--link):not([class*="milenia-btn--scheme-"]), .milenia-btn:not(.milenia-btn--link):not([class*="milenia-btn--scheme-"]).milenia-btn--reverse:hover {
+  border-color: #858585;
+  background-color: #858585;
+  color: #fff;
+}
+
+.milenia-csstransforms3d .milenia-entity-media {
+  display: block;
+  overflow: hidden;
+}
+
+.milenia-csstransforms3d .milenia-entity-media img {
+  -webkit-transition: -webkit-transform .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition:         transform .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.milenia-entity-meta > * {
+  display: inline;
+  vertical-align: baseline;
+}
+
+.milenia-entities--style-19 .milenia-entity {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: #858585;
+}
+
+.milenia-entities--style-19 .milenia-entity-body:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.milenia-entities--style-19 .milenia-entity-content {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  padding-top: 1.35rem;
+  padding-bottom: 1.6rem;
+  background-color: #f8f8f8;
+}
+
+.milenia-entities--style-19 .milenia-entity-date-date {
+  font-family: "Roboto Slab", serif;
+  font-size: 3.75rem;
+  line-height: 3rem;
+  letter-spacing: -3px;
+}
+
+
+.milenia-entities--style-19 .milenia-entity-date-month-year {
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.milenia-entities--style-19 .milenia-entity-extra-data {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.milenia-entities--style-19 .milenia-entity-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.milenia-entities--style-19 .milenia-entity-header:not(:last-child) {
+  margin-bottom: 1.35rem;
+}
+
+.milenia-entities--style-19 .milenia-entity-media img {
+  width: 100%;
+}
+
+.milenia-entities--style-19 .milenia-entity-meta {
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #b1b1b1;
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.milenia-entities--style-19 .milenia-entity-meta:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.milenia-entities--style-19 .milenia-entity-meta a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.milenia-entities--style-19 .milenia-entity-meta > div {
+  display: block;
+}
+
+.milenia-entities--style-19 .milenia-entity-meta > div:not(:last-child) {
+  margin-bottom: 0.15rem;
+}
+
+.milenia-entities--style-19 .milenia-entity-price {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+
+.milenia-entities--style-19 .milenia-entity-price, .milenia-entities--style-19 .milenia-entity-date-date, .milenia-entities--style-19 .milenia-entity-date-month-year {
+  color: #19b1d1;
+}
+
+.milenia-entities--style-19 .milenia-entity-price:not(:last-child) {
+  margin-bottom: 0.3rem;
+}
+
+.milenia-entities--style-19 .milenia-entity-title {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.milenia-entities--style-19 .milenia-entity-title:not(:only-child) {
+  margin-bottom: 0.8rem;
+}
+
+.milenia-entities--style-19 .milenia-entity-title a:not(.milenia-ln--independent):not(.milenia-btn) {
+  color: #1c1c1c;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #1c1c1c), to(#1c1c1c));
+  background-image: linear-gradient(to bottom, #1c1c1c 100%, #1c1c1c 100%);
+}
+
+.milenia-entities--style-19 .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) {
+  margin-top: -1.875rem;
+}
+
+.milenia-entities--style-19 .milenia-grid:not(.milenia-grid--no-gutters):not(.owl-carousel) .milenia-grid-item {
+  padding-top: 1.875rem;
+}
+
+.milenia-grid--isotope:not(.milenia-grid--no-gutters) .milenia-grid-item {
+  padding-top: 1.875rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  padding-bottom: 0;
+}
+
+.milenia-grid:not(.owl-carousel):not(.milenia-grid--no-gutters) > .milenia-grid-item {
+  padding-top: 3rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  padding-bottom: 0rem;
+}
+
+.milenia-grid:not(.owl-carousel):not(.milenia-grid--no-gutters) {
+  margin-top: -3rem;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  margin-bottom: 0rem;
+}
+
+.milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-item--2x,
+.milenia-has-sidebar .milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-item,
+.milenia-has-sidebar .milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-has-sidebar .milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-item,
+.milenia-has-sidebar .milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-has-sidebar .milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-item,
+.milenia-has-sidebar .milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-sizer {
+  width: 33.33333%;
+}
+
+.milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-2.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-2.milenia-grid--isotope .milenia-grid-sizer {
+   width: 100%;
+}
+
+.milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-6.milenia-grid--isotope .milenia-grid-item--2x,
+.milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-5.milenia-grid--isotope .milenia-grid-item--2x,
+.milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-4.milenia-grid--isotope .milenia-grid-item--2x,
+.milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-item,
+.milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-sizer,
+.milenia-grid--cols-3.milenia-grid--isotope .milenia-grid-item--2x {
+   width: 50%;
+}
+
+.milenia-grid--isotope {
+  -webkit-transition: height .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: height .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  overflow: hidden;
+}
+
+.milenia-grid--isotope:not(.milenia-grid--no-gutters) {
+  margin-top: -1.875rem;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  margin-bottom: 0;
+}
+
+.milenia-non-underlined-link,
+.milenia-sub-navigation a,
+.milenia-square-image[data-bg-image-src] a,
+.gallery-item a,
+.milenia-btn:not(.milenia-btn--link),
+.milenia-entities--style-13 .milenia-entity-link,
+.milenia-testimonial-service,
+.fancybox-button,
+.ui-datepicker a,
+.mejs__container a {
+  background-image: none !important;
+  background-repeat: initial;
+  background-size: initial;
+}
+
+.milenia-section {
+  position: relative;
+  padding-bottom: 5.9rem;
+}
+
+.milenia-section:last-child:not([data-bg-image-src]):not([class*="milenia-colorizer--scheme-"]),
+.milenia-section .milenia-section:last-child:not([class*="milenia-colorizer--scheme-"]) {
+  padding-bottom: 0;
+}
+
+.milenia-underlined-link,
+a:not(.milenia-ln--independent),
+.milenia-navigation .sub-menu a,
+.milenia-btn--link,
+.milenia-dropdown-element > li > a,
+.milenia-events-month-event-title a {
+  display: inline;
+  background-repeat: no-repeat;
+  background-size: 0px 1px;
+  -webkit-transition-property: all;
+          transition-property: all;
+  -webkit-transition-delay: 0ms;
+          transition-delay: 0ms;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+::selection {
+  color: #fff;
+  background-color: #ae745a;
+}
+
+[data-bg-image-src] {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=style.css.map */

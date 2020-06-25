@@ -2067,7 +2067,7 @@
     max-width: 90px;
   }
   .single-rooms .room-content {
-    padding-left: 110px;
+    padding-left: 0;
     top: 2px;
   }
   .exclusive-content {

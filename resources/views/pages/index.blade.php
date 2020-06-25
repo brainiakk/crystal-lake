@@ -15,7 +15,7 @@
 									<h1>Welcome to Crystal Lake Resort and Tours</h1>
 									<span>A UNIQUE BLEND OF PRIVACY, SECURITY AND COMFORT</span>
 									<div class="slider-btn">
-										<a class="default-btn" href="/about">
+										<a class="default-btn white" href="{{ url('/about') }}">
 											Discover More
 											<i class="flaticon-right"></i>
 										</a>
@@ -33,7 +33,7 @@
 									<h1>Welcome to Crystal Lake Resort and Tours</h1>
 									<span>Where Dreams &amp; Emotions Live</span>
 									<div class="slider-btn">
-										<a class="default-btn" href="#">
+										<a class="default-btn white" href="{{ url('/about') }}">
 											Discover More
 											<i class="flaticon-right"></i>
 										</a>
@@ -51,7 +51,7 @@
 									<h1>Welcome to Crystal Lake Resort and Tours</h1>
 									<span>The Essence of a Smooth Glamour</span>
 									<div class="slider-btn">
-										<a class="default-btn" href="#">
+										<a class="default-btn white" href="{{ url('/about') }}">
 											Discover More
 											<i class="flaticon-right"></i>
 										</a>
@@ -237,8 +237,8 @@
 							<img src="{{ asset('images/sign-1.png') }}" alt=""><br>
 							<small style="margin-top: -90px; padding-bottom: 20px;">General Manager</small><br>
 
-							<a href="about.html" class="default-btn">
-								explore More
+							<a href="{{ url('/') }}" class="default-btn">
+								Explore More
 								<i class="flaticon-right"></i>
 							</a>
 						</div>

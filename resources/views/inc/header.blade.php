@@ -77,7 +77,7 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li class="nav-item">
-												<a href="{{ url('/about') }}" class="nav-link active">About Us</a>
+												<a href="{{ url('/about') }}" class="nav-link {{ Request::path() === '/about' ? 'active' : '' }}">About Us</a>
 											</li>
 										</ul>
 									</li>
@@ -88,25 +88,25 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li class="nav-item">
-												<a href="{{ url('/rooms/standard') }}" class="nav-link">Standard Rooms</a>
+												<a href="{{ url('/rooms/standard') }}" class="nav-link {{ Request::path() === '/rooms/standard' ? 'active' : '' }}">Standard Rooms</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/rooms/executive') }}" class="nav-link">Executive Rooms</a>
+												<a href="{{ url('/rooms/executive') }}" class="nav-link {{ Request::path() === '/rooms/executive' ? 'active' : '' }}">Executive Rooms</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/rooms/studio') }}" class="nav-link">Studio Rooms</a>
+												<a href="{{ url('/rooms/studio') }}" class="nav-link {{ Request::path() === '/rooms/studio' ? 'active' : '' }}">Studio Rooms</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/rooms/deluxe') }}" class="nav-link">Deluxe Rooms</a>
+												<a href="{{ url('/rooms/deluxe') }}" class="nav-link {{ Request::path() === '/rooms/deluxe' ? 'active' : '' }}">Deluxe Rooms</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/rooms/royal') }}" class="nav-link">Royal Suites</a>
+												<a href="{{ url('/rooms/royal') }}" class="nav-link {{ Request::path() === '/rooms/royal' ? 'active' : '' }}">Royal Suites</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/rooms/diplomatic') }}" class="nav-link">Diplomatic Suites</a>
+												<a href="{{ url('/rooms/diplomatic') }}" class="nav-link {{ Request::path() === '/rooms/diplomatic' ? 'active' : '' }}">Diplomatic Suites</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/rooms/2bedroom') }}" class="nav-link">Two-Bedroom Suites</a>
+												<a href="{{ url('/rooms/2bedroom') }}" class="nav-link {{ Request::path() === '/rooms/2bedroom' ? 'active' : '' }}">Two-Bedroom Suites</a>
 											</li>
 										</ul>
 									</li>
@@ -117,16 +117,16 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li class="nav-item">
-												<a href="{{ url('/events') }}" class="nav-link">Events List</a>
+												<a href="{{ url('/events') }}" class="nav-link {{ Request::path() === '/events' ? 'active' : '' }}">Events List</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/meetings') }}" class="nav-link">Meetings</a>
+												<a href="{{ url('/meetings') }}" class="nav-link {{ Request::path() === '/meetings' ? 'active' : '' }}">Meetings</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/weddings') }}" class="nav-link">Weddings</a>
+												<a href="{{ url('/weddings') }}" class="nav-link {{ Request::path() === '/weddings' ? 'active' : '' }}">Weddings</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/socialgatherings') }}" class="nav-link">Social Gatherings</a>
+												<a href="{{ url('/socialgatherings') }}" class="nav-link {{ Request::path() === '/socialgatherings' ? 'active' : '' }}">Social Gatherings</a>
 											</li>
 										</ul>
 									</li>
@@ -137,13 +137,13 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li class="nav-item">
-												<a href="{{ url('/food') }}" class="nav-link">Food and Drink</a>
+												<a href="{{ url('/food') }}" class="nav-link {{ Request::path() === '/food' ? 'active' : '' }}">Food and Drink</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/conference') }}" class="nav-link">Event Venues</a>
+												<a href="{{ url('/conference') }}" class="nav-link {{ Request::path() === '/conference' ? 'active' : '' }}">Event Venues</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/funspots') }}" class="nav-link">Fun Spots and Equipment</a>
+												<a href="{{ url('/funspots') }}" class="nav-link {{ Request::path() === '/funspots' ? 'active' : '' }}">Fun Spots and Equipment</a>
 											</li>
 										</ul>
 									</li>
@@ -159,18 +159,18 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li class="nav-item">
-												<a href="{{ url('/family') }}" class="nav-link">Family Packages</a>
+												<a href="{{ url('/family') }}" class="nav-link {{ Request::path() === '/family' ? 'active' : '' }}">Family Packages</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/singles') }}" class="nav-link">Singles Packages</a>
+												<a href="{{ url('/singles') }}" class="nav-link {{ Request::path() === '/singles' ? 'active' : '' }}">Singles Packages</a>
 											</li>
 											<li class="nav-item">
-												<a href="{{ url('/groups') }}" class="nav-link">Group Packages</a>
+												<a href="{{ url('/groups') }}" class="nav-link {{ Request::path() === '/groups' ? 'active' : '' }}">Group Packages</a>
 											</li>
 										</ul>
 									</li>
 									<li class="nav-item">
-										<a href="{{ url('/gallery') }}" class="nav-link dropdown-toggle">
+										<a href="{{ url('/gallery') }}" class="nav-link dropdown-toggle {{ Request::path() === '/gallery' ? 'active' : '' }}">
 											Gallery
 											<i class='bx bx-chevron-down'></i>
 										</a>
