@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -111,7 +110,7 @@
 										</ul>
 									</li>
 									<li class="nav-item">
-										<a href="/events" class="nav-link dropdown-toggle">
+										<a href="{{ url('/events') }}" class="nav-link dropdown-toggle">
 											Events
 											<i class='bx bx-chevron-down'></i>
 										</a>
@@ -147,11 +146,11 @@
 											</li>
 										</ul>
 									</li>
-									<li class="nav-item">
+									{{--  <li class="nav-item">
 										<a href="{{ url('/activities') }}" class="nav-link {{ Request::path() === '/activities' ? 'active' : '' }}">
 											Activities
 										</a>
-									</li>
+									</li>  --}}
 									<li class="nav-item">
 										<a href="#" class="nav-link dropdown-toggle">
 											Offers
@@ -173,7 +172,14 @@
 										<a href="{{ url('/gallery') }}" class="nav-link dropdown-toggle {{ Request::path() === '/gallery' ? 'active' : '' }}">
 											Gallery
 											<i class='bx bx-chevron-down '></i>
-										</a>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                                <a href="{{ url('/activities') }}" class="nav-link {{ Request::path() === '/activities' ? 'active' : '' }}">
+                                                    Activities
+                                                </a>
+                                            </li>
+                                        </ul>
 									</li>
 									<li class="nav-item">
 										<a href="{{ url('/reservation') }}" class="nav-link dropdown-toggle">
