@@ -27,7 +27,7 @@
         <div class="tab industries-list-tab" style="clear: both;">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
-                    <div class="container">
+                    <div class="container" style="text-align: justify; text-justify: inter-word;">
                         <p>Our Standard Rooms at the GENESIS building offer privacy, a view of greenery, infusing calm with all the modern comforts at Crystal Lake Resort and Tours.</p>
                     </div>
                 </div>
@@ -44,20 +44,27 @@
             <div class="single-city-item owl-carousel owl-theme">
                 <div class="city-view-single-item">
                     <div class="city-content">
-                        <span>The City View</span>
-                        <h3>A charming view of the city town</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur necessitatibus fugit eligendi accusantium vel quos debitis cupiditate ducimus placeat explicabo distinctio, consectetur eos animi, a voluptate delectus. Id, explicabo saepe Consequuntur</p>
-
-                        <p>The view onin wansis dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ad minim veniam, quis nostrud exercitation consectetur.</p>
+                        <img src="{{ asset('images/standard_room_1.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="city-view-single-item">
                     <div class="city-content">
-                        <span>The City View</span>
-                        <h3>The charming view of the city</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur necessitatibus fugit eligendi accusantium vel quos debitis cupiditate ducimus placeat explicabo distinctio, consectetur eos animi, a voluptate delectus. Id, explicabo saepe Consequuntur</p>
-
-                        <p>The view onin wansis dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ad minim veniam, quis nostrud exercitation consectetur.</p>
+                        <img src="{{ asset('images/standard_room_2.jpg') }}" alt="">
+                    </div>
+                </div>
+                <div class="city-view-single-item">
+                    <div class="city-content">
+                        <img src="{{ asset('images/standard_room_3.jpg') }}" alt="">
+                    </div>
+                </div>
+                <div class="city-view-single-item">
+                    <div class="city-content">
+                        <img src="{{ asset('images/standard_room_4.jpg') }}" alt="">
+                    </div>
+                </div>
+                <div class="city-view-single-item">
+                    <div class="city-content">
+                        <img src="{{ asset('images/standard_room_5.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
