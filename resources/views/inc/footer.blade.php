@@ -82,11 +82,12 @@
     <i class='bx bx-chevrons-up bx-fade-up'></i>
     <i class='bx bx-chevrons-up bx-fade-up'></i>
 </div>
-<!-- End Go Top Area --> 
+<!-- End Go Top Area -->
 
 
 <!-- Jquery Slim JS -->
 <script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/rtypes.js') }}"></script>
 <!-- Popper JS -->
 <script src="{{ asset('js/popper.min.js') }}"></script>
 <!-- Bootstrap JS -->
@@ -101,13 +102,13 @@
 <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
 <!-- Nice Select JS -->
 <script src="{{ asset('js/jquery.nice-select.min.js') }}"></script>
-<!-- Appear JS --> 
+<!-- Appear JS -->
 <script src="{{ asset('js/jquery.appear.js') }}"></script>
-<!-- Odometer JS --> 
+<!-- Odometer JS -->
 <script src="{{ asset('js/odometer.min.js') }}"></script>
 <!-- Bootstrap Datepicker JS -->
 <script src="{{ asset('js/bootstrap-datepicker.min.js') }}"></script>
-<!-- Parallax JS --> 
+<!-- Parallax JS -->
 <script src="{{ asset('js/parallax.min.js') }}"></script>
 <!-- Mixitup JS -->
 <script src="{{ asset('js/jquery.mixitup.min.js') }}"></script>

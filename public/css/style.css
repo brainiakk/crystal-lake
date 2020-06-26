@@ -7,12 +7,12 @@ template.
 
 This files table contents are outlined below>>>>>
 
-******************************************* 
+*******************************************
 ** - DEFAULT AREA STYLE - **
 
 ** - Preloader Area Style
 ** - Go Top Area Style
-** - Page navigation Area Style  
+** - Page navigation Area Style
 ** - Video wave Style
 
 ** - DEFAULT STYLE END - **
@@ -84,20 +84,20 @@ This files table contents are outlined below>>>>>
 ** - HOME PAGE FIVE STYLE - **
 
 ** - Ecorik Nav Style Five
-** - Ecorik Slider Area Five Style 
-** - Explore Area Five Style 
-** - Booking Area Five Style 
-** - Counter Area Five Style 
-** - City View Area Five Style 
-** - FacilitiesArea Five Style 
-** - Exclusive Five Style 
-** - Subscribe Five Style 
+** - Ecorik Slider Area Five Style
+** - Explore Area Five Style
+** - Booking Area Five Style
+** - Counter Area Five Style
+** - City View Area Five Style
+** - FacilitiesArea Five Style
+** - Exclusive Five Style
+** - Subscribe Five Style
 
 ** - INNER PAGE STYLE - **
 
 ** - Page Title Area Style
 ** - Product Area Style
-** - Checkout Area Style 
+** - Checkout Area Style
 ** - Cart Area Style
 ** - Product Details Style
 ** - Team Expert Area Two Style
@@ -109,7 +109,7 @@ This files table contents are outlined below>>>>>
 ** - Coming Soon Area Style
 ** - 404 Error Area Style
 ** - News Details Area Style
-** - Contact Info Area Style 
+** - Contact Info Area Style
 ** - Main Contact Area Style
 ** - Service Details Area Style
 ** - Gallery Area Style
@@ -207,7 +207,7 @@ ul {
   background-color: #f9f9f9;
   border-radius: 10px;
   font-size: 15px;
-  padding: 10px 20px;
+  padding: 5px 5px;
   width: 100%;
 }
 
@@ -1406,7 +1406,7 @@ Eorik SliderArea Style
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  
+
 }
 
 .slider-item-bg-2::after {
@@ -1414,7 +1414,7 @@ Eorik SliderArea Style
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  
+
 }
 
 .slider-item-bg-3::after {
@@ -1490,7 +1490,7 @@ Eorik SliderArea Style
 }
 
 /*
-Check Area Style 
+Check Area Style
 ======================================================*/
 .check-area {
   position: absolute;
@@ -3975,7 +3975,7 @@ Restaurant Area Three Style
   background-image: url(../img/restaurants/8.jpg);
 }
 
-/* 
+/*
 Customer Area Two  Style
 ======================================================*/
 .customer-area .single-customer {
@@ -4050,7 +4050,7 @@ Customer Area Two  Style
   height: 5px;
 }
 
-/* 
+/*
 Contact Us Area Two  Style
 ======================================================*/
 .contact-us-area {
@@ -4102,7 +4102,7 @@ Contact Us Area Two  Style
           animation: rotation 30s linear infinite;
 }
 
-/* 
+/*
 News Area Three  Style
 ======================================================*/
 .news-area-three .news-content-wrap {
@@ -4146,7 +4146,7 @@ News Area Three  Style
   color: #cc8c18;
 }
 
-/* 
+/*
 Footer Top Area Three  Style
 ======================================================*/
 .footer-top-area-three .input-tracking {
@@ -4172,7 +4172,7 @@ Footer Top Area Three  Style
 /*====================================================
 HOME PAGE FOUR STYLE
 ======================================================*/
-/* 
+/*
 Eorik Nav Style Four
 ======================================================*/
 .eorik-nav-style-four .navbar-area .main-nav {
@@ -5116,7 +5116,7 @@ Ecorik Nav Style Five
 }
 
 /*
-Ecorik Slider Area Five Style 
+Ecorik Slider Area Five Style
 ======================================================*/
 .eorik-slider-area-five {
   border-radius: 0 0 100px 100px;
@@ -5198,7 +5198,7 @@ Ecorik Slider Area Five Style
 }
 
 /*
-Explore Area Five Style 
+Explore Area Five Style
 ======================================================*/
 .explore-area-five .explore-gallery {
   background-position: center center;
@@ -5228,7 +5228,7 @@ Explore Area Five Style
 }
 
 /*
-Booking Area Five Style 
+Booking Area Five Style
 ======================================================*/
 .booking-area-five {
   background-image: url(../img/booking-bg.jpg);
@@ -5279,7 +5279,7 @@ Booking Area Five Style
 }
 
 /*
-Counter Area Five Style 
+Counter Area Five Style
 ======================================================*/
 .counter-area-five {
   overflow: hidden;
@@ -5292,7 +5292,7 @@ Counter Area Five Style
 }
 
 /*
-City View Area Five Style 
+City View Area Five Style
 ======================================================*/
 .city-view-area-five {
   background-image: unset;
@@ -5367,7 +5367,7 @@ City View Area Five Style
 }
 
 /*
-FacilitiesArea Five Style 
+FacilitiesArea Five Style
 ======================================================*/
 .facilities-area-five {
   margin-top: 50px;
@@ -5416,7 +5416,7 @@ FacilitiesArea Five Style
 }
 
 /*
-Exclusive Five Style 
+Exclusive Five Style
 ======================================================*/
 .exclusive-offers-area-five .single-exclusive-four {
   text-align: center;
@@ -5454,7 +5454,7 @@ Exclusive Five Style
 }
 
 /*
-Subscribe Five Style 
+Subscribe Five Style
 ======================================================*/
 .subscribe-area {
   background-color: #cc8c18;
@@ -5512,7 +5512,7 @@ Subscribe Five Style
 /*====================================================
 INNER PAGE STYLE
 ======================================================*/
-/* 
+/*
 Page Title Area Style
 =====================================================*/
 .page-title-area {
@@ -5761,8 +5761,8 @@ Product Area Style
   text-decoration: none;
 }
 
-/* 
-Checkout Area Style 
+/*
+Checkout Area Style
 =====================================================*/
 .checkout-area .user-actions {
   -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
@@ -6083,7 +6083,7 @@ Checkout Area Style
   text-align: center;
 }
 
-/* 
+/*
 Cart Area Style
 =====================================================*/
 .cart-area .cart-table table {
@@ -7738,7 +7738,7 @@ Book Table Area Style
   transition: all 0.15s ease-in-out;
 }
 
-/* 
+/*
 Coming Soon Area Style
 =====================================================*/
 .coming-soon-area {
@@ -9196,7 +9196,7 @@ News Details Area Style
 }
 
 /*
-Contact Info Area Style 
+Contact Info Area Style
 ================================*/
 .contact-info-area .single-contact-info {
   text-align: center;

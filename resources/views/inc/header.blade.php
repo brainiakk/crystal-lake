@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-        <!-- Required meta tags -->
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -111,7 +110,7 @@
 										</ul>
 									</li>
 									<li class="nav-item">
-										<a href="/events" class="nav-link dropdown-toggle">
+										<a href="{{ url('/events') }}" class="nav-link dropdown-toggle">
 											Events
 											<i class='bx bx-chevron-down'></i>
 										</a>
