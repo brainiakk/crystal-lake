@@ -8,7 +8,7 @@
             <h2>Log In</h2>
             <ul>
                 <li>
-                    <a href="{{  url('/') "> }}
+                    <a href="{{  url('/') }}"> 
                         Home
                     </a>
                 </li>
