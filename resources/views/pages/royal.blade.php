@@ -14,57 +14,42 @@
 </div>
 <!-- End Page Title Area -->
 
-<!-- Start Our Rooms Area -->
-<br>
-<br>
-<section class="our-rooms-area pb-100">
+<!-- End Service Details Area -->
+<section class="service-details-area pt-100">
     <div class="container">
-        <div class="section-title">
-            <span style="float: right;">From N50,000/night</span>
-        </div>
-        <br>
-        <br>
-        <div class="tab industries-list-tab" style="clear: both;">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="container" style="text-align: justify; text-justify: inter-word;">
-                        <p>An offshoot from the Diplomatic Suites, our Royal Suites offer you the perfect accommodation to recharge between adventures and rest up before another day filled with getaway fun that is our trademark. In these spacious suites with plenty of spacious living spaces, sumptuous design and flawless attention to detail is just the start of your perfect vacation.</p>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="service-sidebar-area">
+                    <div class="service-list service-card">
+                        <h3 class="service-details-title">From N50,000/night</h3>
+                        <ul>
+                            <li>
+                                An offshoot from the Diplomatic Suites, our Royal Suites offer you the perfect accommodation to recharge between adventures and rest up before another day filled with getaway fun that is our trademark. In these spacious suites with plenty of spacious living spaces, sumptuous design and flawless attention to detail is just the start of your perfect vacation.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="service-details-wrap ">
+                    <div class="service-img-wrap owl-carousel owl-theme mb-30">
+                        <div class="single-services-imgs">
+                            <img src="{{ asset('images/royal-suite_1.png') }}" alt="Image">
+                        </div>
+                        <div class="single-services-imgs">
+                            <img src="{{ asset('images/royal-suite_2.png') }}" alt="Image">
+                        </div>
+                        <div class="single-services-imgs">
+                            <img src="{{ asset('images/royal-suite_3.png') }}" alt="Image">
+                        </div>
+                        <div class="single-services-imgs">
+                            <img src="{{ asset('images/royal-suite_4.png') }}" alt="Image">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End Our Rooms Area -->
-
-<!-- Start City View Area -->
-<section class="city-view-area pb-100">
-    <div class="container">
-        <div class="city-wrap">
-            <div class="single-city-item owl-carousel owl-theme">
-                <div class="city-view-single-item">
-                    <div class="city-content">
-                        <img src="{{ asset('images/royal-suite_1.png') }}" alt="">
-                    </div>
-                </div>
-                <div class="city-view-single-item">
-                    <div class="city-content">
-                        <img src="{{ asset('images/royal-suite_2.png') }}" alt="">
-                    </div>
-                </div>
-                <div class="city-view-single-item">
-                    <div class="city-content">
-                        <img src="{{ asset('images/royal-suite_3.png') }}" alt="">
-                    </div>
-                </div>
-                <div class="city-view-single-item">
-                    <div class="city-content">
-                        <img src="{{ asset('images/royal-suite_4.png') }}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End City View Area -->
+<!-- End Service Details Area -->
 @endsection

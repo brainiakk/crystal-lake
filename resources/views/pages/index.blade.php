@@ -227,7 +227,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="explore-img">
-							<img src="{{ asset('images/front-view.png') }}" alt="Image">
+							<img src="{{ asset('images/front-view.jpg') }}" alt="Image">
 						</div>
 					</div>
 					<div class="col-lg-6">

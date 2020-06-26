@@ -1406,7 +1406,7 @@ Eorik SliderArea Style
 }
 
 .slider-item-bg-2::after {
-  background-image: url("/images/homepage_slide_2.jfif");
+  background-image: url("/images/homepage_slide_2.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -1414,7 +1414,7 @@ Eorik SliderArea Style
 }
 
 .slider-item-bg-3::after {
-  background-image: url("/images/homepage_slide_3.jfif");
+  background-image: url("/images/homepage_slide_3.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
