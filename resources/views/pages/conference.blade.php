@@ -16,7 +16,6 @@
 <!-- End Service Details Area -->
 <section class="service-details-area pt-100">
     <div class="container">
-
         <div class="row">
             <div class="col-lg-4">
                 <div class="service-sidebar-area">
@@ -40,13 +39,22 @@
             <div class="col-lg-4">
                 <div class="service-sidebar-area">
                     <div class="service-list service-card">
-                        <h3 class="service-details-title">Trybal Dining Room</h3>
+                        <h3 class="service-details-title">EVENTS HALL</h3>
                         <ul>
                             <li>
-                                Looking for that extra twist to your dining experience? Our Trybal dining room and bar located in the GENESIS building provides you with just that! Every inch of space, the décor and overall atmosphere was designed to give you the feeling of home-away-from-home. What’s more, with trained waiters available at your beck and call, soft music (group diners can even make their choice of songs) and a robust wine list to pick from……………….it’s always a Crystallized Experience.<br>
-                                <b>Food:</b> African, International <br>
-                                <b>Open for:</b> Lunch, Dinner, Cocktail hour <br>
-                                <b>Menu:</b> Buffet & À La Carte <br>
+                                <i class="bx bx-check"></i> &nbsp; Our largest indoor venue, the Crystal Events Hall, can accommodate 1000 attendees. <br>
+                                <i class="bx bx-check"></i> &nbsp; Serene just about describes our surroundings <br>
+                                <i class="bx bx-check"></i> &nbsp; Our security team is top notch<br>
+                                <i class="bx bx-check"></i> &nbsp; Our AV equipment and technical support is upgraded every third quarter of the year.<br>
+                                <i class="bx bx-check"></i> &nbsp; We provide customized catering for our guests <br>
+                                <i class="bx bx-check"></i> &nbsp; We give you value for your money...plus more. <br>
+                                <br>
+                                <span><h5>Other Services:</h5></span>                                
+                                <i class="bx bx-check"></i> &nbsp; Typing <br>
+                                <i class="bx bx-check"></i> &nbsp; Photocopying <br>
+                                <i class="bx bx-check"></i> &nbsp; Printing <br>
+                                <i class="bx bx-check"></i> &nbsp; Scanning <br>
+                                <i class="bx bx-check"></i> &nbsp; Wi-Fi
                             </li>
                         </ul>
                     </div>
@@ -56,46 +64,7 @@
                 <div class="service-details-wrap ">
                     <div class="service-img-wrap owl-carousel owl-theme mb-30">
                         <div class="single-services-imgs">
-                            <img src="{{ asset('images/trybal_1.jpg') }}" alt="Image">
-                        </div>
-                        <div class="single-services-imgs">
-                            <img src="{{ asset('images/trybal_2.jpg') }}" alt="Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="service-sidebar-area">
-                    <div class="service-list service-card">
-                        <h3 class="service-details-title">Crystal Kitchen Service</h3>
-                        <ul>
-                            <li>
-                                Led by the internationally renowned Beninese Chef, John Azonde, the Crystal kitchen operates round the clock and has been the recipient of unsolicited praise from both lodging and walk-in guests, redefining the art of dining and impressing even the most critiquing palates.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-8">
-                <div class="service-details-wrap ">
-                    <div class="service-img-wrap owl-carousel owl-theme mb-30">
-                        <div class="single-services-imgs">
-                            <img src="{{ asset('images/food_1.jpg') }}" alt="Image">
-                        </div>
-                        <div class="single-services-imgs">
-                            <img src="{{ asset('images/food_2.jpg') }}" alt="Image">
-                        </div>
-                        <div class="single-services-imgs">
-                            <img src="{{ asset('images/food_3.jpg') }}" alt="Image">
-                        </div>
-                        <div class="single-services-imgs">
-                            <img src="{{ asset('images/food_4.jpg') }}" alt="Image">
-                        </div>
-                        <div class="single-services-imgs">
-                            <img src="{{ asset('images/food_5.jpg') }}" alt="Image">
+                            <img src="{{ asset('images/events_hall.jpeg') }}" alt="Image">
                         </div>
                     </div>
                 </div>

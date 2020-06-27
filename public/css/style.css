@@ -7742,7 +7742,7 @@ Coming Soon Area Style
   position: relative;
   height: 100vh;
   z-index: 1;
-  background-image: url(../img/coming-soon-bg.jpg);
+  background-image: url("/images/homepage_slide_7.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7759,7 +7759,7 @@ Coming Soon Area Style
   height: 100%;
   -webkit-animation: border-transform 7s linear infinite alternate forwards;
           animation: border-transform 7s linear infinite alternate forwards;
-  background-image: url(../img/coming-soon-bg.jpg);
+  background-image: url("/images/homepage_slide_7.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9714,4 +9714,10 @@ Gallery Area Style
 .single-gallery:hover .gallery-image img {
   -webkit-transform: scale(2.3) rotate(4deg);
           transform: scale(2.3) rotate(4deg);
+}
+
+.bx-check {
+  float: left !important;
+  height: 0.75em !important;
+  width: 0.75em !important;
 }
