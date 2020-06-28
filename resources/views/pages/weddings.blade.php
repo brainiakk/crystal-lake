@@ -83,7 +83,7 @@
                 <div class="service-details-wrap ">
                     <div class="service-img-wrap owl-carousel owl-theme mb-30">
                         <div class="single-services-imgs">
-                            <img src="{{ asset('images/wedding_3.jfif') }}" alt="Image">
+                            <img src="{{ asset('images/wedding_3.jpg') }}" alt="Image">
                         </div>
                     </div>
                 </div>
