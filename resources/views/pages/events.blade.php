@@ -6,7 +6,7 @@
 <div class="page-title-area">
     <div class="container">
         <div class="page-title-content">
-            <h2>News Grid</h2>
+            <h2>All Events</h2>
             <ul>
                 <li>
                     <a href="{{ url('/') }}">
@@ -32,19 +32,35 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-news">
                     <div class="news-img">
-                        <a href="news-details.html">
-                            <img src="{{ asset('assets/img/news/1.jpg') }}" alt="Image">
+                        <a href="{{ url('/events', $event->event_id) }}">
+                            <img src="{{ asset('/event_images/'.$event->image) }}" alt="{{ $event->title }}">
                         </a>
                         <div class="dates">
-                            <span>HOTEL</span>
+                            <span>
+                                @if ( $event->price != "" || !is_null($event->price) )
+                                ₦{{ $event->price }}
+                                @else
+                                    FREE
+                                @endif
+                            </span>
                         </div>
                     </div>
                     <div class="news-content-wrap">
                         <ul>
                             <li>
                                 <a href="#">
-                                    <i class="flaticon-user"></i>
-                                    Admin
+                                    <i class="flaticon-calendar"></i>
+                                    @if ($event->start_date->format('d') == $event->end_date->format('d'))
+                                {{ $event->start_date->format('dS') }}
+                                @else
+                                {{ $event->start_date->format('d') }}-{{ $event->end_date->format('d') }}
+                                @endif
+                                @if ($event->start_date->format('M') == $event->end_date->format('M'))
+                                {{ $event->start_date->format('M') }}
+                                @else
+                                    {{ $event->start_date->format('M') }} to {{ $event->end_date->format('M') }}
+                                @endif
+                                , {{ $event->start_date->format('Y') }}
                                 </a>
                             </li>
                             {{--  <li>
@@ -54,18 +70,18 @@
                                 </a>
                             </li>  --}}
                         </ul>
-                        <a href="news-details.html">
-                            <h3>{{ $event->title }}</h3>
+                        <a href="{{ url('/events', $event->event_id) }}">
+                            <h3>{{ \Str::limit($event->title, 50) }}</h3>
                         </a>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga veritatis veniam corrupti perferendis.</p>
-                        <a class="read-more" href="news-details.html">
+                        <p>{{ \Str::limit($event->desc, 101) }}</p>
+                        <a class="read-more" href="{{ url('/events', $event->event_id) }}">
                             Read More
                             <i class="flaticon-right"></i>
                         </a>
                     </div>
                 </div>
             </div>
-            
+
             {{--  <div class="col-lg-12">
                 <div class="page-navigation-area">
                     <nav aria-label="Page navigation example text-center">
@@ -80,7 +96,7 @@
             <div class="alert alert-warning"><i class="flaticon-info"></i> Oops!! No Events or promos found.</div>
 
             @endforelse
-            <div class="col-lg-12">
+            {{-- <div class="col-lg-12">
                 <div class="page-navigation-area">
                     <nav aria-label="Page navigation example text-center">
                         <ul class="pagination">
@@ -106,7 +122,7 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>
