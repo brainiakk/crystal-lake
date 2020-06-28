@@ -28,7 +28,7 @@
   font-style: normal;
 }
 
-.flaticon-expand:before { content: "\f100"; }
+/*.flaticon-expand:before { content: "\f100"; }
 .flaticon-tick:before { content: "\f101"; }
 .flaticon-quote:before { content: "\f102"; }
 .flaticon-right-arrow:before { content: "\f103"; }
@@ -54,8 +54,8 @@
 .flaticon-podium:before { content: "\f117"; }
 .flaticon-airport:before { content: "\f118"; }
 .flaticon-slow:before { content: "\f119"; }
-.flaticon-coffee-cup-1:before { content: "\f11a"; }
-.flaticon-swimming:before { content: "\f11b"; }
+.flaticon-coffee-cup-1:before { content: "\f11a"; }*/
+.flaticon-swimming:before { content: "\f11b"; }/*
 .flaticon-speaker:before { content: "\f11c"; }
 .flaticon-user:before { content: "\f11d"; }
 .flaticon-appointment:before { content: "\f11e"; }
@@ -63,4 +63,5 @@
 .flaticon-man:before { content: "\f120"; }
 .flaticon-swimming-pool:before { content: "\f121"; }
 .flaticon-right:before { content: "\f122"; }
-.flaticon-back:before { content: "\f123"; }
+.flaticon-back:before { content: "\f123"; }*/
+

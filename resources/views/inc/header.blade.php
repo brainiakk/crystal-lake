@@ -21,6 +21,7 @@
 		<link rel="stylesheet" href="{{ asset('css/boxicons.min.css') }}">
         <!-- Flaticon CSS -->
 		<link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/flaticon2.css') }}">
         <!-- Meanmenu CSS -->
         <link rel="stylesheet" href="{{ asset('css/meanmenu.css') }}">
         <!-- Nice Select CSS -->
